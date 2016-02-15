@@ -1,3 +1,7 @@
+---
+layout: post
+title: Falando o que penso sobre o mozilla manifesto
+---
 # Falando o que penso sobre o Mozilla Manifesto.
 
 Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente AQUI.
