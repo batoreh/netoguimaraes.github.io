@@ -25,6 +25,7 @@
     }
     &:hover{
       color: white;
+      text-decoration: none;
     }
     &:active{
       color: white;
@@ -50,15 +51,12 @@
         }
         &:visited{
           color: white;
-          text-decoration: none;
         }
         &:hover{
           color: white;
-          text-decoration: none;
         }
         &:active{
           color: white;
-          text-decoration: none;
         }
     }
 
