@@ -1,3 +1,8 @@
+---
+layout: post
+title: O pequeno universo que criamos na internet
+---
+
 Já parou pra pensar sobre quantos sites você visita frequentemente?
 
 Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.
