@@ -7,6 +7,7 @@
 
 # Site settings
 title: Neto Guimarães
+name: Neto Guimarães
 email: joao.neto.guimaraes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   me deixem falar besteira
@@ -14,5 +15,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  netoguimaraes
 
+footer-links:
+  facebook: fb.com/joaokrustin
+  github: netoguimaraes
+  instagram: netuguimaraes
+  
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
