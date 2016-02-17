@@ -3,22 +3,24 @@
  */
 .site-header {
     background-color: black;
+    color: white;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 100px;
-    
+    font-family: 'Slabo 27px', serif;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
     color: white;
-    font-size: 60px;
     font-weight: 300;
     line-height: 56px;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
     letter-spacing: -1px;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0.7em;
     float: left;
     &:visited{
       color: white;
@@ -32,6 +34,10 @@
     }
 
 }
+.subtitle{
+  float: left;
+  margin-left: 340px;
+}
 
 .site-nav {
     float: right;
@@ -39,6 +45,11 @@
 
     .menu-icon {
         display: none;
+    }
+    a{
+      padding: 10px;
+      border: 0.5px solid white;
+      border-radius: 5px;
     }
 
     .page-link {
