@@ -14,12 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://netoguimaraes.github.io/" # the base hostname & protocol for your site
 github_username:  netoguimaraes
-
-footer-links:
-  facebook: fb.com/joaokrustin
-  github: netoguimaraes
-  instagram: netuguimaraes
   
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
+comments: true
