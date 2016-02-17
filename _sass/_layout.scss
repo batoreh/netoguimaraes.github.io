@@ -90,6 +90,10 @@
         .trigger {
             clear: both;
             display: none;
+            padding-right: 5px;
+            padding-left: 5px;
+            border-radius: 4px;
+            border: 1px solid white; 
         }
 
         &:hover .trigger {
