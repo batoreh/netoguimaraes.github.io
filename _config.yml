@@ -16,6 +16,6 @@ url: "http://netoguimaraes.github.io/" # the base hostname & protocol for your s
 github_username:  netoguimaraes
   
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 comments: true
