@@ -1,27 +1,87 @@
----
-layout: default
----
+<html>
 
-<div class="home">
+<head>
+  <title>Neto Guimaraes</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <meta charset="utf8" />
+  <link rel="stylesheet" href="css/master.css"></link>
+  <link rel="stylesheet" href="css/bootstrap.css"></link>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:400,500' rel='stylesheet' type='text/css'>
+</head>
 
-  <h1 class="page-heading">Posts</h1>
+<body>
+  <div class="container-fluid">
+    <header class="row">
+      <div class="row">
+        <div class="header-img col-md-12 col-xs-12 col-sm-12 col-lg-12">
+          <img src="img/header.jpg"></img>
+        </div>
+      </div>
+      <div id="background-linear">
+        <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+            <a href="index.html"><h1 class="title">Neto Guimarães<div class="underline"> </div></h1></a>
+            <p>one more</p>
+          </div>
+        </div>
+        <div class="row">
+          <nav class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+            <ul>
+              <li><a href="#whois">who is</a></li>
+              <li><a href="#knows">knows</a></li>
+              <li><a href="#loves">loves</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
+    <div id="whois" class="row sec">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+        <div class="icon">
+          <img src="img/me.jpg"></img>
+        </div>
+        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 col-md-offset-3 col-xs-offset-3 col-sm-offset-3 col-lg-offset-3 bio">
+          <p>Graduando em Licenciatura em Informática pelo Instituto Federal do Rio Grande do Norte com foco em tópicos de Software Livre na Educação e Metodologias de ensino de programação. Tem interesse principalmente na área de desenvolvimento web, com foco no FrontEnd. Aonde quer que vá, sempre irá defender e divulgar a filosofia Hacker e o movimento Open Source. É um contribuidor da Mozilla Foundation nas horas vagas e também escreve alguns textos para o Medium, tanto sobre temas tecnológicos quanto sobre a vida em geral. </p>
+        </div>
+      </div>
+    </div>
+    </div>   
+    <div id="knows" class="row sec">
+      <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 img-robot">
         
-            <div class="post-content" itemprop="articleBody">
-                {{ post.content }}
-            </div>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+      <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" id="list-sec-knows">
+        <h1>knows</h1>
+        <ul class="list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Less Preprocessor</li>
+          <li>Pure JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+          <li>Python Basics</li>
+          <li>git</li>
+          <li>GIMP</li>
+        </ul>
+      </div>
+    </div>
+    <div id="loves" class="row sec">
+      <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" id="list-sec-loves">
+        <h1>loves</h1>
+        <ul class="list">
+          <li>Free Software</li>
+          <li>Linux</li>
+          <li>DRY</li>
+          <li>DIY</li>
+          <li>Programming motherfucker</li>
+          <li>MIT License</li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 img-robot">
+      </div>
+    </div>
+  </div>
+</body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</html>
