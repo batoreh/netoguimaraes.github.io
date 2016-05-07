@@ -101,7 +101,8 @@
 }
 .description{
 	line-height: 16px;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	font-style: bold;
 }
 .navbar-links-container{
 	flex-flow: column nowrap;
