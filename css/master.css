@@ -64,6 +64,7 @@
 	float: left;
 	border-bottom-right-radius: 100px;
 	text-align: justify;
+	font-family: Helvetica;
 }
 .sidebar-social-media{
 	display: block;
