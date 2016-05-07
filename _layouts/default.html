@@ -1,20 +1,48 @@
-<!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+	<head>
+		<link rel="stylesheet" href="css/master.css" type="text/css" charset="utf-8">
+		<meta charset="utf-8">
+		<title>blog title</title>
+	</head>
+	<body>
+		<header class="header-container">
+			<div class="header-author-container">
+				<img class="header-author-img" src="assets/author.jpg" alt="an author's pic"/>
+			</div>
+			<div class="title-container">
+				<h1 class="blog-title">Blog<span class="purple">title</h1>
+					<p>by <a href="http://www.url.com" target="_blank">author</a></p>
+			</div>
+		</header>
+		<div class="sidebar-container">
+			<div class="sidebar-social-media-container">
+				<ul class="sidebar-list social-media">
+					<li id="facebook" class="social-media-link"><img src="assets/facebook.png" alt="facebook-icon"/>	</li>
+					<li id="github" class="social-media-link"> <img src="assets/github.png" alt="github icon"/></li>
+					<li id="portifolio" class="social-media-link"> <img src="assets/home.png" alt=""/> </li>
+				</ul>
+			</div>
+			<p>Another blog on the internet</p>
+			<nav class="sidebar-navbar">
+				<ul class="sidebar-list navbar-links-container">
+					<li class="navbar-links-item"><a href="http://www.url.com" target="_blank">Home</a></li>
+					<li class="navbar-links-item"><a href="http://www.url.com" target="_blank">Author</a></li>
+					<li class="navbar-links-item"><a href="http://www.url.com" target="_blank">Bookmark</a></li>
+				</ul>
+			</nav>
+			<footer>
+				<p>some aditional info</p>
+			</footer>
+		</div>
+		<div class="content-container">
+			<ul>
+				{% for post in site.posts %}
+			      <li>
+			          <span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
+					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
+			      </li>
+			      {% endfor %}
+			</ul>
+		</div>
+	</body>
 </html>
