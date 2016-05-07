@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="css/master.css" type="text/css" charset="utf-8">
+		<link rel="stylesheet" href="/css/master.css" type="text/css" charset="utf-8">
 		<meta charset="utf-8">
 		<title>blog title</title>
 	</head>
@@ -33,16 +33,6 @@
 			<footer>
 				<p>some aditional info</p>
 			</footer>
-		</div>
-		<div class="content-container">
-			<ul>
-				{% for post in site.posts %}
-			      <li>
-			          <span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
-					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
-			      </li>
-			      {% endfor %}
-			</ul>
 		</div>
 	</body>
 </html>
