@@ -139,6 +139,14 @@ footer{
 	padding: 50px 50px;
 	background-color: white;
 }
-.year-post{
+.post-title{
 	font-size: 3em;
+	display: inline;
+}
+.post-meta{
+	display: inline;
+}
+.post-link{
+	text-decoration: none;
+	color: grey;
 }
