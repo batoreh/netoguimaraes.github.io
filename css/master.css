@@ -1,9 +1,9 @@
 @font-face{
-	src: url('../assets/RobotoCondensedLight.ttf');
+	src: url('/assets/RobotoCondensedLight.ttf');
 	font-family: Roboto Condensed Light;
 }
 @font-face{
-	src: url('../assets/Roboto-Thin.ttf');
+	src: url('/assets/Roboto-Thin.ttf');
 	font-family: Roboto Thin;
 }
 *{
