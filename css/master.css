@@ -82,7 +82,7 @@
 }
 .social-media-link{
 	float: left;
-	border: 3px solid white;
+	border: 3px solid black;
 	border-radius: 50%;
 	height: 40px;
 	width: 40px;
@@ -91,7 +91,7 @@
 .social-media-link:hover{
 	transition: .7s ease-in-out;
 	cursor: pointer;
-	border: 1px solid green;
+	border: 3px solid green;
 }
 .social-media-link img{
 	height: 100%;
