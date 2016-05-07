@@ -73,13 +73,13 @@
 }
 .sidebar-list{
 	width: 100%;
-	padding: 0px;
+	height: 60px;
 	position: relative;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	list-style: none;
-	height: 100px;
+	padding: 0px;
 	margin-top: 20px;
 }
 .social-media-link{
