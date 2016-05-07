@@ -1,9 +1,9 @@
 @font-face{
-	src: url('/assets/RobotoCondensedLight.ttf');
+	src: url('../assets/RobotoCondensedLight.ttf');
 	font-family: Roboto Condensed Light;
 }
 @font-face{
-	src: url('/assets/Roboto-Thin.ttf');
+	src: url('../assets/Roboto-Thin.ttf');
 	font-family: Roboto Thin;
 }
 *{
@@ -140,13 +140,13 @@ footer{
 	background-color: white;
 }
 .post-title{
+	font-size: 3em;
 	display: inline;
 }
 .post-meta{
 	display: inline;
 }
 .post-link{
-	font-size: 2.3em;
 	text-decoration: none;
 	color: grey;
 }
