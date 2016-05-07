@@ -1,5 +1,5 @@
 @font-face{
-	src: url('../assets/RobotoCondensed-Light.ttf');
+	src: url('../assets/RobotoCondensedLight.ttf');
 	font-family: Roboto Condensed Light;
 }
 @font-face{
@@ -137,7 +137,7 @@ footer{
 	height: 100%;
 	float: left;
 	box-sizing: border-box;
-	padding: 50px 350px 0px 50px;
+	padding: 50px;
 	background-color: white;
 }
 .post-title{
@@ -153,6 +153,7 @@ footer{
 	color: grey;
 }
 .post-text{
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-right: 50%;
 	font-size: 1.4em;
 }
