@@ -2,41 +2,26 @@
  * Site header
  */
 .site-header {
-    background-color: black;
-    color: white;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 100px;
-    font-family: 'Slabo 27px', serif;
+    min-height: 56px;
+
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    color: white;
+    font-size: 26px;
     font-weight: 300;
     line-height: 56px;
-    font-size: 30px;
-    font-family: 'Rock Salt', cursive;
     letter-spacing: -1px;
     margin-bottom: 0;
-    margin-top: 0.7em;
     float: left;
-    &:visited{
-      color: white;
-    }
-    &:hover{
-      color: white;
-      text-decoration: none;
-    }
-    &:active{
-      color: white;
-    }
 
-}
-.subtitle{
-  float: left;
-  margin-left: 340px;
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
 }
 
 .site-nav {
@@ -46,27 +31,14 @@
     .menu-icon {
         display: none;
     }
-    a{
-      padding: 10px;
-      border: 0.5px solid white;
-      border-radius: 5px;
-    }
 
     .page-link {
-        color: white;
+        color: $text-color;
         line-height: $base-line-height;
+
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
-        }
-        &:visited{
-          color: white;
-        }
-        &:hover{
-          color: white;
-        }
-        &:active{
-          color: white;
         }
     }
 
@@ -101,10 +73,6 @@
         .trigger {
             clear: both;
             display: none;
-            padding-right: 5px;
-            padding-left: 5px;
-            border-radius: 4px;
-            border: 1px solid white; 
         }
 
         &:hover .trigger {
@@ -113,9 +81,6 @@
         }
 
         .page-link {
-            a{
-              font-size: 1em;
-            }
             display: block;
             padding: 5px 10px;
 
@@ -226,7 +191,7 @@
 
 .post-link {
     display: block;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 
@@ -250,6 +215,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+
     h2 {
         font-size: 32px;
 
