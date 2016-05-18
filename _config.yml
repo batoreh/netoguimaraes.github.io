@@ -5,7 +5,6 @@ plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
-collections:  null
 
 # Handling Reading
 safe:         true
@@ -15,43 +14,12 @@ keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
-
-# Plugins
-whitelist: []
-gems:      []
-
 # Conversion
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-defaults: []
-
-# Markdown Processors
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
 
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
