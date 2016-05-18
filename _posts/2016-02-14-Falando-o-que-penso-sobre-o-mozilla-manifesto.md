@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Falando o que penso sobre o mozilla manifesto
-permalink: /mozilla-manifesto
 tags: software livre, web livre, mozilla
 comments: true
 ---

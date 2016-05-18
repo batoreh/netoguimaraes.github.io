@@ -1,7 +1,6 @@
 ---
 layout: post
 title: O pequeno universo que criamos na internet
-permalink: /o-pequeno-universo-que-criamos-na-internet
 tags: seculo 21, web
 comments: true
 ---
