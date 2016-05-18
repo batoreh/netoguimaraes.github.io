@@ -10,7 +10,9 @@
 	margin: 0px;
 	font-family: Roboto Condensed Light, Helvetica, Arial, "MS Trebuchet", sans-serif;
 }
-
+body{
+	background-color: #F1DAFD;
+}
 .header-container{
 	width: 100%;
 	height: 120px;
@@ -133,16 +135,23 @@ footer{
 }
 .content-container{
 	position: relative;
-	width: calc(100% - 250px);
-	height: 100%;
+	width: calc(100% - 300px);
+	height: auto;
 	float: left;
+	text-align: justify;
 	box-sizing: border-box;
 	padding: 50px;
-	background-color: white;
+	background-color: inherit;
+}
+@media(min-width: 1368px){
+	.content-container{
+		width: 1200px;
+	}
 }
 .post-title{
 	font-size: 3em;
 	display: inline;
+	padding-bottom: 50px;
 }
 .post-meta{
 	display: inline;
@@ -154,6 +163,15 @@ footer{
 }
 .post-text{
 	padding-top: 50px;
-	padding-right: 50%;
 	font-size: 1.4em;
+}
+.post-text p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.comments{
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 50px;
+	background-color: #AAE7B8;
 }

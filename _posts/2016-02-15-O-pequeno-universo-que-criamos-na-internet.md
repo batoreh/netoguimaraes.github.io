@@ -1,18 +1,20 @@
 ---
 layout: post
 title: O pequeno universo que criamos na internet
+permalink: /o-pequeno-universo-que-criamos-na-internet
+tags: seculo 21, web
+comments: true
 ---
 
 Já parou pra pensar sobre quantos sites você visita frequentemente?
 
-Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.
-Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:
+Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:
 
-###1. Falta de tempo
+### 1. Falta de tempo
 
 É provavelmente o argumento mais usado quando esse assunto é botado na mesa. É óbvio que o último século e suas revoluções industriais nos deixaram com bem menos tempo, mas também nos fez acreditar que todo o tempo livre fora do trabalho e dos estudos deve ser gasto com “lazer”. Além disso, todas as mudanças sociais do século passado nos fizeram tratar lazer como ócio. Parece até que soa errado ter um hobby produtivo ou um hobby que envolva trabalho duro. Eu por exemplo quero um dia ter marcenaria como um hobby, mas sempre que falo isso pra alguém, não sou levado a sério. Quem já viu alguém ter um hobby que não seja ver seriado e falar bem do novo filme do Nolan, não é mesmo?
 
-###2. O Facebook é um poço de links
+### 2. O Facebook é um poço de links
 
 Foi um argumento que me fez pensar sobre o fato de eu justificar meu feed de páginas no facebook nos últimos tempos ser usado como uma espécie de leitor RSS ou agregador de leituras — pocket e cia. A maioria dos blogs hoje em dia tem página no facebook e isso faz com que acompanhar seus conteúdos seja mais rápido e pratico, já que você acessa o facebook com frequência e ele junta os posts dos seus amigos, os posts das páginas que você curte os posts das pessoas que você segue. Mas aí é que começa o problema pra mim. O facebook tem muita coisa. E pra completar, ainda tem a timeline infinita, literalmente. 1h de rolagem na timeline do facebook e você terá uma pá de links legais. Mas pelo fato de ter muita informação, dos mais variados tipos e escopos, navegar pelo facebook gera muita ansiedade e faz as coisas parecerem que têm de ser rápidas. É exatamente por isso que ficamos com preguiça de ler algo além das manchetes e nos limitamos às 5 primeiras linhas de quase tudo. Acaba que adquirimos um monte de pequenas informações, boa parte um tanto inúteis e nos acomodamos com isso.
 
