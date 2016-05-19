@@ -14,8 +14,7 @@ body{
 	background-color: white;
 }
 .header-container{
-	width: calc(100% - 250px);
-	margin-left: 250px;
+	width: 100%;
 	height: 140px;
 	background: linear-gradient(to right, #000000, #200235);
 	padding: 10px;
@@ -44,7 +43,7 @@ body{
 .title-container{
 	color: white;
 	display: inline;
-	margin-left: 100px;
+	margin-left: 200px;
 }
 .title-container h1,
 .title-container p {
@@ -72,9 +71,9 @@ body{
 	z-index: 1;
 	display: block;
 	position: fixed;
-	left: 0px;
+	left: -400px;
+	width: 400px;
 	top: 0px;
-	width: 250px;
 	height: 600px;
 	padding: 30px;
 	box-sizing: border-box;
@@ -84,7 +83,18 @@ body{
 	float: left;
 	border-bottom-right-radius: 100px;
 	font-family: Roboto Thin;
+	transition: .5s ease-in-out;
 }
+@media(max-width: 996px){
+	.sidebar-container{
+		
+	}
+}
+/*@media(min-width: 996px){
+	.mobile-navbar-toggle{
+		display: none;
+	}
+}*/
 .sidebar-social-media{
 	display: block;
 	width: 100%;
@@ -147,26 +157,69 @@ body{
 	color: black;
 	text-decoration: none;
 }
-footer{
+.mobile-navbar-toggle{
 	position: absolute;
-	bottom: 0px;
+	top: 10px;
 	left: 10px;
+	width: 45px;
+	height: 45px;
+	z-index: 2;
+	overflow: hidden;
 }
+.line{
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	display: block;
+	margin: 5px 0px 0px 0px;
+	border-radius: 5px;
+	transition: .5s ease-in-out;
+}
+.up-line-active{
+	transition: .5s ease-in-out;
+	position: absolute;
+	transform: rotate(45deg);
+	top: 10px;
+	background-color: red;
+}
+.mid-line-active{
+	opacity: 0;
+}
+.down-line-active{
+	transition: .5s ease-in-out;
+	position: absolute;
+	top: 10px;
+	transform: rotate(-45deg);
+	background-color: red;
+}
+
 .content-container{
 	position: relative;
-	width: calc(100% - 300px);
+	width: 100%;
 	height: auto;
 	float: left;
 	text-align: justify;
 	box-sizing: border-box;
-	padding: 50px;
-	margin-left: 300px;
+	padding: 50px 200px;
+	margin-left: 0px;
 	background-color: inherit;
 	font-family: Roboto Thin;
 }
 @media(min-width: 1368px){
 	.content-container{
 		width: 1200px;
+	}
+}
+@media(max-width: 996px){
+	.content-container{
+		margin-left: 0px;
+		box-sizing: border-box;
+		padding: 10px;
+		width: 100%;
+	}
+	.header-container{
+		margin-left: 0px;
+		width: 100%;
 	}
 }
 .post-title{
@@ -197,9 +250,15 @@ footer{
 }
 .comments{
 	padding: 20px;
+	box-sizing: border-box;
 	border-radius: 20px;
 	margin-top: 50px;
 	background-color: #61857d;
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
 }
 footer a{
 	text-decoration: none;
