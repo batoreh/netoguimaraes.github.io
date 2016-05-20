@@ -17,7 +17,6 @@ body{
 	width: 100%;
 	height: 140px;
 	background: linear-gradient(to right, #000000, #200235);
-	padding: 10px;
 	box-sizing: border-box;
 }
 .header-author-container{
@@ -28,7 +27,7 @@ body{
 	height: 150px;
 	box-sizing: border-box;
 	border-radius: 50%;
-	border: 4px solid #41165d;
+	border: 10px solid #6310F3;
 	margin: 0px auto 0px auto;
 	overflow: hidden;
 }
@@ -43,7 +42,7 @@ body{
 .title-container{
 	color: white;
 	display: inline;
-	margin-left: 200px;
+	margin-left: 300px;
 }
 .title-container h1,
 .title-container p {
@@ -65,7 +64,7 @@ body{
 				 10px 10px #eaaf00;
 }
 .purple{
-	color: #530093;
+	color: #6310F3;
 }
 .sidebar-container{
 	z-index: 1;
@@ -74,31 +73,30 @@ body{
 	left: -400px;
 	width: 400px;
 	top: 0px;
-	height: 600px;
+	height: 100%;
 	padding: 30px;
 	box-sizing: border-box;
-	background: linear-gradient(45deg, #050015, #000000);
+	background: rgba(0,0,0,0.9);
 	color:white;
 	padding-top: 50px;
 	float: left;
-	border-bottom-right-radius: 100px;
 	font-family: Roboto Thin;
 	transition: .5s ease-in-out;
 }
-@media(max-width: 996px){
-	.sidebar-container{
-		
-	}
-}
-/*@media(min-width: 996px){
-	.mobile-navbar-toggle{
-		display: none;
-	}
-}*/
-.sidebar-social-media{
+.sidebar-social-media-container{
 	display: block;
 	width: 100%;
 	height: 50px;
+	margin-top: 50px;
+	color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.sidebar-social-media-container i{
+	height: 50px;
+	width: 50px;
+	color: #6310F3;
 }
 .sidebar-list{
 	width: 100%;
@@ -110,23 +108,6 @@ body{
 	list-style: none;
 	margin-top: 20px;
 	height: 60px;
-}
-.social-media-link{
-	float: left;
-	border: 1px solid white;
-	border-radius: 50%;
-	height: 40px;
-	width: 40px;
-	overflow: hidden;
-}
-.social-media-link:hover{
-	transition: .7s ease-in-out;
-	cursor: pointer;
-	border: 1px solid green;
-}
-.social-media-link img{
-	height: 100%;
-	width: 100%;
 }
 .navbar-links-container{
 	flex-flow: column nowrap;
@@ -141,7 +122,7 @@ body{
 	box-sizing: border-box;
 	height: 40px;
 	width: 75%;
-	box-shadow: 3px 3px 0px #41655d;
+	box-shadow: 3px 3px 0px #6310F3;
 	display: block;
 	margin: 5px auto 0px auto;
 	border-radius: 3px;
@@ -158,9 +139,9 @@ body{
 	text-decoration: none;
 }
 .mobile-navbar-toggle{
-	position: absolute;
-	top: 10px;
-	left: 10px;
+	position: fixed;
+	top: 30px;
+	left: 30px;
 	width: 45px;
 	height: 45px;
 	z-index: 2;
@@ -173,10 +154,10 @@ body{
 	display: block;
 	margin: 5px 0px 0px 0px;
 	border-radius: 5px;
-	transition: .5s ease-in-out;
+	transition: background-color, transform .5s ease-in-out;
 }
 .up-line-active{
-	transition: .5s ease-in-out;
+	transition: all .5s ease-in-out;
 	position: absolute;
 	transform: rotate(45deg);
 	top: 10px;
@@ -186,7 +167,7 @@ body{
 	opacity: 0;
 }
 .down-line-active{
-	transition: .5s ease-in-out;
+	transition: all .5s ease-in-out;
 	position: absolute;
 	top: 10px;
 	transform: rotate(-45deg);
@@ -205,21 +186,19 @@ body{
 	background-color: inherit;
 	font-family: Roboto Thin;
 }
-@media(min-width: 1368px){
-	.content-container{
-		width: 1200px;
-	}
-}
 @media(max-width: 996px){
 	.content-container{
 		margin-left: 0px;
 		box-sizing: border-box;
-		padding: 10px;
+		padding: 30px;
 		width: 100%;
 	}
 	.header-container{
 		margin-left: 0px;
 		width: 100%;
+	}
+	.title-container{
+		margin-left: 80px;
 	}
 }
 .post-title{
@@ -242,6 +221,7 @@ body{
 .post-text{
 	padding-top: 50px;
 	font-size: 1.4em;
+	width: 100%;
 }
 .post-text p {
 	font-family: Roboto Condensed Light;
