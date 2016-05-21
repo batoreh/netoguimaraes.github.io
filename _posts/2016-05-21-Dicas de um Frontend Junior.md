@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dicas de um frontend junior
+title: Dicas de um frontend junior
 tags: dicas, frontend
 comments: true
 ---
