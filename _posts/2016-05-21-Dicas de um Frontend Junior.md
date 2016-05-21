@@ -42,7 +42,7 @@ Esse foi um fator que eu vim me dar conta há pouco tempo e estou tentando enten
 
 ---
 
-Acho que as minhas dicas foram pertinentes para os iniciantes, apesar de algumas coisas parecerem óbvias para alguns, para outros não são. As coisas faladas aqui são coisas que eu estou pondo em prática ao longo do último ano, que foi quando comecei a estudar mais a fundo todo o universo de desenvolvimento frontend, principalmente nos últimos meses, quando comecei a trabalhar com isso profissionalmente. Apesar do bom tempo passado e dos conhecimentos adquiridos, sei que estou ainda começando nesse árduo caminho. Espero ter ajudado com algum das dicas. 
+Acho que as minhas dicas foram pertinentes para os iniciantes, apesar de algumas coisas parecerem óbvias para alguns, para outros não são. As coisas faladas aqui são coisas que eu estou pondo em prática ao longo do último ano, que foi quando comecei a estudar mais a fundo todo o universo de desenvolvimento frontend, principalmente nos últimos meses, quando comecei a trabalhar com isso profissionalmente. Apesar do bom tempo passado e dos conhecimentos adquiridos, sei que estou ainda começando nesse árduo caminho. Espero ter ajudado com alguma das dicas. 
 
 
 
