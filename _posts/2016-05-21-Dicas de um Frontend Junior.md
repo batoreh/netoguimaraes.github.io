@@ -18,7 +18,7 @@ Uma dica que pode ser interessantes para alguns é criar um dailylog sobre as le
 
 ## Veja sempre o [Codepen](http://codepen.io/)
 
-O codepen é basicamente um parquinho de diversões dos Frontends. É algo que não chega a ser o portifólio, mas dá pra sacar os talentos da galera lá. Existem coisas fantásticas feitas no codepen, que você pode ver o código, forkar, modificar e estudar. Criar o costume de abrir o codepen só pra sacar o que a galera tá fazendo ao redor do mundo é muito bom para sempre ter referências boas na manga. É melhor ainda se você além de ver o Pen rodando, fuça ele direitinho e entender exatamente a lógica que o dev usou para chegar a tais resultados. E quando tiver ideias legais, não hesite em implementar elas e jogar lá. Muitas vezes não fazemos coisas legais por não ter onde aplicar, mas o codepen abriu a janela pra isso: implementar peças independente de se ter o jogo completo ou não.
+O codepen é basicamente um parquinho de diversões dos Frontends. É algo que não chega a ser o portifólio, mas dá pra sacar os talentos da galera lá. Existem coisas fantásticas feitas no codepen, que você pode ver o código, forkar, modificar e estudar. Criar o costume de abrir o codepen só pra sacar o que a galera tá fazendo ao redor do mundo é muito bom para sempre ter referências boas na manga. É melhor ainda se você além de ver o Pen rodando, fuça ele direitinho e tenta entender exatamente a lógica que o dev usou para chegar a tais resultados. E quando tiver ideias legais, não hesite em implementar elas e jogar lá. Muitas vezes não fazemos coisas legais por não ter onde aplicar, mas o codepen abriu a janela pra isso: implementar peças independente de se ter o jogo completo ou não.
 
 ## Conheça outros desenvolvedores e seus trabalhos
 
