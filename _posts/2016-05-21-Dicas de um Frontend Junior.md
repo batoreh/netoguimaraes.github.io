@@ -12,7 +12,7 @@ Nos últimos dias, terminando de construir esse blog, pedi umas dicas de design 
 Aqui vão as dicas:
 
 ## Não pare de ler sobre
-Seja sobre design, técnicas de css, dicas sobre esquemas de cores, performace ou sobre aquele framework que você quer aprender, o mais importante é não parar de ler. Não digo para você ler o dia todo, mas ao menos ler todo dia um pouco sobre um tema. Com o tempo, se puder começar a escrever sobre também pode ser interessante, pois quando se escreve, se sintetisa, e quando se sintetisa, o conhecimento fica muito melhor armazenado no seu cérebro. 
+Seja sobre design, técnicas de css, dicas sobre esquemas de cores, performace ou sobre aquele framework que você quer aprender, o mais importante é não parar de ler. Não digo para você ler o dia todo, mas ao menos ler todo dia um pouco sobre um tema. Com o tempo, se puder começar a escrever sobre também pode ser interessante, pois quando se escreve, se sintetiza, e quando se sintetiza, o conhecimento fica muito melhor armazenado no seu cérebro. 
 
 Uma dica que pode ser interessantes para alguns é criar um dailylog sobre as leituras que fez. Simplesmente registrar em algum lugar as leituras que você faz, aconselho usar um repositório no github, pois é fácil de utilizar e te força a usá-lo, o que pode ser bom se você não tem esse costume. Tem muito dev bom por aí que mantem um dailylog e que pode ser interessante acompanhar. Aconselho aqui o do [Felipe Fialho](https://github.com/LFeh/dailylog).
 
