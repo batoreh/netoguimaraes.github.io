@@ -36,7 +36,7 @@ Enfim, faça as coisas do zero se quiser aprender de verdade, pois coisas "pront
 
 ## Procure entender minimamente os conceitos de design
 
-Mesmo se você for apenas um cortador de PSDs, é importante entender de alguns conceitos de design. Mas é óbvio que nem todo dev vai ser um design de primeira mão, mas pra mim é imprescindível ter o mínimo de noção de design, até para pode trabalhar com o design de forma melhor. 
+Mesmo se você for apenas um cortador de PSDs, é importante entender de alguns conceitos de design. Mas é óbvio que nem todo dev vai ser um design de primeira mão, mas pra mim é imprescindível ter o mínimo de noção de design, até para pode trabalhar com o designer de forma mais apropriada. 
 
 Esse foi um fator que eu vim me dar conta há pouco tempo e estou tentando entender diversos aspectos, como a teoria das cores, arquitetura de informação, flat design e etc. São conceitos que te ajudarão a entender melhor o que você está programando e além disso, vai te ajudar em projetos paralelos. Ao montar o design deste blog por exemplo eu tive certa dificuldade com alguns aspectos de design que não estou tão habituado assim. Mas alguns que já tive um contato maior, pude desenvolver sozinho, como a tipografia, por exemplo. 
 
