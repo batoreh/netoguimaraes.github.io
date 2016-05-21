@@ -6,6 +6,16 @@
 	src: url('../assets/Roboto-Thin.ttf');
 	font-family: Roboto Thin;
 }
+@media(max-width: 600px){
+	html{
+		font-size: 0.7em;
+	}
+}
+@media(max-width: 440px){
+	html{
+		font-size: 0.5em;
+	}
+}
 body{
 	margin: 0px;
 	font-family: Roboto Condensed Light, Helvetica, Arial, "MS Trebuchet", sans-serif;
@@ -19,6 +29,11 @@ body{
 	background: linear-gradient(to right, #000000, #200235);
 	box-sizing: border-box;
 }
+@media(max-width: 600px){
+	.header-container{
+		height: auto;
+	}
+}
 .header-author-container{
 	transition: .5s ease-in-out;
 	position: relative;
@@ -27,7 +42,7 @@ body{
 	height: 150px;
 	box-sizing: border-box;
 	border-radius: 50%;
-	border: 10px solid #6310F3;
+	border: 10px solid #764198;
 	margin: 0px auto 0px auto;
 	overflow: hidden;
 }
@@ -51,20 +66,20 @@ body{
 .blog-title{
 	font-family: Roboto Condensed Light;
 	font-size: 5em;
-	text-shadow: 1px 1px #eaaf00,
-				 2px 2px #eaaf00,
-				 3px 3px #eaaf00,
-				 4px 4px #eaaf00,
-				 5px 5px #eaaf00,
-				 6px 6px #eaaf00,
-				 7px 7px #eaaf00,
-				 7px 7px #eaaf00,
-				 8px 8px #eaaf00,
-				 9px 9px #eaaf00,
-				 10px 10px #eaaf00;
+	text-shadow: 1px 1px #303030,
+				 2px 2px #303030,
+				 3px 3px #303030,
+				 4px 4px #303030,
+				 5px 5px #303030,
+				 6px 6px #303030,
+				 7px 7px #303030,
+				 7px 7px #303030,
+				 8px 8px #303030,
+				 9px 9px #303030,
+				 10px 10px #303030;
 }
 .purple{
-	color: #6310F3;
+	color: #764198;
 }
 .sidebar-container{
 	z-index: 1;
@@ -82,6 +97,12 @@ body{
 	float: left;
 	font-family: Roboto Thin;
 	transition: .5s ease-in-out;
+	overflow: visible;
+}
+@media(max-width: 400px){
+	.sidebar-container{
+		width: 300px;
+	}
 }
 .sidebar-social-media-container{
 	display: block;
@@ -96,7 +117,7 @@ body{
 .sidebar-social-media-container i{
 	height: 50px;
 	width: 50px;
-	color: #6310F3;
+	color: #764198;
 }
 .sidebar-list{
 	width: 100%;
@@ -122,7 +143,7 @@ body{
 	box-sizing: border-box;
 	height: 40px;
 	width: 75%;
-	box-shadow: 3px 3px 0px #6310F3;
+	box-shadow: 3px 3px 0px #764198;
 	display: block;
 	margin: 5px auto 0px auto;
 	border-radius: 3px;
@@ -147,14 +168,28 @@ body{
 	z-index: 2;
 	overflow: hidden;
 }
+
 .line{
 	width: 100%;
 	height: 10px;
-	background-color: white;
+	background-color: #764198;
 	display: block;
 	margin: 5px 0px 0px 0px;
 	border-radius: 5px;
 	transition: background-color, transform .5s ease-in-out;
+}
+@media(max-width: 600px){
+	.mobile-navbar-toggle{
+		top: 10px;
+		left: 10px;
+	}
+	.line{
+		height: 5px;
+		width: 100%;
+	}
+	.mobile-navbar-toggle{
+		width: 30px;
+	}
 }
 .up-line-active{
 	transition: all .5s ease-in-out;
@@ -223,6 +258,11 @@ body{
 	font-size: 1.4em;
 	width: 100%;
 }
+@media(max-width: 600px){
+	.post-text{
+		padding-top: 10px;
+	}
+}
 .post-text p {
 	font-family: Roboto Condensed Light;
 	padding-top: 15px;
@@ -233,7 +273,7 @@ body{
 	box-sizing: border-box;
 	border-radius: 20px;
 	margin-top: 50px;
-	background-color: #61857d;
+	background-color: #cccccc;
 }
 footer{
 	position: absolute;
