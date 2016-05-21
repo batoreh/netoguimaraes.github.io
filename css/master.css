@@ -93,7 +93,7 @@ body{
 	box-sizing: border-box;
 	background: rgba(0,0,0,0.9);
 	color:white;
-	padding-top: 50px;
+	padding-top: 100px;
 	float: left;
 	font-family: Roboto Thin;
 	transition: .5s ease-in-out;
