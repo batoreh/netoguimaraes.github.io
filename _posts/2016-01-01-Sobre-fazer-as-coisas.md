@@ -2,7 +2,7 @@
 layout: post
 title: sobre fazer as coisas
 tags: self growing
-comments>: true
+comments: true
 ---
 Sabe aquela história das metas? Pois é.
 
