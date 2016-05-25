@@ -30,5 +30,5 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-paginate: 5
+paginate: 3
 paginate_path: "/page:num/"
