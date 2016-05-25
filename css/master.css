@@ -82,7 +82,7 @@ body{
 	color:white;
 	padding-top: 100px;
 	float: left;
-	font-family: Roboto Thin;
+	font-family: Roboto Condensed Light;
 	transition: .5s ease-in-out;
 	overflow: visible;
 }
@@ -190,7 +190,7 @@ body{
 	padding: 50px 200px;
 	margin-left: 0px;
 	background-color: inherit;
-	font-family: Roboto Thin;
+	font-family: Roboto Condensend Light;
 }
 
 
@@ -267,7 +267,7 @@ footer a{
 		padding: 10px 0px 20px 0px;
 	}
 	.post-link{
-		font-size: 1.2em;	
+		font-size: 1.2em;
 		text-shadow: none;
 	}
 	.mobile-navbar-toggle{
