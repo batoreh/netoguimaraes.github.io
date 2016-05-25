@@ -9,11 +9,20 @@
 			<ul>
 				{% for post in site.posts %}
 			      <li>
-			          <span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
 					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
+						<span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
 						{{post.excerpt}}
 			      </li>
 			  {% endfor %}
+				<div class="paginartor">
+					{% if paginator.previous_page %}
+						<a href="{{paginator.previous_page_path}}" class="page-button">Próximo</a>
+					{% endif %}
+
+					{% if paginator.next_page %}
+						<a href="{{paginator.next_page_path}}" class="page-button">Próximo</a>
+					{% endif %}
+				</div>
 			</ul>
 		</div>
 	</body>
