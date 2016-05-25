@@ -5,7 +5,7 @@ tags: self growing
 comments: true
 ---
 Sabe aquela história das metas? Pois é.
-
+/n/n
 Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.
 
 O que quero falar neste texto é sobre uma reflexão que fiz nos últimos tempos. Algo que me faz sentir que estou entrando num novo ciclo, independente de novos calendários ou festividades.
@@ -17,7 +17,7 @@ Para fazer qualquer coisa, há basicamente duas formas de se colocar numa situa�
 A primeira opção, mais popular e devastadoramente errônea, é tentar se automotivar.
 
 A segunda, uma escolha um tanto impopular e completamente correta, é cultivar a disciplina.
-Não existem apenas essas duas. Existe uma terceira que, como ideia consciente, é menos popular ainda que a disciplina, mas ainda assim é mais utilizada de forma inconsciente. É a cultura do Apenas Faça. Sem disciplina, sem automotivação, sem medos. Apenas faça. E ela é a mais fácil do que as duas citadas no texto linkado acima, pois ela não requer a organização que a disciplina requer e nem o esforço psicológico da automotivação. O Apenas Faça é uma entidade que nos persegue há séculos. 
+Não existem apenas essas duas. Existe uma terceira que, como ideia consciente, é menos popular ainda que a disciplina, mas ainda assim é mais utilizada de forma inconsciente. É a cultura do Apenas Faça. Sem disciplina, sem automotivação, sem medos. Apenas faça. E ela é a mais fácil do que as duas citadas no texto linkado acima, pois ela não requer a organização que a disciplina requer e nem o esforço psicológico da automotivação. O Apenas Faça é uma entidade que nos persegue há séculos.
 
 Quer um exemplo prático? Os atendentes do McDonalds, que se levantam e apenas fazem o trabalho deles.
 

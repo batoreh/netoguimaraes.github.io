@@ -7,6 +7,7 @@ comments: true
 
 Já parou pra pensar sobre quantos sites você visita frequentemente?
 
+/n/n
 Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:
 
 ### 1. Falta de tempo
