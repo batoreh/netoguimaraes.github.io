@@ -187,14 +187,12 @@ body{
 	float: left;
 	text-align: justify;
 	box-sizing: border-box;
-	padding: 50px 200px;
+	padding: 50px 300px;
 	margin-left: 0px;
 	background-color: inherit;
 	font-family: Roboto Condensed Light;
+	list-style: none;
 }
-
-
-
 .post-title{
 	font-size: 3em;
 	display: inline;
@@ -217,11 +215,14 @@ body{
 	font-size: 1.4em;
 	width: 100%;
 }
-
 .post-text p {
 	font-family: Roboto Condensed Light;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.post-resume{
+	font-size: 1.2em;
+	color: grey;
 }
 .comments{
 	padding: 20px;
