@@ -3,11 +3,14 @@ layout: post
 title: Falando o que penso sobre o mozilla manifesto
 tags: software livre, web livre, mozilla
 comments: true
+excerpt_separator: <!--bora-->
 ---
+
+![mozilla puzzle](https://cdn-images-1.medium.com/max/800/1*YRIeAhgqdRURa-dv5RM2XQ.jpeg)
 
 Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente [AQUI](https://www.mozilla.org/pt-BR/about/manifesto/).
 
-/n/n
+<!--bora-->
 
 Para cada item do manifesto, escrevi um pouquinho sobre o que o item me fez pensar. O texto não tem objetivo de defender nenhum lado da moeda a não ser o meu. E essa liberdade não fui eu que me dei.
 

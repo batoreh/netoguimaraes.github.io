@@ -2,18 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description></description>
+    <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 May 2016 01:07:16 -0300</pubDate>
-    <lastBuildDate>Sat, 21 May 2016 01:07:16 -0300</lastBuildDate>
+    <pubDate>Wed, 25 May 2016 17:41:40 -0300</pubDate>
+    <lastBuildDate>Wed, 25 May 2016 17:41:40 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
+        <title>Dicas de um frontend junior</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg&quot; alt=&quot;developer in computer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: “5 dicas para ser o melhor bambambam”, “5 dicas para dominar tal tecnologia” ou qualquer coisa do tipo. Chamo isso de “Síndrome dos cinco passos”. Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.&lt;/p&gt;
+
+&lt;!--bora--&gt;
+
+&lt;p&gt;Nos últimos dias, terminando de construir esse blog, pedi umas dicas de design a um professor e a um amigo. E percebi que muito do que aprendi foi vendo, ouvindo e lendo os outros. Acabei por tentar me imaginar em algum momento sendo algum conselheiro ou algo do tipo. E percebi que apesar de não ser especialista em nada, tenho algumas coisas pra falar também. Hoje decidi falar sobre desenvolvimento frontend e dar algumas dicas para quem está começando nessa área. Acho que são valiosas não por eu ter muito conhecimento, mas sim por eu estar utilizando destas dicas e estar sentindo o efeito delas agora, que estou entrando mais a fundo nesse universo que é o Frontend.&lt;/p&gt;
+
+&lt;p&gt;Aqui vão as dicas:&lt;/p&gt;
+
+&lt;h2 id=&quot;no-pare-de-ler-sobre&quot;&gt;Não pare de ler sobre&lt;/h2&gt;
+&lt;p&gt;Seja sobre design, técnicas de css, dicas sobre esquemas de cores, performace ou sobre aquele framework que você quer aprender, o mais importante é não parar de ler. Não digo para você ler o dia todo, mas ao menos ler todo dia um pouco sobre um tema. Com o tempo, se puder começar a escrever sobre também pode ser interessante, pois quando se escreve, se sintetiza, e quando se sintetiza, o conhecimento fica muito melhor armazenado no seu cérebro.&lt;/p&gt;
+
+&lt;p&gt;Uma dica que pode ser interessantes para alguns é criar um dailylog sobre as leituras que fez. Simplesmente registrar em algum lugar as leituras que você faz, aconselho usar um repositório no github, pois é fácil de utilizar e te força a usá-lo, o que pode ser bom se você não tem esse costume. Tem muito dev bom por aí que mantem um dailylog e que pode ser interessante acompanhar. Aconselho aqui o do &lt;a href=&quot;https://github.com/LFeh/dailylog&quot;&gt;Felipe Fialho&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;veja-sempre-o-codepenhttpcodepenio&quot;&gt;Veja sempre o &lt;a href=&quot;http://codepen.io/&quot;&gt;Codepen&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;O codepen é basicamente um parquinho de diversões dos Frontends. É algo que não chega a ser o portifólio, mas dá pra sacar os talentos da galera lá. Existem coisas fantásticas feitas no codepen, que você pode ver o código, forkar, modificar e estudar. Criar o costume de abrir o codepen só pra sacar o que a galera tá fazendo ao redor do mundo é muito bom para sempre ter referências boas na manga. É melhor ainda se você além de ver o Pen rodando, fuça ele direitinho e tenta entender exatamente a lógica que o dev usou para chegar a tais resultados. E quando tiver ideias legais, não hesite em implementar elas e jogar lá. Muitas vezes não fazemos coisas legais por não ter onde aplicar, mas o codepen abriu a janela pra isso: implementar peças independente de se ter o jogo completo ou não.&lt;/p&gt;
+
+&lt;h2 id=&quot;conhea-outros-desenvolvedores-e-seus-trabalhos&quot;&gt;Conheça outros desenvolvedores e seus trabalhos&lt;/h2&gt;
+
+&lt;p&gt;Não falo aqui de conhecer todos os grandes desenvolvedores da área, saber seus nomes completos e endereço. Não tô falando também de conhecer todos os Engenheiros Frontend do Facebook. Grandes desenvolvedores não estão somente nas grandes empresas. E também não falo conhecer pessoalmente todos os devs bons do mundo e ser amigo deles. A internet encurtou distâncias, use isso a seu favor. O que quero dizer com este tópico é que você deve entender o valor dos desenvolvedores, acompanhar os que mais te agradam e entender o porque eles dizem as coisas que dizem, porque usam as coisas que usam ou porque fazem do jeito que fazem. Seguir alguns desenvolvedores que você se identifique vai te dar um aporte maior de aprendizado.&lt;/p&gt;
+
+&lt;p&gt;Existem além de diversos blogs pessoais por aí, grupos de facebook, fóruns e diversos outros meios de criar uma rede de pessoas que &lt;a href=&quot;https://soundcloud.com/murilogun/media5&quot;&gt;te influenciam de alguma forma&lt;/a&gt;. Vou citar aqui o grupo &lt;a href=&quot;https://www.facebook.com/groups/osadpa/?fref=ts&quot;&gt;A.P.D.A&lt;/a&gt; e o fórum &lt;a href=&quot;https://github.com/frontendbr/forum/issues&quot;&gt;FrontendBr&lt;/a&gt;, que considero dois antros de bons devs, apesar de sempre ter algum pé no saco que se acha dono do mundo por saber um pouco mais do que a maioria ou aqueles que querem seu braço quando você só pode dar a mão.&lt;/p&gt;
+
+&lt;h2 id=&quot;procure-criar-coisas-do-zero&quot;&gt;Procure criar coisas do zero&lt;/h2&gt;
+
+&lt;p&gt;Eu sei que às vezes a gente quer apenas terminar alguma coisa pra poder começar outra, mas não deixe isso fazer com que você coloque os pés no lugar das mãos. Cada coisa em seu lugar. Nem sempre é bom só pegar um tutorial por aí e fazer acontecer o que você queria que acontecesse e deixar por isso mesmo. Se você tiver tempo, gaste um pouco mais dele e faça do zero, você vai entender bem mais das propriedades, dos atributos e vai acabar criando seu próprio “framework” interno, dentro do seu cérebro. Você vai desenvolver um jeito seu de fazer as coisas. É claro que com base em diversas outras coisas que você viu, implementou ou usou.&lt;/p&gt;
+
+&lt;p&gt;Um exemplo classico disso é a questão que sempre acaba aparecendo nos fóruns e grupos: “devo aprender bootstrap?”. Não apenas bootstrap, mas diversos outros frameworks de CSS ou JS que agilizam nosso trabalho. Mas o que às vezes acaba se esquecendo é que essas ferramentas são pra quem já domina de CSS ou JS e que querem agilizar o processo. Também é comum achar que deve-se usar sempre preprocessador ou esses tais frameworks. Uma coisa que aprendi: todo framework pode ser útil em algum momento, mas a tecnologia pura é que nunca vai deixar de ser. Por exemplo: há casos em que é melhor não se usar bootstrap, mas você não é idiota pra decidir não usar CSS em algum projeto.&lt;/p&gt;
+
+&lt;p&gt;Enfim, faça as coisas do zero se quiser aprender de verdade, pois coisas “prontas” resolverão o problema e ao mesmo tempo colocarão uma máscara no aprendizado.&lt;/p&gt;
+
+&lt;h2 id=&quot;procure-entender-minimamente-os-conceitos-de-design&quot;&gt;Procure entender minimamente os conceitos de design&lt;/h2&gt;
+
+&lt;p&gt;Mesmo se você for apenas um cortador de PSDs, é importante entender de alguns conceitos de design. Mas é óbvio que nem todo dev vai ser um design de primeira mão, mas pra mim é imprescindível ter o mínimo de noção de design, até para pode trabalhar com o designer de forma mais apropriada.&lt;/p&gt;
+
+&lt;p&gt;Esse foi um fator que eu vim me dar conta há pouco tempo e estou tentando entender diversos aspectos, como a teoria das cores, arquitetura de informação, flat design e etc. São conceitos que te ajudarão a entender melhor o que você está programando e além disso, vai te ajudar em projetos paralelos. Ao montar o design deste blog por exemplo eu tive certa dificuldade com alguns aspectos de design que não estou tão habituado assim. Mas alguns que já tive um contato maior, pude desenvolver sozinho, como a tipografia, por exemplo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Acho que as minhas dicas foram pertinentes para os iniciantes, apesar de algumas coisas parecerem óbvias para alguns, para outros não são. As coisas faladas aqui são coisas que eu estou pondo em prática ao longo do último ano, que foi quando comecei a estudar mais a fundo todo o universo de desenvolvimento frontend, principalmente nos últimos meses, quando comecei a trabalhar com isso profissionalmente. Apesar do bom tempo passado e dos conhecimentos adquiridos, sei que estou ainda começando nesse árduo caminho. Espero ter ajudado com alguma das dicas.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2016 00:00:00 -0300</pubDate>
+        <link>/2016/05/21/Dicas-de-um-Frontend-Junior.html</link>
+        <guid isPermaLink="true">/2016/05/21/Dicas-de-um-Frontend-Junior.html</guid>
+        
+        <category>dicas,</category>
+        
+        <category>frontend</category>
+        
+        
+      </item>
+    
+      <item>
         <title>O pequeno universo que criamos na internet</title>
-        <description>&lt;p&gt;Já parou pra pensar sobre quantos sites você visita frequentemente?&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*IXVMU1mo_Oz8c_HcXD15Wg.gif&quot; alt=&quot;garoto surfando na interwebs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Já parou pra pensar sobre quantos sites você visita frequentemente?&lt;/p&gt;
 
 &lt;p&gt;Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:&lt;/p&gt;
+
+&lt;!--bora--&gt;
 
 &lt;h3 id=&quot;falta-de-tempo&quot;&gt;1. Falta de tempo&lt;/h3&gt;
 
@@ -58,7 +118,11 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
     
       <item>
         <title>Falando o que penso sobre o mozilla manifesto</title>
-        <description>&lt;p&gt;Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente AQUI.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*YRIeAhgqdRURa-dv5RM2XQ.jpeg&quot; alt=&quot;mozilla puzzle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente &lt;a href=&quot;https://www.mozilla.org/pt-BR/about/manifesto/&quot;&gt;AQUI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--bora--&gt;
 
 &lt;p&gt;Para cada item do manifesto, escrevi um pouquinho sobre o que o item me fez pensar. O texto não tem objetivo de defender nenhum lado da moeda a não ser o meu. E essa liberdade não fui eu que me dei.&lt;/p&gt;
 
@@ -114,6 +178,50 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
         <category>livre,</category>
         
         <category>mozilla</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>sobre fazer as coisas</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg&quot; alt=&quot;no fear, no distractions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sabe aquela história das metas? Pois é.&lt;/p&gt;
+
+&lt;!--bora--&gt;
+
+&lt;p&gt;Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.&lt;/p&gt;
+
+&lt;p&gt;O que quero falar neste texto é sobre uma reflexão que fiz nos últimos tempos. Algo que me faz sentir que estou entrando num novo ciclo, independente de novos calendários ou festividades.&lt;/p&gt;
+
+&lt;p&gt;A maior limitação que vejo nas pessoas é o medo. E na maioria das vezes é o medo de si mesmo. Numa das mil vezes que li esse texto, percebi que a introdução está errada.&lt;/p&gt;
+
+&lt;p&gt;Para fazer qualquer coisa, há basicamente duas formas de se colocar numa situação em que aquilo efetivamente vai ser feito.&lt;/p&gt;
+
+&lt;p&gt;A primeira opção, mais popular e devastadoramente errônea, é tentar se automotivar.&lt;/p&gt;
+
+&lt;p&gt;A segunda, uma escolha um tanto impopular e completamente correta, é cultivar a disciplina.
+Não existem apenas essas duas. Existe uma terceira que, como ideia consciente, é menos popular ainda que a disciplina, mas ainda assim é mais utilizada de forma inconsciente. É a cultura do Apenas Faça. Sem disciplina, sem automotivação, sem medos. Apenas faça. E ela é a mais fácil do que as duas citadas no texto linkado acima, pois ela não requer a organização que a disciplina requer e nem o esforço psicológico da automotivação. O Apenas Faça é uma entidade que nos persegue há séculos.&lt;/p&gt;
+
+&lt;p&gt;Quer um exemplo prático? Os atendentes do McDonalds, que se levantam e apenas fazem o trabalho deles.&lt;/p&gt;
+
+&lt;p&gt;E dentro do Apenas Faça, há embutida uma dose de automotivação, mas esta não é difícil de criar, pois ela nasce de um motivo que provavelmente é muito difícil de ir contra. Os atendentes do McDonalds, por exemplo, Apenas Fazem porque provavelmente não estão capacitados para fazerem outra coisa — seja lá por quais motivos — , ou não tiveram oportunidade de mostrar suas capacidades de forma concreta. E se eles vão se capacitar um dia, é outra história. E eles nem precisam criar a automotivação, a motivação já surge sozinha dessa falta de opção.
+Pra complementar, o Apenas Faça tem uma carta na manga que faz ele ser o modo mais proveitoso de se fazer as coisas. O Apenas Faça retira todos os medos do caminho. E como disse no início do texto, o medo é uma das nossas maiores limitações. Apenas Fazendo não se tem medo de errar, porque não se está interessado necessariamente no sucesso ou no aprendizado que a falha trará. Quando apenas se faz uma coisa, você não cria expectativas sobre ela, logo não se frustra e nem se preocupa com as consequência de dar errado.&lt;/p&gt;
+
+&lt;p&gt;É óbvio que não irá funcionar para todas as pessoas, alguns só funcionam sob pressão ou sob metas. Alguns precisam de algo pra se apegar e optam por se disciplinarem ou se automotivarem. Nos últimos tempos aprendi que isso não é de muito valor, pois a disciplina gera o medo e o medo é distração. A automotivação gera uma insegurança que só aparece junto com o erro, mas quem é que trabalha apenas para o sucesso? Se há alguém assim, este não sou eu.
+Não sei se há algum motivo para eu escrever, não parei pra pensar sobre isso. Também não sei faz algum sentido tudo isso que escrevi ou mesmo se meus outros textos são interessantes. Apenas fiz.&lt;/p&gt;
+
+&lt;p&gt;Apenas faço.&lt;/p&gt;
+
+&lt;p&gt;Apenas faça.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0300</pubDate>
+        <link>/2016/01/01/Sobre-fazer-as-coisas.html</link>
+        <guid isPermaLink="true">/2016/01/01/Sobre-fazer-as-coisas.html</guid>
+        
+        <category>self</category>
+        
+        <category>growing</category>
         
         
       </item>

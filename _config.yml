@@ -1,3 +1,11 @@
+#Profile
+name: Neto Guimarães
+description: Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.
+footer-links:
+  email: joao.neto.guimaraes@gmail.com
+  instagram: netuguimarães
+  facebook: fb.com/joaokrustin
+
 # Where things are
 source:       .
 destination:  ./_site
@@ -18,7 +26,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--bora-->"
 incremental: false
 
 kramdown:
@@ -30,5 +38,6 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+gems: [jekyll-paginate]
 paginate: 3
 paginate_path: "/page:num/"
