@@ -5,7 +5,9 @@ tags: self growing
 comments: true
 ---
 Sabe aquela história das metas? Pois é.
+
 /n/n
+
 Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.
 
 O que quero falar neste texto é sobre uma reflexão que fiz nos últimos tempos. Algo que me faz sentir que estou entrando num novo ciclo, independente de novos calendários ou festividades.
