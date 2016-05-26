@@ -6,7 +6,9 @@ comments: true
 excerpt_separator: <!--bora-->
 ---
 
-![no fear, no distractions](https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg)
+<div class="post-img-container">
+	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg"/>
+</div>
 
 Sabe aquela história das metas? Pois é.
 

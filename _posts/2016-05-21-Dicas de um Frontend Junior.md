@@ -5,7 +5,10 @@ tags: dicas, frontend
 comments: true
 excerpt_separator: <!--bora-->
 ---
-![developer in computer](http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg)
+
+<div class="post-img-container">
+	<img class="post-img" src="http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg">
+</div>
 
 Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: "5 dicas para ser o melhor bambambam", "5 dicas para dominar tal tecnologia" ou qualquer coisa do tipo. Chamo isso de "Síndrome dos cinco passos". Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.
 

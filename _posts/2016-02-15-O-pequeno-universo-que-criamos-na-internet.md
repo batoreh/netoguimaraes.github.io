@@ -5,8 +5,11 @@ tags: seculo 21, web
 comments: true
 excerpt_separator: <!--bora-->
 ---
-	
-![garoto surfando na interwebs](https://cdn-images-1.medium.com/max/800/1*IXVMU1mo_Oz8c_HcXD15Wg.gif)
+
+<div class="post-img-container">
+	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*IXVMU1mo_Oz8c_HcXD15Wg.gif">
+</div>
+
 
 Já parou pra pensar sobre quantos sites você visita frequentemente?
 

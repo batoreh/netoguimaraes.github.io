@@ -204,14 +204,6 @@ body{
 	margin: 10px 0px;
 }
 
-.post-list img{
-	display: block;
-	height: auto;
-	width: 100%;
-	max-width: 100%;
-	clip: rect(0px, 100px, 400px, 0px);
-	margin: 0px auto 0px auto;
-}
 .post-title{
 	font-size: 3em;
 	display: inline;
@@ -257,8 +249,14 @@ body{
 	font-size: 1.4em;
 	width: 100%;
 }
-.post-block img{
-	width: 500px;
+.post-img-container{
+	width: 100%;
+	height: auto;
+	max-height: 500px;
+	overflow: hidden;
+}
+.post-img{
+	width: 100%;
 	height: auto;
 	max-width: 100%;
 }
@@ -266,6 +264,17 @@ body{
 	font-family: Roboto Condensed Light;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	width: 100%;
+	max-width: 100%;
+}
+.post-text a{
+	text-decoration: bold;
+	color: #764198;
+}
+.post-text a::after{
+	content: " ";
+	position: absolute;
+	background:;
 }
 .post-resume{
 	margin-bottom: 10px;
@@ -308,7 +317,7 @@ body{
 	text-decoration: none;
 	color: green;
 }
-.footer-sidebar{
+.sidebar-footer{
 	position: absolute;
 	bottom: 0px;
 	left: 10px;
@@ -340,7 +349,7 @@ body{
 	display: block;
 	margin: 0px auto;
 }
-@media(max-width: 996px){
+@media(max-width: 1220px){
 	.content-container{
 		margin-left: 0px;
 		box-sizing: border-box;
@@ -351,12 +360,14 @@ body{
 		margin-left: 0px;
 		width: 100%;
 	}
+	.mobile-navbar-toggle{
+		left: 10px;
+	}
 	.title-container{
 		margin-left: 80px;
 	}
 	.post-link::before{
 		margin: 20px 60px;
-
 	}
 	.paginator{
 		width: 100%;
@@ -398,6 +409,9 @@ body{
 @media(max-height: 555px){
 	.sidebar-container{
 		overflow: scroll;
+	}
+	.sidebar-footer{
+		position: relative;
 	}
 }
 
