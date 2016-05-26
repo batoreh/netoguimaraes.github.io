@@ -214,24 +214,25 @@ body{
 	display: inline;
 }
 .post-link::before{
-	position: absolute;
+	position: relative;
+	float: left;
 	content: " ";
 	background: url('https://cdn0.iconfinder.com/data/icons/ui-icon-part-2/128/navigation_3-512.png');
 	background-size: cover;
 	font-size: 3em;
 	left: 0px;
-	margin: 18px 330px;
+	margin: 18px 0px;
 	height: 40px;
 	width: 40px;
 }
 .post-link{
+	max-width: 100%;
 	font-family: Roboto Condensed Light;
-	margin-top: 10px;
+	margin: 10px 0px;
 	font-size: 2.3em;
 	text-decoration: none;
 	color: #200235;
 	text-shadow: 2px 2px 1px black;
-	margin-left: 50px;	
 }
 .post-readmore{
 	display: block;
@@ -366,9 +367,6 @@ body{
 	.title-container{
 		margin-left: 80px;
 	}
-	.post-link::before{
-		margin: 20px 60px;
-	}
 	.paginator{
 		width: 100%;
 	}
@@ -377,6 +375,12 @@ body{
 @media(max-width: 600px){
 	.title-container{
 		font-size: 0.7em;
+	}
+	.content-container{
+		padding: 10px;
+	}
+	.post-block{
+		padding: 10px;
 	}
 	.post-title{
 		font-size: 2em;
@@ -403,7 +407,9 @@ body{
 		height: auto;
 	}
 	.post-link::before{
-		margin: 0px 60px;
+		margin: 3px 0px;
+		height: 30px;
+		width: 30px;
 	}
 }
 @media(max-height: 555px){
