@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sobre fazer as coisas
+title: Sobre fazer as coisas
 tags: self growing
 comments: true
 excerpt_separator: <!--bora-->
