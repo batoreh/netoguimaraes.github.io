@@ -8,7 +8,7 @@ excerpt_separator: <!--bora-->
 <div class="post-img-container">
 	<img class="post-img" src="http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg"/>
 </div>
-Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido perjorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem [fúteis](http://codepen.io/p-stacey-a/pen/ZWNryz). O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?
+Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido pejorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem [fúteis](http://codepen.io/p-stacey-a/pen/ZWNryz). O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?
 <!--bora-->
 
 ## Porque estão fazendo tanta coisa apenas com CSS3?
