@@ -44,7 +44,7 @@ body{
 .title-container{
 	color: white;
 	display: inline;
-	padding: 300px;
+	margin-left: 200px;
 }
 .title-container h1,
 .title-container p {
@@ -201,7 +201,7 @@ body{
 	padding: 30px;
 	border: 1px solid #CCCCCC; 
 	border-radius: 10px;
-	margin: 20px 0px;
+	margin: 10px 0px;
 }
 
 .post-title{
@@ -225,15 +225,13 @@ body{
 	width: 40px;
 }
 .post-link{
-	display: block;
 	font-family: Roboto Condensed Light;
 	margin-top: 10px;
 	font-size: 2.3em;
 	text-decoration: none;
 	color: #200235;
 	text-shadow: 2px 2px 1px black;
-	margin: 0px 50px;	
-	max-width: 100%;
+	margin-left: 50px;	
 }
 .post-readmore{
 	display: block;
@@ -366,7 +364,7 @@ body{
 		left: 10px;
 	}
 	.title-container{
-		padding-left: 80px;
+		margin-left: 80px;
 	}
 	.post-link::before{
 		margin: 20px 60px;
@@ -393,12 +391,13 @@ body{
 	.mobile-navbar-toggle{
 		top: 10px;
 		left: 10px;
-		position: absolute;
-		width: 30px;
 	}
 	.line{
 		height: 5px;
 		width: 100%;
+	}
+	.mobile-navbar-toggle{
+		width: 30px;
 	}
 	.header-container{
 		height: auto;
@@ -421,7 +420,7 @@ body{
 		width: 300px;
 	}
 	.title-container{
-		padding-left: 50px;
+		margin-left: 50px;
 	}
 	.title-container{
 		font-size: 0.5em;
