@@ -26,14 +26,16 @@ Se você sabe exatamente o que quer fazer e como vai fazer, a melhor coisa pra c
 
 <pre>
 	<code class="language-markup">
-		&lt;div class=&quot;container&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;container&quot;&gt;
 		  &lt;img class=&quot;container-img&quot; src=&quot;https://static.pexels.com/photos/6413/people-eyes-playing-young.jpg&quot; alt=&quot;a boy with a ball&quot;/&gt;
-		  &lt;a class=&quot;hidden-link&quot; href=&quot;#&quot;&gt;Bot&atilde;o&lt;/a&gt;
-		&lt;/div&gt;
+		  &lt;span class=&quot;hidden-link&quot; &gt;Bot&atilde;o&lt;/span&gt;
+		&lt;/a&gt;
 	</code>
 </pre>
 
-Um código simples. Uma <code>div</code> com uma <code>img</code> e um <code>link</code>, que simula um botão, inseridos nela. Perceba que o nome da classe do botão já indica uma das funcionalidades que teremos que implementar: a sua invisibilidade. Há várias formas de implementar invisibilidade com CSS3. A primeira é declarando a opacidade com o valor 0 (<code>opacity: 0;</code>). Dessa forma, o elemento não irá aparecer, porém continuará ocupando espaço na página, apesar dele não estar visível, ele continua lá. Essa solução é praticamente igual a declarar a visibilidade igual a "escondido" (<code>visibily: hidden;</code>), vamos entender suas diferenças no fim do artigo. Uma outra solução é definir <code>display: none;</code>. Ao contrário das duas primeiras, nessa solução o elemento some por completo do documento, seu epaço é tomado pelos outros elementos, dependendo das configurações do layout. Mais à frente iremos entender qual dessas é a melhor solução para tornar o botão inicialmente invisível.
+Um código simples. Uma <code>a</code> com uma <code>img</code> e um <code>span</code>, que simula um botão, inseridos nela. O elemento <code>&lt;a href=&quot;#&quot; class=&quot;container&quot;&gt;</code> funcionará como um elemento de bloco aqui, como uma <code>div</code>. Usamos ele ao invés de uma <code>div</code> para que todo o corpo do container funcione como um link clicável, auxiliando assim a acessibilidade.
+
+Perceba que o nome da classe do botão já indica uma das funcionalidades que teremos que implementar: a sua invisibilidade. Há várias formas de implementar invisibilidade com CSS3. A primeira é declarando a opacidade com o valor 0 (<code>opacity: 0;</code>). Dessa forma, o elemento não irá aparecer, porém continuará ocupando espaço na página, apesar dele não estar visível, ele continua lá. Essa solução é praticamente igual a declarar a visibilidade igual a "escondido" (<code>visibily: hidden;</code>), vamos entender suas diferenças no fim do artigo. Uma outra solução é definir <code>display: none;</code>. Ao contrário das duas primeiras, nessa solução o elemento some por completo do documento, seu epaço é tomado pelos outros elementos, dependendo das configurações do layout. Mais à frente iremos entender qual dessas é a melhor solução para tornar o botão inicialmente invisível.
 
 ## Estilizando as coisas 
 
@@ -52,7 +54,7 @@ As primeiras coisas que escreveremos no nosso CSS serão as estilizações simpl
 		  height: 100%;
 		  width: auto;
 		}
-		.hidden-link{
+		.hidden-pseudobutton{
 		  display: block;
 		  position: absolute;
 		  width: 150px;
@@ -122,7 +124,7 @@ Para fazermos com que o botão apareça sob as mesmas circunstâncias do efeito 
 
 <pre>
 	<code class="language-css">
-	.container:hover > .hidden-link{
+	.container:hover > .hidden-pseudobutton{
 	  opacity: 1;
 	}
 	</code>

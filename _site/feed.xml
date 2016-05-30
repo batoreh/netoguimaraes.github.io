@@ -5,8 +5,8 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 May 2016 21:59:21 -0300</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 21:59:21 -0300</lastBuildDate>
+    <pubDate>Mon, 30 May 2016 01:34:45 -0300</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 01:34:45 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -32,14 +32,16 @@
 
 &lt;pre&gt;
 	&lt;code class=&quot;language-markup&quot;&gt;
-		&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+		&amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;container&amp;quot;&amp;gt;
 		  &amp;lt;img class=&amp;quot;container-img&amp;quot; src=&amp;quot;https://static.pexels.com/photos/6413/people-eyes-playing-young.jpg&amp;quot; alt=&amp;quot;a boy with a ball&amp;quot;/&amp;gt;
-		  &amp;lt;a class=&amp;quot;hidden-link&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Bot&amp;atilde;o&amp;lt;/a&amp;gt;
-		&amp;lt;/div&amp;gt;
+		  &amp;lt;span class=&amp;quot;hidden-link&amp;quot; &amp;gt;Bot&amp;atilde;o&amp;lt;/span&amp;gt;
+		&amp;lt;/a&amp;gt;
 	&lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Um código simples. Uma &lt;code&gt;div&lt;/code&gt; com uma &lt;code&gt;img&lt;/code&gt; e um &lt;code&gt;link&lt;/code&gt;, que simula um botão, inseridos nela. Perceba que o nome da classe do botão já indica uma das funcionalidades que teremos que implementar: a sua invisibilidade. Há várias formas de implementar invisibilidade com CSS3. A primeira é declarando a opacidade com o valor 0 (&lt;code&gt;opacity: 0;&lt;/code&gt;). Dessa forma, o elemento não irá aparecer, porém continuará ocupando espaço na página, apesar dele não estar visível, ele continua lá. Essa solução é praticamente igual a declarar a visibilidade igual a “escondido” (&lt;code&gt;visibily: hidden;&lt;/code&gt;), vamos entender suas diferenças no fim do artigo. Uma outra solução é definir &lt;code&gt;display: none;&lt;/code&gt;. Ao contrário das duas primeiras, nessa solução o elemento some por completo do documento, seu epaço é tomado pelos outros elementos, dependendo das configurações do layout. Mais à frente iremos entender qual dessas é a melhor solução para tornar o botão inicialmente invisível.&lt;/p&gt;
+&lt;p&gt;Um código simples. Uma &lt;code&gt;a&lt;/code&gt; com uma &lt;code&gt;img&lt;/code&gt; e um &lt;code&gt;span&lt;/code&gt;, que simula um botão, inseridos nela. O elemento &lt;code&gt;&amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;container&amp;quot;&amp;gt;&lt;/code&gt; funcionará como um elemento de bloco aqui, como uma &lt;code&gt;div&lt;/code&gt;. Usamos ele ao invés de uma &lt;code&gt;div&lt;/code&gt; para que todo o corpo do container funcione como um link clicável, auxiliando assim a acessibilidade.&lt;/p&gt;
+
+&lt;p&gt;Perceba que o nome da classe do botão já indica uma das funcionalidades que teremos que implementar: a sua invisibilidade. Há várias formas de implementar invisibilidade com CSS3. A primeira é declarando a opacidade com o valor 0 (&lt;code&gt;opacity: 0;&lt;/code&gt;). Dessa forma, o elemento não irá aparecer, porém continuará ocupando espaço na página, apesar dele não estar visível, ele continua lá. Essa solução é praticamente igual a declarar a visibilidade igual a “escondido” (&lt;code&gt;visibily: hidden;&lt;/code&gt;), vamos entender suas diferenças no fim do artigo. Uma outra solução é definir &lt;code&gt;display: none;&lt;/code&gt;. Ao contrário das duas primeiras, nessa solução o elemento some por completo do documento, seu epaço é tomado pelos outros elementos, dependendo das configurações do layout. Mais à frente iremos entender qual dessas é a melhor solução para tornar o botão inicialmente invisível.&lt;/p&gt;
 
 &lt;h2 id=&quot;estilizando-as-coisas&quot;&gt;Estilizando as coisas&lt;/h2&gt;
 
@@ -58,7 +60,7 @@
 		  height: 100%;
 		  width: auto;
 		}
-		.hidden-link{
+		.hidden-pseudobutton{
 		  display: block;
 		  position: absolute;
 		  width: 150px;
@@ -128,7 +130,7 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 
 &lt;pre&gt;
 	&lt;code class=&quot;language-css&quot;&gt;
-	.container:hover &amp;gt; .hidden-link{
+	.container:hover &amp;gt; .hidden-pseudobutton{
 	  opacity: 1;
 	}
 	&lt;/code&gt;
