@@ -48,6 +48,7 @@ body{
 }
 .title-container h1,
 .title-container p {
+	font-family: 'Oswald', sans-serif;
 	display: inline;
 }
 .blog-title{
@@ -205,6 +206,7 @@ body{
 }
 
 .post-title{
+	font-family: 'Oswald', sans-serif;
 	font-size: 3em;
 	display: inline;
 	padding-bottom: 50px;
@@ -225,12 +227,12 @@ body{
 	width: 40px;
 }
 .post-link{
-	font-family: Roboto Condensed Light;
+	display: block;
+	font-family: 'Oswald', sans-serif;
 	margin-top: 10px;
 	font-size: 2.3em;
 	text-decoration: none;
 	color: #200235;
-	text-shadow: 2px 2px 1px black;
 	margin-left: 50px;	
 }
 .post-readmore{
@@ -279,7 +281,8 @@ body{
 .post-resume{
 	margin-bottom: 10px;
 	font-size: 1.2em;
-	color: grey;
+	color: #666;
+	font-family: Roboto Condensed Light;
 }
 .post-comments{
 	padding: 20px;
