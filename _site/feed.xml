@@ -5,9 +5,52 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2016 00:21:01 -0300</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2016 00:21:01 -0300</lastBuildDate>
+    <pubDate>Thu, 09 Jun 2016 11:56:48 -0300</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2016 11:56:48 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>II Encontro da comunidade UX Design - Natal-RN</title>
+        <description>&lt;div class=&quot;post-img-container&quot;&gt;
+	&lt;img class=&quot;post-img&quot; src=&quot;/assets/ux.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;UX Design é um termo que muito tem se ouvido por todos os lados na área de desenvolvimento web. Tem crescido muito o número de ferramentas, o número de pessoas interessadas no assunto e a quantidade de bons conteúdos na web. Aqui em Natal-RN não foi diferente, há dois meses foi criada a comunidade de UX Design Natal. A iniciativa partiu de profissionais da área que sentiam necessidade de discussão e união de pessoas com tais interesses para que pudessem surgir ideias, projetos e principalmente: para que o conhecimento fosse difundido (leia mais sobre o surgimento do grupo &lt;a href=&quot;https://medium.com/ux-design-natal/difundindo-o-ux-design-em-natal-rn-eacb64f231af#.xjizkebrx&quot;&gt;aqui&lt;/a&gt;). Ontem houve o segundo encontro do grupo e vou falar um pouco sobre como foi. 
+&lt;!--bora--&gt;&lt;/p&gt;
+
+&lt;p&gt;Os encontros presenciais do grupo tem como objetivo fomentar a troca de conhecimentos e experiência entre todos os membros para que o UX Design seja cada vez mais difundido e entendido. No II encontro tivemos a presença do estúdio &lt;a href=&quot;http://www.estudioproa.com/&quot;&gt;Proa&lt;/a&gt;, representado por &lt;a href=&quot;https://www.behance.net/augustoserquiz&quot;&gt;Augusto&lt;/a&gt; e &lt;a href=&quot;https://www.behance.net/mateustinoco&quot;&gt;Mateus&lt;/a&gt;. Eles foram convidados para nos mostrar o processo criativo do estúdio que fazem parte e nos ajudar a entender sobre como a experiência de usuário pode ser interessante para casos de produtos digitais e sobre como algumas metodologias de UX ajudam eles na hora de entender as perspectivas do lado dos clientes deles.&lt;/p&gt;
+
+&lt;p&gt;O espírito do estúdio Proa é algo que tem que ser levado em consideração antes de qualquer coisa. Como o nome já diz (“proa” é a parte dianteira do barco), o estúdio veio à tona com a proposta de inovar o mercado e trazer uma nova ideia sobre o que é design, sobre como devemos tratar o design e sobre como devemos trabalhar com design.&lt;/p&gt;
+
+&lt;p&gt;Ao longo da fala dos designers, pudemos perceber alguns pontos interessantes que irei listar aqui.&lt;/p&gt;
+
+&lt;h2 id=&quot;designers-desenham-solues&quot;&gt;Designers desenham soluções&lt;/h2&gt;
+
+&lt;p&gt;Muita gente confunde o trabalho dos designers com algo meramente artístico. Se você pensa assim, está muito enganado. Mais do que nunca, vivemos num momento em que tudo tem que ter um porquê e uma motivação muito forte, se não for assim, acaba perdendo o sentido no meio de tanta informação que temos a nossa disposição. Vendo as metodologias apresentadas pelos rapazes do Estúdio Proa, ficou muito visível que o que eles fazem é um estudo específico pra cada caso, onde se busca a melhor solução viável com o fim de suprir a necessidade do cliente e do usuário. Esse é um aspecto bastante presente em metodologias de UX: nada é por acaso, tudo tem um motivo. Se não tem um motivo, é algo que pode facilmente ser descartado.&lt;/p&gt;
+
+&lt;h2 id=&quot;clientes-nem-sempre-sabem-o-que-querem&quot;&gt;Clientes nem sempre sabem o que querem.&lt;/h2&gt;
+
+&lt;p&gt;Apesar de teoricamente serem os maiores conhecedores dos seus negócios, às vezes os clientes não sabem lidar com todo o significado que uma identidade visual, um site ou um cartão de visitas pode ter. É papel do designer entender quais as necessidades do cliente e ajudá-lo a entender quais as possibilidades. Apesar de conhecer seu negócio, nem sempre eles têm ideia do poder da experiência do usuário e como melhorar ela. Um bom design visual está diretamente ligado à experiência de usuário, portanto, ao entender as necessidades de um projeto visual, acaba-se também entendendo sua profundidade dentro do contexto dos usuários.&lt;/p&gt;
+
+&lt;h2 id=&quot;saiba-porque-voc-est-usando-o-que-voc-est-usando&quot;&gt;Saiba porque você está usando o que você está usando&lt;/h2&gt;
+
+&lt;p&gt;Todo mercado que tem mais de uma opção para escolha possui uma variedade de características em cada uma dessas opções. Portanto, na produção criativa não é diferente. Se você produz algo, é importante entender o que você quer atingir com aquilo e entender quais as melhores maneiras de fazer isso. Pensar nisso na perspectiva do usuário é onde a UX entra. Pensar não nos motivos para você que está produzindo e sim nos motivos para quem estará consumindo quando finalizado. Pudemos ver isso nos cases mostrados, onde haviam algumas características bem peculiares que tiveram que ser entendidas a fundo para que soluções pudessem ser achadas e só então as ferramentas para a implementação serem selecionadas.&lt;/p&gt;
+
+&lt;h2 id=&quot;concluindo&quot;&gt;Concluindo&lt;/h2&gt;
+
+&lt;p&gt;A apresentação do processo criativo do estúdio Proa foi de grande soma para o encontro de UX, pois pudemos perceber em suas metodologias a utilização de diversos conceitos de User Experience, entendendo suas aplicações na prática. Foi interessante entender como tais aspectos de UX atingem um estúdio de design, pois no meu caso, vejo UX muito mais na área de desenvolvimento web e as aplicações em outros nichos ainda é um mistério interessante de ser descoberto. Mas no fim das contas, é um mistério previsível, afinal todos nós queremos entender o usuário e suas necessidades para entregar as melhores soluções possíveis, as diferenças são apenas mínimos detalhes técnicos do nicho.&lt;/p&gt;
+
+&lt;p&gt;O evento foi bastante produtivo e descontraído e reuniu um número considerável de pessoas. Acho que estamos criando um ecossistema interessante com tais iniciativas. Se você tem interesse na área, entre no nosso &lt;a href=&quot;https://www.facebook.com/groups/105147809888834/?fref=ts&quot;&gt;grupo no facebook&lt;/a&gt;, apesar dos encontros presenciais serem aqui em Natal, os links e discussões são universais. Sinta-se à vontade pra compartilhar textos e experiências, qualquer coisa que some é bem vinda.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jun 2016 00:00:00 -0300</pubDate>
+        <link>/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
+        <guid isPermaLink="true">/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
+        
+        <category>frontend,</category>
+        
+        <category>css</category>
+        
+        
+      </item>
     
       <item>
         <title>Dicas de um frontend junior 2</title>
