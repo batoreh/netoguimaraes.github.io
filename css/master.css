@@ -10,9 +10,8 @@
 body{
 	margin: 0px;
 	font-family: Roboto Condensed Light, Helvetica, Arial, "MS Trebuchet", sans-serif;
-}
-body{
 	background-color: white;
+	min-height: 100%;
 }
 .header-container{
 	width: 100%;
@@ -184,6 +183,7 @@ body{
 .content-container{
 	position: relative;
 	width: 100%;
+	min-height: 100%;
 	height: auto;
 	float: left;
 	text-align: justify;
