@@ -44,7 +44,7 @@ body{
 .title-container{
 	color: white;
 	display: inline;
-	margin-left: 200px;
+	margin-left: 300px;
 }
 .title-container h1,
 .title-container p {
@@ -144,7 +144,7 @@ body{
 	text-decoration: none;
 }
 .mobile-navbar-toggle{
-	position: absolute;
+	position: fixed;
 	top: 45px;
 	left: 30px;
 	width: 45px;
@@ -190,9 +190,9 @@ body{
 	box-sizing: border-box;
 	padding: 50px 300px;
 	margin-left: 0px;
-	background-color: inherit;
 	font-family: Roboto Condensed Light;
 	list-style: none;
+	background: url('../assets/bg.png');
 }
 .post-list{
 	list-style: none;
@@ -202,7 +202,8 @@ body{
 	padding: 30px;
 	border: 1px solid #CCCCCC; 
 	border-radius: 10px;
-	margin: 10px 0px;
+	margin: 30px 0px;
+	background-color: white;
 }
 
 .post-title{
@@ -246,6 +247,11 @@ body{
 	margin-bottom: 10px;
 	font-size: 1.5em;
 }
+.post-container{
+	background-color: white;
+	padding: 50px;
+	border-radius: 5px;
+}
 .post-text{
 	padding-top: 50px;
 	font-size: 1.4em;
@@ -263,7 +269,6 @@ body{
 	max-width: 100%;
 }
 .post-text p {
-	font-family: Roboto Condensed Light;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 100%;
@@ -280,7 +285,7 @@ body{
 }
 .post-resume{
 	margin-bottom: 10px;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: #666;
 	font-family: Roboto Condensed Light;
 }
@@ -378,6 +383,9 @@ body{
 }
 
 @media(max-width: 600px){
+	.content-container{
+		padding: 0px;
+	}
 	.title-container{
 		font-size: 0.7em;
 	}
@@ -405,8 +413,18 @@ body{
 	.header-container{
 		height: auto;
 	}
+	.post-link{
+		margin: 0px;
+		text-align: left;
+	}
 	.post-link::before{
-		margin: 0px 60px;
+		display: none;
+	}
+	.post-block{
+		padding: 10px;
+		border-radius: 0px;
+		margin: 0px;
+		border: none;
 	}
 }
 @media(max-height: 555px){
