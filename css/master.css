@@ -275,13 +275,11 @@ body{
 	max-width: 100%;
 }
 .post-text a{
-	text-decoration: bold;
 	color: #764198;
 }
 .post-text a::after{
 	content: " ";
 	position: absolute;
-	background:;
 }
 .post-resume{
 	margin-bottom: 10px;
@@ -309,8 +307,8 @@ body{
 }
 .footer-theme-description{
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: 30px;
+	right: 30px;
 }
 .footer::before{
 	content: " ";
@@ -321,7 +319,7 @@ body{
 	height: 5px;
 	width: 100%;
 }
-.footer a{
+.sidebar-footer a, .footer a{
 	text-decoration: none;
 	color: green;
 }
@@ -425,6 +423,9 @@ body{
 		border-radius: 0px;
 		margin: 0px;
 		border: none;
+	}
+	.post-container{
+		padding: 10px;
 	}
 }
 @media(max-height: 555px){
