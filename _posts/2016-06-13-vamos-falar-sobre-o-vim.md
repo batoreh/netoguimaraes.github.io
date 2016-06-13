@@ -18,7 +18,7 @@ Uma das maiores pautas de discussão que encontramos nos fóruns e grupos do fac
 
 Primeiramente, queria dizer que é essencial usar um editor de texto do seu gosto, que te deixa produtivo e que atende às suas necessidades. 
 
-O fato é: eu já usei todos os editores do mundo, acho. Levemos em consideração que eu não gosto de IDEs. Usar Java + NetBeans foi o bastante eu entender que IDEs, apesar de nos deixar bastante produtivos nos tirando certas obrigações, elas também nos deixam mal acostumados. A IDE nada mais é que um editor de texto cheio de plugins que você quase não usa, que deixa tudo mais lento que o normal e que acaba criando uma camada a mais entre você e o código.
+O fato é: eu já usei todos os editores do mundo, acho. Levemos em consideração que eu não gosto de IDEs. Usar Java + NetBeans foi o bastante para eu entender que IDEs, apesar de nos deixar bastante produtivos nos tirando certas obrigações, elas também nos deixam mal acostumados. A IDE nada mais é que um editor de texto cheio de plugins que você quase não usa, que deixa tudo mais lento que o normal e que acaba criando uma camada a mais entre você e o código.
 
 IDE é uma boa solução para bons programadores, que já sabem como determinada linguagem funciona e só querem se preocupar em programar, para qualquer um que queira aprender mais a fundo sobre funcionamento de algumas configurações e entendimento geral da linguagem/workflow, programar usando um editor de texto e configurando seus próprios plugins pode ser bem mais interessante. 
 
