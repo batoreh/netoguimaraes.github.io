@@ -54,7 +54,7 @@ A opção em português mais completa é um projeto do Willian Oliveira, o proje
 
 Se você quiser entender todas as variáveis, entender como tudo funciona no VIM e escrever seu próprio arquivo de configuração na mão, eu vou te dar total apoio. Mas eu não fiz isso. Existem ferramentas bem simples feitas para auxiliarem nós, os preguiçosos, iniciantes e espertos, a configurarmos o nosso VIM da forma mais rápida possível. Temos o [vimconfig.com](http://vimconfig.com/), que é muito simples e rápido e temos o [vim-bootstrap.com](http://vim-bootstrap.com/) que é um pouco mais completo, mas também muito simples e que dá suporte também para o NeoVim, um fork do VIM.
 
-### Sobre os plugins
+### Sobre os plugins do VIM
 
 São infinitos. Sério. E são muito robustos, pois o VIM está sendo usado há 25 anos (mais velho que eu!) e tem alguns plugins com idade bem avançada, o que significa que foram maturados o suficiente pela comunidade. 
 
