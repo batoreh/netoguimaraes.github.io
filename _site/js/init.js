@@ -25,9 +25,9 @@ setInterval(function(){
 	var down = document.getElementById('down-line');
 	if (!up.classList.contains('up-line-active')) {
 		if (window.pageYOffset>50) {
-			up.style.backgroundColor="rgba(83,0,147, 0.4)";
-			mid.style.backgroundColor="rgba(83,0,147, 0.4)";
-			down.style.backgroundColor="rgba(83,0,147, 0.4)";
+			up.style.backgroundColor="rgba(200,200,200, 0.6)";
+			mid.style.backgroundColor="rgba(200,200,200, 0.6)";
+			down.style.backgroundColor="rgba(200,200,200, 0.6)";
 		}else{
 			up.style.backgroundColor="#530093";
 			mid.style.backgroundColor="#530093";

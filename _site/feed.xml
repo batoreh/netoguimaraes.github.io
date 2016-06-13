@@ -5,9 +5,79 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jun 2016 02:40:25 -0300</pubDate>
-    <lastBuildDate>Sat, 11 Jun 2016 02:40:25 -0300</lastBuildDate>
+    <pubDate>Mon, 13 Jun 2016 02:48:10 -0300</pubDate>
+    <lastBuildDate>Mon, 13 Jun 2016 02:48:10 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Vamos falar sobre o VIM</title>
+        <description>&lt;div class=&quot;post-img-container&quot;&gt;
+	&lt;img class=&quot;post-img&quot; src=&quot;/assets/post-imgs/vim.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Uma das maiores pautas de discussão que encontramos nos fóruns e grupos do facebook sobre workflow em geral é quanto ao editor de texto que cada um usa. Existe uma infinidade deles e eu já usei diversos. Mas acho que encontrei o mais completo e funcional. Vamos falar um pouco sobre ele? Bora.&lt;/p&gt;
+
+&lt;!--bora--&gt;
+
+&lt;h2 id=&quot;sobre-editores-de-texto&quot;&gt;Sobre editores de texto&lt;/h2&gt;
+
+&lt;p&gt;Primeiramente, queria dizer que é essencial usar um editor de texto do seu gosto, que te deixa produtivo e que atende às suas necessidades.&lt;/p&gt;
+
+&lt;p&gt;O fato é: eu já usei todos os editores do mundo, acho. Levemos em consideração que eu não gosto de IDEs. Usar Java + NetBeans foi o bastante eu entender que IDEs, apesar de nos deixar bastante produtivos nos tirando certas obrigações, elas também nos deixam mal acostumados. A IDE nada mais é que um editor de texto cheio de plugins que você quase não usa, que deixa tudo mais lento que o normal e que acaba criando uma camada a mais entre você e o código.&lt;/p&gt;
+
+&lt;p&gt;IDE é uma boa solução para bons programadores, que já sabem como determinada linguagem funciona e só querem se preocupar a programar, para qualquer um que queira aprender mais a fundo sobre funcionamento de algumas configurações e entendimento geral da linguagem/workflow, programar usando um editor de texto e configurando seus próprios plugins pode ser bem mais interessante.&lt;/p&gt;
+
+&lt;p&gt;O primeiro editor que usei foi o sublime 2 e ele ainda está entre os meus favoritos. O ecossistema que o sublime criou foi realmente inovador e ainda hoje é um dos editores mais indicados para todos os níveis. Usei o Atom, mas no fim das contas é muito pesado pra um editor. Usei o Visual Studio code 2015, que é bem parecido com o Atom e menos pesado, mas não há tantos plugins assim. Usei o Builder, um editor da Gnome, mas ele é muito limitado ainda para desenvolvimento web. No fim das contas, pra ser bom pra mim, o editor tinha que ser leve, rápido e com um ecossistema interessante de plugins e ferramentas. Depois de tudo, decidi voltar então para o Sublime, que satisfazia todas essas características.&lt;/p&gt;
+
+&lt;p&gt;Até que eu conheci o VIM.&lt;/p&gt;
+
+&lt;h2 id=&quot;uma-histria-de-amor-melhor-que-crepsculo&quot;&gt;Uma história de amor melhor que crepúsculo&lt;/h2&gt;
+
+&lt;p&gt;Me pareceu um tanto surreal a ideia de um editor de texto onde eu não usaria o mouse. Achei que seria terrível no começo, e talvez até tenha sido, mas a leveza, rapidez e os plugins me fizeram arriscar um pouco de tempo para me tornar produtivo nele.&lt;/p&gt;
+
+&lt;p&gt;A premissa do VIM é usar o mínimo do mouse possível. Isso acaba sendo interessante porque a gente, obviamente, escreve o código com o teclado, configurar e manipular o editor com o mesmo periférico que usamos pra escrever os códigos acaba sendo uma mão na roda. Não é preciso tirar a mão do teclado e perder 2s pra selecionar aquela opção do editor, só preciso digitar um comando e dar um enter. Acredite ou não, isso faz bastante diferença.&lt;/p&gt;
+
+&lt;p&gt;Enfim, não vim aqui pra defender o VIM e seu uso, seus benefícios e produtividade. Vim dar umas dicas rápidas para iniciantes. Se quiser saber mais sobre o editor, dê uma lida no &lt;a href=&quot;https://brizeno.wordpress.com/2014/07/24/por-que-voce-tambem-gostaria-de-utilizar-vim/&quot;&gt;texto do Marcos Brizeno&lt;/a&gt; e no do &lt;a href=&quot;https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/&quot;&gt;Willian Oliveira&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;algumas-dicas-pra-comear&quot;&gt;Algumas dicas pra começar&lt;/h2&gt;
+
+&lt;p&gt;Eu perdi um dia quase todo pesquisando sobre configurações do vim, sobre plugins e sobre como deixá-lo mais user-friendly. E não me arrependo, descobri ferramentas bem interessantes que me ajudaram bastante. E como eu sou muito gente fina, vou passar as dicas pra vocês.&lt;/p&gt;
+
+&lt;h3 id=&quot;aprendendo&quot;&gt;Aprendendo&lt;/h3&gt;
+
+&lt;p&gt;Existem vários meio de aprender a usar o VIM e você pode fazer isso antes ou depois de configurar ele com as próximas dicas que eu vou dar.&lt;/p&gt;
+
+&lt;p&gt;O tutorial mais indicado para aprendizado é o tutorial do próprio vim, o &lt;code&gt;vimtutor&lt;/code&gt;. Digite no seu terminal &lt;code&gt;vimtutor&lt;/code&gt; e siga as instruções. Não é necessário fazer tudo de uma vez, como disse o &lt;a href=&quot;https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/&quot;&gt;Willian Oliveira&lt;/a&gt; em seu texto que me auxiliou bastante. O mais interessante é que o &lt;code&gt;vimtutor&lt;/code&gt; aborda na prática, com exercícios, o que faz o aprendizado ser bem dinâmico.&lt;/p&gt;
+
+&lt;p&gt;Outra opção é pegar os comandos do VIM e ir testando na prática, que é basicamente o que o vim tutor faz, mas você terá mais liberadade pra testar e para fazer seu próprio caminho. Traduzi há um tempo atrás um pequeno guia para iniciantes e intermediários que pode ser interessante, &lt;a href=&quot;https://gist.github.com/netoguimaraes/ef6039d565dd5c8343fc&quot;&gt;clique aqui&lt;/a&gt; para ver.&lt;/p&gt;
+
+&lt;p&gt;A opção em português mais completa é um projeto do Willian Oliveira, o projeto &lt;a href=&quot;https://woliveiras.com.br/vimparanoobs/&quot;&gt;VIM para noobs&lt;/a&gt;. Ele dá toda um embasamento para você se tornar um ninja do VIM.&lt;/p&gt;
+
+&lt;h3 id=&quot;gerando-o-vimrc&quot;&gt;Gerando o .vimrc&lt;/h3&gt;
+
+&lt;p&gt;É vero que para usar o VIM como editor de texto para programação não é tão simples no começo. Não é simplesmente abrir e começar a escrever os códigos que o syntax highlight já vai estar lá, a identação configurada, os snippets nem nada. O vim vem praticamente inutilizável para programar em sua versão padrão, que já vem instalada em distros Linux. Para configurá-lo, temos que editar um arquivo de configuração chamado &lt;code&gt;vimrc&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se você quiser entender todas as variáveis, entender como tudo funciona no VIM e escrever seu próprio arquivo de configuração na mão, eu vou te dar total apoio. Mas eu não fiz isso. Existem ferramentas bem simples feitas para auxiliarem nós, os preguiçosos, iniciantes e espertos, a configurarmos o nosso VIM da forma mais rápida possível. Temos o &lt;a href=&quot;http://vimconfig.com/&quot;&gt;vimconfig.com&lt;/a&gt;, que é muito simples e rápido e temos o &lt;a href=&quot;http://vim-bootstrap.com/&quot;&gt;vim-bootstrap.com&lt;/a&gt; que é um pouco mais completo, mas também muito simples e que dá suporte também para o NeoVim, um fork do VIM.&lt;/p&gt;
+
+&lt;h3 id=&quot;sobre-os-plugins&quot;&gt;Sobre os plugins&lt;/h3&gt;
+
+&lt;p&gt;São infinitos. Sério. E são muito robustos, pois o VIM está sendo usado há 25 anos (mais velho que eu!) e tem alguns plugins com idade bem avançada, o que significa que foram maturados o suficiente pela comunidade.&lt;/p&gt;
+
+&lt;p&gt;Para procurar, instalar e configurar os plugins que uso no meu editor, utilizei o site &lt;a href=&quot;http://vimawesome.com/&quot;&gt;vimawesome.com&lt;/a&gt;, que fornece uma busca simples, sistema de tags e explicações sobre os plugins. No vim awesome também podem ser encontrados themas para o VIM, que pode ser interessante pra quem se importa com o visual. E tem muita coisa interessante lá. &lt;a href=&quot;http://www.pinceladasdaweb.com.br/blog/2014/02/18/plugins-do-vim-para-frontend/&quot;&gt;Esse artigo&lt;/a&gt; do Marco Bruno me deu um norte bem interessante sobre plugins para frontenders. Veja também &lt;a href=&quot;http://spf13.com/post/the-15-best-vim-plugins&quot;&gt;esse post&lt;/a&gt; e &lt;a href=&quot;http://joelhooks.com/blog/2013/04/23/5-essential-vim-plugins/&quot;&gt;esse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Recomendo o plugin do &lt;a href=&quot;http://vimawesome.com/plugin/nerdtree-red&quot;&gt;NERDTree&lt;/a&gt; e o &lt;a href=&quot;http://vimawesome.com/plugin/vim-polyglot&quot;&gt;vim-polyglot&lt;/a&gt; como essencial, o resto é bem pessoal.&lt;/p&gt;
+
+&lt;p&gt;O VIM é um universo gigante e tentei dar um panorama geral para iniciantes se introduzirem nesse ecossistema de forma rápida e simples para depois se aprofundar. Qualquer dúvida, nos comentários.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 13 Jun 2016 00:00:00 -0300</pubDate>
+        <link>/2016/06/13/vamos-falar-sobre-o-vim.html</link>
+        <guid isPermaLink="true">/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
+        
+        <category>workflow</category>
+        
+        
+      </item>
     
       <item>
         <title>II Encontro da comunidade UX Design - Natal-RN</title>
