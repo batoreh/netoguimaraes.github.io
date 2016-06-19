@@ -3,24 +3,14 @@ layout: default
 ---
 			<ul class="post-list">
 				{% for post in site.posts %}
-			      <li class="post-block">
+				<div class="post-block">	
+			      <li class="post-block-content">
 					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
 						<span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
-						<h3 class="post-resume">{{post.excerpt}}</h3>
-						<a class="post-readmore" href="{{ post.url | prepend: site.baseurl  }}">Leia mais</a>
+						<div class="post-resume">{{post.content}}</div>
 			      </li>
+			      <a class="post-readmore" href="{{ post.url | prepend: site.baseurl  }}">Post Completo</a>
+			      </div>
 			  {% endfor %}
-				<div class="paginator">
-					{% if paginator.previous_page %}
-					 <a href="{{ paginator.previous_page_path }}" id="previous" class="paginator-button paginator-button-on">Postagens Anteriores</a>
-				 {% else %}
-					 <span id="previous" class="paginator-button paginator-button-off"> Postagens Anteriores</span>
-				 {% endif %}
-				 <div>{{ paginator.page }} / {{ paginator.total_pages }}</div>
-				 {% if paginator.next_page %}
-					 <a href="{{ paginator.next_page_path }}" id="next" class="paginator-button paginator-button-on">Postagens Recentes</a>
-				 {% else %}
-					 <span id="next" class="paginator-button paginator-button-off">Postagens Recentes</span>
-				 {% endif %}
 				</div>
 			</ul>

@@ -189,7 +189,6 @@ body{
 	float: left;
 	text-align: justify;
 	box-sizing: border-box;
-	padding: 50px 300px;
 	margin-left: 0px;
 	font-family: Roboto Condensed Light;
 	list-style: none;
@@ -198,15 +197,33 @@ body{
 .post-list{
 	list-style: none;
 	padding: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 100%;
 }
 .post-block{
+	position: relative;
+	width: 500px;
+	height: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	margin: 30px 0px;
+	box-sizing: border-box;
+}
+.post-block-content{
+	position: relative;
 	padding: 30px;
 	border: 1px solid #CCCCCC; 
 	border-radius: 10px;
-	margin: 30px 0px;
 	background-color: white;
+	width: 100%;
+	height: 300px;
+	overflow: scroll;
+	margin-bottom: 10px;
+	box-sizing: border-box;
 }
-
 .post-title{
 	font-family: 'Oswald', sans-serif;
 	font-size: 3em;
@@ -217,28 +234,17 @@ body{
 .post-meta{
 	display: inline;
 }
-.post-link::before{
-	position: absolute;
-	content: " ";
-	background: url('https://cdn0.iconfinder.com/data/icons/ui-icon-part-2/128/navigation_3-512.png');
-	background-size: cover;
-	font-size: 3em;
-	left: 0px;
-	margin: 18px 330px;
-	height: 40px;
-	width: 40px;
-}
 .post-link{
 	display: block;
 	font-family: 'Oswald', sans-serif;
 	margin-top: 10px;
-	font-size: 2.3em;
+	font-size: 1.5em;
 	text-decoration: none;
 	color: #200235;
-	margin-left: 50px;	
 }
 .post-readmore{
 	display: block;
+	position: relative;
 	padding: 10px;
 	background-color: #764198;
 	border-radius: 10px;
@@ -252,6 +258,8 @@ body{
 	background-color: white;
 	padding: 50px;
 	border-radius: 5px;
+	width: 900px;
+	margin: 10px auto;
 }
 .post-text{
 	padding-top: 50px;
@@ -285,7 +293,6 @@ body{
 .post-resume{
 	margin-bottom: 10px;
 	font-size: 1em;
-	color: #666;
 	font-family: Roboto Condensed Light;
 }
 .post-comments{
