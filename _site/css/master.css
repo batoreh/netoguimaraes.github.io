@@ -260,6 +260,12 @@ body{
 	border-radius: 5px;
 	width: 900px;
 	margin: 10px auto;
+	box-sizing: border-box;
+}
+@media(max-width: 900px){
+	.post-container{
+		width: 100%;
+	}
 }
 .post-text{
 	padding-top: 50px;

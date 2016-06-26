@@ -5,8 +5,8 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 04:16:59 -0300</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 04:16:59 -0300</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2016 16:53:03 -0300</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 16:53:03 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -32,9 +32,9 @@
 
 &lt;h2 id=&quot;sintaxe&quot;&gt;Sintaxe&lt;/h2&gt;
 
-&lt;p&gt;O LESS não te faz criar novos costumes quanto à sintaxe e ele só possui uma sintaxe. Muitos podem defender o Stylus e a sintaxa SCSS por ela agilizar o processo sem ter que escrever as chaves, os dois pontos ou os ponto e vírgula. Mas o ponto que ponho aqui é: haverão casos onde não será possível ou interessante o uso de preprocessadores e você não poderá controlar isso sempre. Então, vez ou outra você vai ser obrigado a escrever CSS puro. E quando isso acontecer, quanto mais distante for a sintaxe que você usa no seu preprocessador da sintaxe original do CSS puro, mais fácil e produtivo vai ser você escrever código sem preprocessador.&lt;/p&gt;
+&lt;p&gt;O LESS não te faz criar novos costumes quanto à sintaxe e ele só possui uma sintaxe. Muitos podem defender o Stylus e a sintaxe SCSS por ela agilizar o processo sem ter que escrever as chaves, os dois pontos ou os ponto e vírgulas. Mas o ponto que ponho aqui é: haverão casos onde não será possível ou interessante o uso de preprocessadores e você não poderá controlar isso sempre. Então, vez ou outra você vai ser obrigado a escrever CSS puro. E quando isso acontecer, quanto mais próxima for a sintaxe que você usa no seu preprocessador da sintaxe original do CSS puro, mais fácil e produtivo vai ser você escrever código sem preprocessador.&lt;/p&gt;
 
-&lt;p&gt;No começo do projeto do SASS, a sintaxe era muito diferente de CSS puro. A sintaxe que hoje é conhecida pelo próprio nome SASS, é identada, sem a presença de dois pontos, ponto e vírgula ou chaves. O LESS surgiu logo depois como opção para quem queria algo mais próximo do CSS. Com o surgimento do LESS, o time do SASS percebeu o quão louco era o fato de eles terem alterado a sintaxe do CSS em seu preprocessador que eles criaram uma nova sintaxe, a SCSS, que permite você escrever código mais próximo da sintaxe original do CSS e ainda assim ter as funcionalidades do preprocessador.&lt;/p&gt;
+&lt;p&gt;No começo do projeto do SASS, a sintaxe era muito diferente de CSS puro. A sintaxe que hoje é conhecida pelo próprio nome SASS, é identada, sem a presença de dois pontos, ponto e vírgula ou chaves. O LESS surgiu logo depois como opção para quem queria algo mais próximo do CSS. Com o surgimento do LESS, o time do SASS percebeu o quão louco era o fato de eles terem alterado a sintaxe do CSS em seu preprocessador, que eles criaram uma nova sintaxe, a SCSS, que permite você escrever código mais próximo da sintaxe original do CSS e ainda assim ter as funcionalidades do preprocessador.&lt;/p&gt;
 
 &lt;p&gt;O único argumento a favor de uma sintaxe identada como a SASS ou a do Stylus é o fator produtividade. Supostamente, você se torna mais produtivo se não escrever ponto e vírgulas, chaves e dois ponto, mas isso vai por água a baixo com o artifício dos snippets e atalhos dos editores de texto. Eu por exemplo nem escrevo as palavras completas dos atributos. Quando quero adicionar um &lt;code&gt;padding&lt;/code&gt;, digito &lt;code&gt;pa&lt;/code&gt; e o snippet já completa, quanto mais em relação à pontos chaves e outros símbolos sintáticos…&lt;/p&gt;
 
@@ -42,15 +42,17 @@
 
 &lt;p&gt;O Stylus também usa. Mas porque isso pode ser bom pra iniciantes? Porque JavaScript é algo praticamente obrigatório para qualquer um que queira mexer com web, ruby apesar de ser uma ótima linguagem em diversos aspectos, não é tão próxima assim dos iniciantes. O SASS usa a linguagem ruby e seu gerenciador de pacotes como padrão. Não questiono aqui a qualidade da linguagem ou seu gerenciador de pacotes, mas é inegável que hoje em dia, há muito mais frameworks e ferramentas para frontenders usando o &lt;code&gt;npm&lt;/code&gt; como gerenciador de pacotes. Isso ajuda a organizar melhor e nos faz não entrar num ecossistema novo apenas para usar um preprocessador.&lt;/p&gt;
 
-&lt;p&gt;Eu sei que há pacotes do SASS para &lt;code&gt;npm&lt;/code&gt; também e para diversos outros pacotes, mas na documentação oficial, é recomendado o uso do GEM para instalar o SASS e acredito que o suporte oficial também é priorizado para a versão do GEM.&lt;/p&gt;
+&lt;p&gt;Eu sei que há pacotes do SASS para &lt;code&gt;npm&lt;/code&gt; também e para diversos outros gerenciadores de pacotes, mas na documentação oficial é recomendado o uso do GEM para instalar o SASS e acredito que o suporte oficial também é priorizado para a versão do GEM.&lt;/p&gt;
 
 &lt;h2 id=&quot;uso-do-lado-do-cliente&quot;&gt;Uso do lado do cliente&lt;/h2&gt;
 
-&lt;p&gt;Iniciantes em computação têm medo de CLIs. Isso é um fato inegável. E no universo frontend não é diferente. Usar um terminal pode ser um saco para iniciantes, esquecer uma opção ou um parâmetro pode gerar um resultado não esperado e frustrar muito facilmente o iniciante, portanto, CLIs nem sempre são boas opções.&lt;/p&gt;
+&lt;p&gt;Iniciantes em computação têm medo de CLIs. Isso é um fato inegável. E no universo frontend não é diferente. Usar um terminal pode ser um saco para iniciantes, esquecer uma opção ou um parâmetro pode gerar um resultado não esperado e frustrá-lo muito facilmente, portanto, CLIs nem sempre são boas opções para um começo.&lt;/p&gt;
 
-&lt;p&gt;Esse medo, é claro, tem que ser perdido o mais rápido possível. Automatizadores de tarefas como Gulp e Grunt (ou outros) são essenciais para um workflow produtivo. Mas para os casos em que realmente há uma aversão ao terminal, o LESS traz uma opção que nenhum dos outros preprocessadores trazem: o uso do LESS do lado do cliente.&lt;/p&gt;
+&lt;p&gt;Esse medo, é claro, tem que ser perdido o mais rápido possível. Automatizadores de tarefas como Gulp e Grunt (ou outros), git e diversas outras ferramentas que usam CLIs são essenciais para um workflow produtivo, mas para os casos em que realmente há uma aversão ao terminal, o LESS traz uma opção que nenhum dos outros preprocessadores trazem: o uso do LESS do lado do cliente.&lt;/p&gt;
 
-&lt;p&gt;Basicamente, ele compila os arquivos less “on-the-fly”, do lado do cliente, no browser mesmo, usando JavaScript. Basta você seguir as &lt;a href=&quot;http://lesscss.org/#client-side-usage&quot;&gt;instruções&lt;/a&gt; que essa funcionalidade pode ser facilmente alcançada. É bom deixar claro que o us dessa funcionalidade não é nada interessante para projetos reais em produção, pois um simples JavaScript desativado pode acabar com seus estilos, sem falar que prejudica um tanto a performace da página. Mas é uma boa pedida para aprendizado com projetos locais, facilita bastante as coisas no começo, caso queira testar o LESS sem ter muito trabalho.&lt;/p&gt;
+&lt;p&gt;Basicamente, ele compila os arquivos less “on-the-fly”, do lado do cliente, no browser mesmo, usando JavaScript. Basta você seguir as &lt;a href=&quot;http://lesscss.org/#client-side-usage&quot;&gt;instruções&lt;/a&gt; que essa funcionalidade pode ser facilmente alcançada. É bom deixar claro que o uso dessa funcionalidade não é nada interessante para projetos reais em produção, pois um simples JavaScript desativado pode acabar com seus estilos, sem falar que prejudica um tanto a performace da página, mas é uma boa pedida para aprendizado com projetos locais, facilita bastante as coisas no começo, caso queira testar o LESS sem ter muito trabalho.&lt;/p&gt;
+
+&lt;p&gt;Uma outra opção de preprocessador muito interessante para iniciantes é o &lt;a href=&quot;http://www.myth.io/&quot;&gt;Myth&lt;/a&gt;, mas ele é tema de outro post, então sem spoilers por aqui.&lt;/p&gt;
 
 &lt;hr /&gt;
 
