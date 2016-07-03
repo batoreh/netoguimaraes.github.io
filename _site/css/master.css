@@ -214,7 +214,7 @@ body{
 }
 .post-block-content{
 	position: relative;
-	padding: 30px;
+	padding: 0px 30px;
 	border: 1px solid #CCCCCC; 
 	border-radius: 10px;
 	background-color: white;
@@ -265,6 +265,11 @@ body{
 @media(max-width: 900px){
 	.post-container{
 		width: 100%;
+
+	}
+	.post-block-content{
+		overflow: hidden;
+		max-width: 100%;
 	}
 }
 .post-text{

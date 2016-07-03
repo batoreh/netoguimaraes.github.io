@@ -11,7 +11,7 @@ excerpt_separator: <!--bora-->
 "Menos é mais" 
 
 Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.
-
+<!--bora-->
 ## O que é um preprocessador de CSS?
 
 Um preprocessador funciona como uma extensão do CSS comum que temos hoje em sua versão 3. O preprocessador é uma espécie de "compilador" que gera código CSS de acordo com um código escrito por nós em uma linguagem que possui diversas funcionalidades a mais que o próprio CSS. No fim das contas, há gente que defenda o uso do CSS puro, mas em projetos grandes, o uso de preprocessadores torna-se uma mão na roda. Vejam mais nesse artigo sobre o [CSS do Github](http://markdotto.com/2014/07/23/githubs-css/) e sobre o CSS do [Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/).

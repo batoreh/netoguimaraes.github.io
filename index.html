@@ -7,7 +7,7 @@ layout: default
 			      <li class="post-block-content">
 					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
 						<span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
-						<div class="post-resume">{{post.content}}</div>
+						<div class="post-resume">{{post.excerpt}}</div>
 			      </li>
 			      <a class="post-readmore" href="{{ post.url | prepend: site.baseurl  }}">Post Completo</a>
 			      </div>

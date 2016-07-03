@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/prism.css">
 	<script type="text/javascript" src="/js/prism.js"></script>
 	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="Entusiasta do FrontEnd e UX Design. Escrevo sobre a web e seus tentáculos.">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <script>
@@ -63,6 +64,21 @@
 				
 				<div class="post-block">	
 			      <li class="post-block-content">
+					  <h2><a class="post-link" href="/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html">A internet das coisas e seus desafios para a UX</a></h2>
+						<span class="post-meta">Jul 3, 2016</span>
+						<div class="post-resume"><div class="post-img-container">
+	<img class="post-img" src="https://cdn-images-1.medium.com/max/2000/1*AJn83gYW2PesqrfFQpkcnA.jpeg" />
+</div>
+
+<p>No universo da Tecnologia da Informação existe uma lei que começou como uma profecia de um presidente da Intel, Gordon Moore, e acabou virando uma regra levada bastante em consideração quando se fala de evolução tecnológica nas últimas décadas. Chama-se Lei de Moore e ela diz que a cada 18 meses, o mercado de hardware produziria CPUs com o dobro de velocidade e pela metade do preço. Talvez isso não seja matematicamente verdade, se formos colocar na ponta do lápis, mas o que interessa é que essa lei nos dá aporte para entendermos qual a proporção de crescimento que a tecnologia tem como base.</p>
+
+</div>
+			      </li>
+			      <a class="post-readmore" href="/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html">Post Completo</a>
+			      </div>
+			  
+				<div class="post-block">	
+			      <li class="post-block-content">
 					  <h2><a class="post-link" href="/2016/06/19/less-uma-boa-escolha-para-iniciantes.html">LESS: uma boa escolha para iniciantes</a></h2>
 						<span class="post-meta">Jun 19, 2016</span>
 						<div class="post-resume"><div class="post-img-container">
@@ -72,45 +88,6 @@
 
 <p>Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.</p>
 
-<h2 id="o-que--um-preprocessador-de-css">O que é um preprocessador de CSS?</h2>
-
-<p>Um preprocessador funciona como uma extensão do CSS comum que temos hoje em sua versão 3. O preprocessador é uma espécie de “compilador” que gera código CSS de acordo com um código escrito por nós em uma linguagem que possui diversas funcionalidades a mais que o próprio CSS. No fim das contas, há gente que defenda o uso do CSS puro, mas em projetos grandes, o uso de preprocessadores torna-se uma mão na roda. Vejam mais nesse artigo sobre o <a href="http://markdotto.com/2014/07/23/githubs-css/">CSS do Github</a> e sobre o CSS do <a href="http://ianfeather.co.uk/css-at-lonely-planet/">Lonely Planet</a>.</p>
-
-<p>Temos alguns preprocessadores disponíveis para conhecermos e usarmos da forma que acharmos melhor. Costumo dizer que é só questão de gosto a escolha de um deles, mas ao longo do tempo, percebi no LESS algumas características que o fazem ser bastante interessante como primeiro contato de um Frontender Junior no universo dos preprocessadores. Vamos falar um pouco sobre os motivos disso.</p>
-
-<h2 id="porque-eu-uso-less">Porque eu uso LESS</h2>
-
-<p>Quando quis começar a usar preprocessadores, pesquisei bastante e me dei conta que no geral, preprocessadores eram todos iguais e que a minha escolha não iria fazer tanta diferença assim, então escolhi o LESS porque achei a <strong>documentação dele bem mais sucinta e objetiva</strong> que a do Stylus e do SASS, outros dois preprocessadores em questão na época. Então parti na jornada e passei a usar o LESS em projetos menores para ir me adaptando, pois supostamente era um jeito novo de fazer as coisas. Mas para a minha surpresa, a curva de aprendizado foi bem curta. Apenas precisei entender quando era bom ou não usar tal funcionalidade.</p>
-
-<p>Em menos de dois projetos eu já estava escrevendo na sintaxe do LESS com a mesma produtividade que escrevia CSS. Mas isso só foi assim por causa da sintaxe do LESS ser como é.</p>
-
-<h2 id="sintaxe">Sintaxe</h2>
-
-<p>O LESS não te faz criar novos costumes quanto à sintaxe e ele só possui uma sintaxe. Muitos podem defender o Stylus e a sintaxe SCSS por ela agilizar o processo sem ter que escrever as chaves, os dois pontos ou os ponto e vírgulas. Mas o ponto que ponho aqui é: haverão casos onde não será possível ou interessante o uso de preprocessadores e você não poderá controlar isso sempre. Então, vez ou outra você vai ser obrigado a escrever CSS puro. E quando isso acontecer, quanto mais próxima for a sintaxe que você usa no seu preprocessador da sintaxe original do CSS puro, mais fácil e produtivo vai ser você escrever código sem preprocessador.</p>
-
-<p>No começo do projeto do SASS, a sintaxe era muito diferente de CSS puro. A sintaxe que hoje é conhecida pelo próprio nome SASS, é identada, sem a presença de dois pontos, ponto e vírgula ou chaves. O LESS surgiu logo depois como opção para quem queria algo mais próximo do CSS. Com o surgimento do LESS, o time do SASS percebeu o quão louco era o fato de eles terem alterado a sintaxe do CSS em seu preprocessador, que eles criaram uma nova sintaxe, a SCSS, que permite você escrever código mais próximo da sintaxe original do CSS e ainda assim ter as funcionalidades do preprocessador.</p>
-
-<p>O único argumento a favor de uma sintaxe identada como a SASS ou a do Stylus é o fator produtividade. Supostamente, você se torna mais produtivo se não escrever ponto e vírgulas, chaves e dois ponto, mas isso vai por água a baixo com o artifício dos snippets e atalhos dos editores de texto. Eu por exemplo nem escrevo as palavras completas dos atributos. Quando quero adicionar um <code>padding</code>, digito <code>pa</code> e o snippet já completa, quanto mais em relação à pontos chaves e outros símbolos sintáticos…</p>
-
-<h2 id="less-usa-javascript">LESS usa JavaScript</h2>
-
-<p>O Stylus também usa. Mas porque isso pode ser bom pra iniciantes? Porque JavaScript é algo praticamente obrigatório para qualquer um que queira mexer com web, ruby apesar de ser uma ótima linguagem em diversos aspectos, não é tão próxima assim dos iniciantes. O SASS usa a linguagem ruby e seu gerenciador de pacotes como padrão. Não questiono aqui a qualidade da linguagem ou seu gerenciador de pacotes, mas é inegável que hoje em dia, há muito mais frameworks e ferramentas para frontenders usando o <code>npm</code> como gerenciador de pacotes. Isso ajuda a organizar melhor e nos faz não entrar num ecossistema novo apenas para usar um preprocessador.</p>
-
-<p>Eu sei que há pacotes do SASS para <code>npm</code> também e para diversos outros gerenciadores de pacotes, mas na documentação oficial é recomendado o uso do GEM para instalar o SASS e acredito que o suporte oficial também é priorizado para a versão do GEM.</p>
-
-<h2 id="uso-do-lado-do-cliente">Uso do lado do cliente</h2>
-
-<p>Iniciantes em computação têm medo de CLIs. Isso é um fato inegável. E no universo frontend não é diferente. Usar um terminal pode ser um saco para iniciantes, esquecer uma opção ou um parâmetro pode gerar um resultado não esperado e frustrá-lo muito facilmente, portanto, CLIs nem sempre são boas opções para um começo.</p>
-
-<p>Esse medo, é claro, tem que ser perdido o mais rápido possível. Automatizadores de tarefas como Gulp e Grunt (ou outros), git e diversas outras ferramentas que usam CLIs são essenciais para um workflow produtivo, mas para os casos em que realmente há uma aversão ao terminal, o LESS traz uma opção que nenhum dos outros preprocessadores trazem: o uso do LESS do lado do cliente.</p>
-
-<p>Basicamente, ele compila os arquivos less “on-the-fly”, do lado do cliente, no browser mesmo, usando JavaScript. Basta você seguir as <a href="http://lesscss.org/#client-side-usage">instruções</a> que essa funcionalidade pode ser facilmente alcançada. É bom deixar claro que o uso dessa funcionalidade não é nada interessante para projetos reais em produção, pois um simples JavaScript desativado pode acabar com seus estilos, sem falar que prejudica um tanto a performace da página, mas é uma boa pedida para aprendizado com projetos locais, facilita bastante as coisas no começo, caso queira testar o LESS sem ter muito trabalho.</p>
-
-<p>Uma outra opção de preprocessador muito interessante para iniciantes é o <a href="http://www.myth.io/">Myth</a>, mas ele é tema de outro post, então sem spoilers por aqui.</p>
-
-<hr />
-
-<p>Qualquer dúvida nos comentários. Se gostou do post, ajude a divulgar o blog, faço ele apenas por amor, sem monetização nenhuma, então quanto mais longe chegar, mais “bem pago” eu serei ♥.</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/06/19/less-uma-boa-escolha-para-iniciantes.html">Post Completo</a>
@@ -126,58 +103,6 @@
 
 <p>Uma das maiores pautas de discussão que encontramos nos fóruns e grupos do facebook sobre workflow em geral é quanto ao editor de texto que cada um usa. Existe uma infinidade deles e eu já usei diversos. Mas acho que encontrei o mais completo e funcional. Vamos falar um pouco sobre ele? Bora.</p>
 
-<!--bora-->
-
-<h2 id="sobre-editores-de-texto">Sobre editores de texto</h2>
-
-<p>Primeiramente, queria dizer que é essencial usar um editor de texto do seu gosto, que te deixa produtivo e que atende às suas necessidades.</p>
-
-<p>O fato é: eu já usei todos os editores do mundo, acho. Levemos em consideração que eu não gosto de IDEs. Usar Java + NetBeans foi o bastante para eu entender que IDEs, apesar de nos deixar bastante produtivos nos tirando certas obrigações, elas também nos deixam mal acostumados. A IDE nada mais é que um editor de texto cheio de plugins que você quase não usa, que deixa tudo mais lento que o normal e que acaba criando uma camada a mais entre você e o código.</p>
-
-<p>IDE é uma boa solução para bons programadores, que já sabem como determinada linguagem funciona e só querem se preocupar em programar, para qualquer um que queira aprender mais a fundo sobre funcionamento de algumas configurações e entendimento geral da linguagem/workflow, programar usando um editor de texto e configurando seus próprios plugins pode ser bem mais interessante.</p>
-
-<p>O primeiro editor que usei foi o sublime 2 e ele ainda está entre os meus favoritos. O ecossistema que o sublime criou foi realmente inovador e ainda hoje é um dos editores mais indicados para todos os níveis. Usei o Atom, mas no fim das contas é muito pesado pra um editor. Usei o Visual Studio Code 2015, que é bem parecido com o Atom e menos pesado, mas não há tantos plugins assim. Usei o Builder, um editor do Gnome, mas ele é muito limitado ainda para desenvolvimento web. No fim das contas, pra ser bom pra mim, o editor tinha que ser leve, rápido e com um ecossistema interessante de plugins e ferramentas. Depois de tudo, decidi voltar então para o Sublime, que satisfazia todas essas características.</p>
-
-<p>Até que eu conheci o VIM.</p>
-
-<h2 id="uma-histria-de-amor-melhor-que-crepsculo">Uma história de amor melhor que crepúsculo</h2>
-
-<p>Me pareceu um tanto surreal a ideia de um editor de texto onde eu não usaria o mouse. Achei que seria terrível no começo, e talvez até tenha sido, mas a leveza, rapidez e os plugins me fizeram arriscar um pouco de tempo para me tornar produtivo nele.</p>
-
-<p>A premissa do VIM é usar o mínimo do mouse possível. Isso acaba sendo interessante porque a gente, obviamente, escreve o código com o teclado, configurar e manipular o editor com o mesmo periférico que usamos pra escrever os códigos acaba sendo uma mão na roda. Não é preciso tirar a mão do teclado e perder 2s pra selecionar aquela opção do editor, só preciso digitar um comando e dar um enter. Acredite ou não, isso faz bastante diferença.</p>
-
-<p>Enfim, não vim aqui pra defender o VIM e seu uso, seus benefícios e produtividade. Vim dar umas dicas rápidas para iniciantes. Se quiser saber mais sobre o editor, dê uma lida no <a href="https://brizeno.wordpress.com/2014/07/24/por-que-voce-tambem-gostaria-de-utilizar-vim/">texto do Marcos Brizeno</a> e no do <a href="https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/">Willian Oliveira</a>.</p>
-
-<h2 id="algumas-dicas-pra-comear">Algumas dicas pra começar</h2>
-
-<p>Eu perdi um dia quase todo pesquisando sobre configurações do vim, sobre plugins e sobre como deixá-lo mais user-friendly. E não me arrependo, descobri ferramentas bem interessantes que me ajudaram bastante. E como eu sou muito gente fina, vou passar as dicas pra vocês.</p>
-
-<h3 id="aprendendo">Aprendendo</h3>
-
-<p>Existem vários meio de aprender a usar o VIM e você pode fazer isso antes ou depois de configurar ele com as próximas dicas que eu vou dar.</p>
-
-<p>O tutorial mais indicado para aprendizado é o tutorial do próprio VIM, o <code>vimtutor</code>. Digite no seu terminal <code>vimtutor</code> e siga as instruções. Não é necessário fazer tudo de uma vez, como disse o <a href="https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/">Willian Oliveira</a> em seu texto que me auxiliou bastante. O mais interessante é que o <code>vimtutor</code> aborda na prática, com exercícios, o que faz o aprendizado ser bem dinâmico.</p>
-
-<p>Outra opção é pegar os comandos do VIM e ir testando na prática, que é basicamente o que o <code>vimtutor</code> faz, mas você terá mais liberadade pra testar e para fazer seu próprio caminho. Traduzi há um tempo atrás um pequeno guia para iniciantes e intermediários que pode ser interessante, <a href="https://gist.github.com/netoguimaraes/ef6039d565dd5c8343fc">clique aqui</a> para ver.</p>
-
-<p>A opção em português mais completa é um projeto do Willian Oliveira, o projeto <a href="https://woliveiras.com.br/vimparanoobs/">VIM para noobs</a>. Ele dá todo um embasamento para você se tornar um ninja do VIM.</p>
-
-<h3 id="gerando-o-vimrc">Gerando o .vimrc</h3>
-
-<p>É vero que para usar o VIM como editor de texto para programação não é tão simples no começo. Não é simplesmente abrir e começar a escrever os códigos que o syntax highlight já vai estar lá, a identação configurada, os snippets nem nada. O VIM vem praticamente inutilizável para programar em sua versão padrão, que já vem instalada em distros Linux. Para configurá-lo, temos que editar um arquivo de configuração chamado <code>.vimrc</code>.</p>
-
-<p>Se você quiser entender todas as variáveis, entender como tudo funciona no VIM e escrever seu próprio arquivo de configuração na mão, eu vou te dar total apoio. Mas eu não fiz isso. Existem ferramentas bem simples feitas para auxiliarem nós, os preguiçosos, iniciantes e espertalhões, a configurarmos o nosso VIM da forma mais rápida possível. Temos o <a href="http://vimconfig.com/">vimconfig.com</a>, que é muito simples e rápido e temos o <a href="http://vim-bootstrap.com/">vim-bootstrap.com</a> que é um pouco mais completo, mas também muito simples e que dá suporte também para o NeoVim, um fork do VIM.</p>
-
-<h3 id="sobre-os-plugins-do-vim">Sobre os plugins do VIM</h3>
-
-<p>São infinitos. Sério. E são muito robustos, pois o VIM está sendo usado há 25 anos (mais velho que eu!) e tem alguns plugins com idade bem avançada, o que significa que foram maturados o suficiente pela comunidade.</p>
-
-<p>Para procurar, instalar e configurar os plugins que uso no meu editor, utilizei o site <a href="http://vimawesome.com/">vimawesome.com</a>, que fornece uma busca simples, sistema de tags e explicações sobre os plugins. No vim awesome também podem ser encontrados temas para o VIM, que pode ser interessante pra quem se importa com o visual. E tem muita coisa interessante lá. <a href="http://www.pinceladasdaweb.com.br/blog/2014/02/18/plugins-do-vim-para-frontend/">Esse artigo</a> do Marco Bruno me deu um norte bem interessante sobre plugins para frontenders. Veja também <a href="http://spf13.com/post/the-15-best-vim-plugins">esse post</a> e <a href="http://joelhooks.com/blog/2013/04/23/5-essential-vim-plugins/">esse</a>.</p>
-
-<p>Recomendo o plugin do <a href="http://vimawesome.com/plugin/nerdtree-red">NERDTree</a> e o <a href="http://vimawesome.com/plugin/vim-polyglot">vim-polyglot</a> como essencial, o resto é bem pessoal.</p>
-
-<p>O VIM é um universo gigante e tentei dar um panorama geral para iniciantes se introduzirem nesse ecossistema de forma rápida e simples para depois se aprofundar. Qualquer dúvida, nos comentários.</p>
-
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/06/13/vamos-falar-sobre-o-vim.html">Post Completo</a>
@@ -190,32 +115,8 @@
 						<div class="post-resume"><div class="post-img-container">
 	<img class="post-img" src="/assets/ux.png" />
 </div>
-<p>UX Design é um termo que muito tem se ouvido por todos os lados na área de desenvolvimento web. Tem crescido muito o número de ferramentas, o número de pessoas interessadas no assunto e a quantidade de bons conteúdos na web. Aqui em Natal-RN não foi diferente, há dois meses foi criada a comunidade de UX Design Natal. A iniciativa partiu de profissionais da área que sentiam necessidade de discussão e união de pessoas com tais interesses para que pudessem surgir ideias, projetos e principalmente: para que o conhecimento fosse difundido (leia mais sobre o surgimento do grupo <a href="https://medium.com/ux-design-natal/difundindo-o-ux-design-em-natal-rn-eacb64f231af#.xjizkebrx">aqui</a>). Ontem houve o segundo encontro do grupo e vou falar um pouco sobre como foi. 
-<!--bora--></p>
+<p>UX Design é um termo que muito tem se ouvido por todos os lados na área de desenvolvimento web. Tem crescido muito o número de ferramentas, o número de pessoas interessadas no assunto e a quantidade de bons conteúdos na web. Aqui em Natal-RN não foi diferente, há dois meses foi criada a comunidade de UX Design Natal. A iniciativa partiu de profissionais da área que sentiam necessidade de discussão e união de pessoas com tais interesses para que pudessem surgir ideias, projetos e principalmente: para que o conhecimento fosse difundido (leia mais sobre o surgimento do grupo <a href="https://medium.com/ux-design-natal/difundindo-o-ux-design-em-natal-rn-eacb64f231af#.xjizkebrx">aqui</a>). Ontem houve o segundo encontro do grupo e vou falar um pouco sobre como foi.</p>
 
-<p>Os encontros presenciais do grupo tem como objetivo fomentar a troca de conhecimentos e experiência entre todos os membros para que o UX Design seja cada vez mais difundido e entendido. No II encontro tivemos a presença do estúdio <a href="http://www.estudioproa.com/">Proa</a>, representado por <a href="https://www.behance.net/augustoserquiz">Augusto</a> e <a href="https://www.behance.net/mateustinoco">Mateus</a>. Eles foram convidados para nos mostrar o processo criativo do estúdio que fazem parte e nos ajudar a entender sobre como a experiência de usuário pode ser interessante para casos de produtos digitais e sobre como algumas metodologias de UX ajudam eles na hora de entender as perspectivas do lado dos clientes deles.</p>
-
-<p>O espírito do estúdio Proa é algo que tem que ser levado em consideração antes de qualquer coisa. Como o nome já diz (“proa” é a parte dianteira do barco), o estúdio veio à tona com a proposta de inovar o mercado e trazer uma nova ideia sobre o que é design, sobre como devemos tratar o design e sobre como devemos trabalhar com design.</p>
-
-<p>Ao longo da fala dos designers, pudemos perceber alguns pontos interessantes que irei listar aqui.</p>
-
-<h2 id="designers-desenham-solues">Designers desenham soluções</h2>
-
-<p>Muita gente confunde o trabalho dos designers com algo meramente artístico. Se você pensa assim, está muito enganado. Mais do que nunca, vivemos num momento em que tudo tem que ter um porquê e uma motivação muito forte, se não for assim, acaba perdendo o sentido no meio de tanta informação que temos a nossa disposição. Vendo as metodologias apresentadas pelos rapazes do Estúdio Proa, ficou muito visível que o que eles fazem é um estudo específico pra cada caso, onde se busca a melhor solução viável com o fim de suprir a necessidade do cliente e do usuário. Esse é um aspecto bastante presente em metodologias de UX: nada é por acaso, tudo tem um motivo. Se não tem um motivo, é algo que pode facilmente ser descartado.</p>
-
-<h2 id="clientes-nem-sempre-sabem-o-que-querem">Clientes nem sempre sabem o que querem.</h2>
-
-<p>Apesar de teoricamente serem os maiores conhecedores dos seus negócios, às vezes os clientes não sabem lidar com todo o significado que uma identidade visual, um site ou um cartão de visitas pode ter. É papel do designer entender quais as necessidades do cliente e ajudá-lo a entender quais as possibilidades. Apesar de conhecer seu negócio, nem sempre eles têm ideia do poder da experiência do usuário e como melhorar ela. Um bom design visual está diretamente ligado à experiência de usuário, portanto, ao entender as necessidades de um projeto visual, acaba-se também entendendo sua profundidade dentro do contexto dos usuários.</p>
-
-<h2 id="saiba-porque-voc-est-usando-o-que-voc-est-usando">Saiba porque você está usando o que você está usando</h2>
-
-<p>Todo mercado que tem mais de uma opção para escolha possui uma variedade de características em cada uma dessas opções. Portanto, na produção criativa não é diferente. Se você produz algo, é importante entender o que você quer atingir com aquilo e entender quais as melhores maneiras de fazer isso. Pensar nisso na perspectiva do usuário é onde a UX entra. Pensar não nos motivos para você que está produzindo e sim nos motivos para quem estará consumindo quando finalizado. Pudemos ver isso nos cases mostrados, onde haviam algumas características bem peculiares que tiveram que ser entendidas a fundo para que soluções pudessem ser achadas e só então as ferramentas para a implementação serem selecionadas.</p>
-
-<h2 id="concluindo">Concluindo</h2>
-
-<p>A apresentação do processo criativo do estúdio Proa foi de grande soma para o encontro de UX, pois pudemos perceber em suas metodologias a utilização de diversos conceitos de User Experience, entendendo suas aplicações na prática. Foi interessante entender como tais aspectos de UX atingem um estúdio de design, pois no meu caso, vejo UX muito mais na área de desenvolvimento web e as aplicações em outros nichos ainda é um mistério interessante de ser descoberto. Mas no fim das contas, é um mistério previsível, afinal todos nós queremos entender o usuário e suas necessidades para entregar as melhores soluções possíveis, as diferenças são apenas mínimos detalhes técnicos do nicho.</p>
-
-<p>O evento foi bastante produtivo e descontraído e reuniu um número considerável de pessoas. Acho que estamos criando um ecossistema interessante com tais iniciativas. Se você tem interesse na área, entre no nosso <a href="https://www.facebook.com/groups/105147809888834/?fref=ts">grupo no facebook</a>, apesar dos encontros presenciais serem aqui em Natal, os links e discussões são universais. Sinta-se à vontade pra compartilhar textos e experiências, qualquer coisa que some é bem vinda.</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html">Post Completo</a>
@@ -229,39 +130,7 @@
 	<img class="post-img" src="http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg" />
 </div>
 
-<p>Há uns dias escrevi um post em que eu, desenvolvedor júnior, dava umas dicas sobre a área de frontend que aprendi na prática nos últimos meses trabalhando em uma startup que envolve tecnologia e educação. Acredito que aprendi bastante coisa com esse período de prática, porque apesar de ser um ambiente interessante e estimulante, eu trabalho basicamente sozinho e quando você trabalha sozinho e tem que se virar pra sanar suas dúvidas, pra criar um workflow decente e ainda fazer um pouco de Design, UX e tudo mais, no mínimo você vai aprender algumas coisas.
-<!--bora-->
-Então aqui vai mais algumas dicas que tenho para os amigos iniciantes na área.</p>
-
-<h2 id="no-tenha-medo-de-desenvolver-as-coisas">Não tenha medo de desenvolver as coisas</h2>
-
-<p>Meu esquema de trabalho é sempre o seguinte: o designer faz uma proposta de layout e eu vou implementando e conversando com ele sobre algumas melhorias para o ecossistema web. No começo apareceram algumas coisas que eu não tinha a mínima ideia de como ia fazer, mas eu sempre disse que dava pra implementar todas as propostas dadas por ele. E porque eu disse isso? Porque quando alguém pergunta se a gente sabe fazer algo e nos dá um prazo pra responder, a melhor alternativa é responder que sim e se não sabe, aprender a fazer da melhor forma possível. E foi o que eu sempre fiz. E isso foi um ótima estratégia, porque eu aprendi diversas coisas que eu não aprenderia se tivesse dito apenas pra ele exportar os assets todos e fizesse um site cheio de imagens. O que nos leva pra nossa próxima dica.</p>
-
-<h2 id="use-o-mnimo-de-assets-possveis">Use o mínimo de assets possíveis</h2>
-
-<p>Assets são, em suma, arquivos que utilizamos para complementar nossas páginas webs, como imagens, arquivos de fontes e folhas de estilo. É óbvio que você não vai se limitar a usar 2 ou 3 imagens no site se o site for um galeria de imagens. Aqui falo de um conceito de design utilizado no frontend tanto para melhorar a performace do projeto quanto para melhorar as habilidades de estilização com CSS. O conceito de design que quero introduzir é o de “não use mais do que o necessário”. Se eu for procurar, vou achar o nome do autor que fala sobre isso, mas agora não é o foco. Apenas guarde na cabeça “não use mais do que o necessário”.</p>
-
-<p>Sabe quando você usa uma imagem no logo quando podia utilizar uma heading tag ou quando poderia usar um ícone daquela lib que você importou ao invés de usar uma imagem como ícone do facebook? Pois é. Esteja sempre pensando “será que isso é realmente necessário?”, pois às vezes enchemos nosso projeto de coisas que na prática são inúteis ou poderiam ser substituídas por outras. Às vezes demoramos um pouco mais para chegar num determinado efeito visual com CSS que poderia ser resolvido apenas com a utilização de uma imagem na página, mas será que seria a solução mais ideal mesmo?</p>
-
-<p>Nos últimos tempos, animações, transitions, <a href="http://codepen.io/MarioSkynex/pen/MeYJGR">box-shadow</a>, Canvas e <a href="http://willianjusten.com.br/por-que-usar-svg/">SVG</a> são tecnologias que têm sido muito utilizadas para criação de designs muito eficientes e bonitos. Pode ser uma boa estudar isso um pouco mais a fundo se te interessa a área de design também, além de frontend.</p>
-
-<h2 id="desenvolva-um-starter">Desenvolva um starter</h2>
-
-<p>Sabe quando você tem que começar algum projeto novo e fica criando os arquivos e nomeando e modularizando em pastas e perdendo tempo fazendo algo que não soma nada no teu aprendizado? Pois é, você precisa ser mais preguiçoso. É aquela velha história de que todo programador é um preguiçoso, mas preguiçoso o suficiente pra escrever um starter que faça tudo isso pra você.</p>
-
-<p>Existem diversos jeitos de fazer isso. O mais simples, ao meu ver, é usando o npm. Você cria um projeto com todos os arquivos iniciais criados, gera um pacote do npm e publica ele. Quando quiser utilizá-lo é só chamar pelo próprio npm. Outra forma é criando no github um repositório e baixando ou clonando sempre que quiser começar um novo projeto, mas .git deverá ser apagado sempre que iniciado um novo projeto, caso se queira usar o git para versionar o novo projeto. Pode ser feito também através de um script do bash, caso você seja familirizado com shellscript e linux. O que importa é automatizar esse processo.</p>
-
-<p>Você pode também utilizar um starter já desenvolvido. Existem vários por aí, alguns frameworks já até fornecem os seus, como o ionic. Você também pode utilizar ferramentas como o <a href="http://yeoman.io/">Yeoman</a>, o importante é não perder tempo criando tudo na mão.</p>
-
-<h2 id="desenvolva-um-framework">Desenvolva um framework</h2>
-
-<p>Este é um tópico que eu ainda não botei em prática por falta de tempo, mas que pretendo no futuro aplicar. Criar um framework não quer dizer criar um Angular ou React da vida, mas sim algo como o <a href="http://getskeleton.com/">skeleton</a> ou o <a href="http://purecss.io/">Pure</a>. Peguei essa dica com o <a href="https://github.com/cjpatoilo">cjpatolio</a>, desenvolvedor do <a href="http://milligram.github.io/">Milligram</a>;</p>
-
-<p>Em um tópico do fórum <a href="https://github.com/frontendbr/forum/issues/164">FrontendBR</a> sobre projetos open source, o autor falou sobre como o desenvolvimento desse framework foi interessante para o aprendizado dele. Acredito que é interessante porque quando se propõe desenvolver algo para outros desenvolvedores, seu cuidado tem que ser redobrado para escrever código legível, reutilizável e funcional. E se não escrever, a comunidade vai criticar até que ele fique bom o suficiente.</p>
-
-<p>Um exemplo disso é esse blog, que recebo algumas críticas de vez em quando e acabo sempre melhorando uma coisinha aqui e outra ali, tanto no conteúdo como no layout.</p>
-
-<p>Essas foram mais algumas dicas de um desenvolvedor frontend júnior. Críticas e sugestões nos comentários. Até a próxima.</p>
+<p>Há uns dias escrevi um post em que eu, desenvolvedor júnior, dava umas dicas sobre a área de frontend que aprendi na prática nos últimos meses trabalhando em uma startup que envolve tecnologia e educação. Acredito que aprendi bastante coisa com esse período de prática, porque apesar de ser um ambiente interessante e estimulante, eu trabalho basicamente sozinho e quando você trabalha sozinho e tem que se virar pra sanar suas dúvidas, pra criar um workflow decente e ainda fazer um pouco de Design, UX e tudo mais, no mínimo você vai aprender algumas coisas.</p>
 
 </div>
 			      </li>
@@ -275,139 +144,7 @@ Então aqui vai mais algumas dicas que tenho para os amigos iniciantes na área.
 						<div class="post-resume"><div class="post-img-container">
 	<img class="post-img" src="/assets/comment.png" />
 </div>
-<p>Ao longo dos meus estudos, foi notável a grande quantidade de tutoriais com códigos prontos que achei pela internet. Eles sempre nos dão a solução para o problema, porém, nunca te explicam direito o porquê de tais soluções. Então decidi fazer uma série de tutoriais que além de terem o código, acompanham uma explicação um pouco mais detalhada sobre as soluções adotadas. Não sei se esse formato de tutorial é bem aceito, mas aqui fica minha proposta. Hoje falaremos sobre thumbnails com botões ocultos.
-<!--bora--></p>
-
-<p>Aqui temos o nosso exemplo funcionando com o código completo:</p>
-
-<p data-height="400" data-theme-id="0" data-slug-hash="MeWvme" data-default-tab="css,result" data-user="netoguimaraes" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/netoguimaraes/pen/MeWvme/">MeWvme</a> by João Neto Guimarães (<a href="http://codepen.io/netoguimaraes">@netoguimaraes</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p>Para quem já entende de CSS consideravelmente, o exemplo no codepen já basta para o entendimento do efeito. Mas meu foco aqui é justamente quem tem certa dificuldade com a implementação e quem não entende exatamente o que está acontecendo no código.</p>
-
-<p>Vamos dissecar as coisas melhor aqui.</p>
-
-<h2 id="estruturando-as-coisas">Estruturando as coisas</h2>
-
-<p>Se você sabe exatamente o que quer fazer e como vai fazer, a melhor coisa pra começar a construção de qualquer elemento é escrever todo o código HTML que você irá precisar. É comum ir escrevendo o HTML de acordo com as necessidades, mas sempre que possível é interessante escrever o HTML todo de uma só vez para dividirmos melhor as coisas, mas isso vai de cada um. Então eu escrevi o seguinte código:</p>
-
-<pre>
-	<code class="language-markup">
-		&lt;a href=&quot;#&quot; class=&quot;container&quot;&gt;
-		  &lt;img class=&quot;container-img&quot; src=&quot;https://static.pexels.com/photos/6413/people-eyes-playing-young.jpg&quot; alt=&quot;a boy with a ball&quot;/&gt;
-		  &lt;span class=&quot;hidden-link&quot; &gt;Bot&atilde;o&lt;/span&gt;
-		&lt;/a&gt;
-	</code>
-</pre>
-
-<p>Um código simples. Uma <code>a</code> com uma <code>img</code> e um <code>span</code>, que simula um botão, inseridos nela. O elemento <code>&lt;a href=&quot;#&quot; class=&quot;container&quot;&gt;</code> funcionará como um elemento de bloco aqui, como uma <code>div</code>. Usamos ele ao invés de uma <code>div</code> para que todo o corpo do container funcione como um link clicável, auxiliando assim a acessibilidade.</p>
-
-<p>Perceba que o nome da classe do botão já indica uma das funcionalidades que teremos que implementar: a sua invisibilidade. Há várias formas de implementar invisibilidade com CSS3. A primeira é declarando a opacidade com o valor 0 (<code>opacity: 0;</code>). Dessa forma, o elemento não irá aparecer, porém continuará ocupando espaço na página, apesar dele não estar visível, ele continua lá. Essa solução é praticamente igual a declarar a visibilidade igual a “escondido” (<code>visibily: hidden;</code>), vamos entender suas diferenças no fim do artigo. Uma outra solução é definir <code>display: none;</code>. Ao contrário das duas primeiras, nessa solução o elemento some por completo do documento, seu epaço é tomado pelos outros elementos, dependendo das configurações do layout. Mais à frente iremos entender qual dessas é a melhor solução para tornar o botão inicialmente invisível.</p>
-
-<h2 id="estilizando-as-coisas">Estilizando as coisas</h2>
-
-<p>As primeiras coisas que escreveremos no nosso CSS serão as estilizações simples dos elementos que temos no nosso HTML. Segue o código:</p>
-
-<pre>
-	<code class="language-css">
-		.container{
-		  position: relative;
-		  height: 400px;
-		  width: 400px;
-		  overflow: hidden;
-		  border: 1px solid black;
-		}
-		.container-img{
-		  height: 100%;
-		  width: auto;
-		}
-		.hidden-pseudobutton{
-		  display: block;
-		  position: absolute;
-		  width: 150px;
-		  height: 50px;
-		  top: 50%;
-		  left: 50%;
-		  margin: -25px 0px 0px -75px;
-		  padding: 10px 50px;
-		  opacity: 0;
-		  background-color: #008cc4;
-		  border: none;
-		  border-radius: 30px;
-		  font-size: 1.3em;
-		  color: white;
-		  cursor: pointer;
-		}
-	</code>
-</pre>
-
-<p>Primeiro temos a estilização do nosso <code>container</code> primário, que terá a imagem inserida dentro dele. O <code>position: relative;</code> é opcional, depende de como será construído o layout, apenas por exemplo eu o coloquei aqui. Defini suas e medidas de altura e largura e defini <code>overflow: hidden;</code> que vai garantir que mesmo que a imagem tenha altura ou largura maior que o container, ela não ultrapassará as medidas do container e será clipada. Adicionei também uma borda apenas para melhor vizualização dos limites do container.</p>
-
-<p>Depois temos o seletor que estiliza a <code>img</code>. Aqui temos que a altura será de 100%, ou seja, sempre a imagem ocupará toda a altura do container pai, porém a largura vai variar automaticamente, com a propriedade <code>auto</code> no seletor <code>width</code>. Pra que isso serve? Para que a imagem não fique distorcida. Ela ocupará toda a altura, mas a largura se ajustará de acordo com a proporção da mesma. Essa dica é valiosa porque funciona independente da altura do container.</p>
-
-<p>Logo depois temos a estilização do pseudobotão. Estilizações de itens como botões, links e inputs são estilizações em geral longas, pois seus estilos padrões são muito distantes do que consideramos hoje em dia algo agradável e harmônico. O seguinte código é um jeito de centralizar elementos com <code>position: absolute;</code> e pode ser usado em diversos casos.</p>
-<pre>
-	<code class="language-css">
-		display: block;
-		position: absolute;
-		width: 150px;
-		height: 50px;
-		top: 50%;
-		left: 50%;
-		margin: -25px 0px 0px -75px; 
-		/* -------------------------------------------------------------*/
-		/* Centralizando elemento absoluto vertical e horizontalmente	*/
-		/* margin-top = -(altura do elemento/2)px 						*/
-		/* margin-top = -(150/2)px -&gt; margin do top = -75px 			*/
-		/* margin-left = -(largura do elemento/2)px 					*/
-		/* margin-left = -(50/2)px -&gt; margin do top = -25px 			*/
-	</code>
-</pre>
-
-<p>O que acontece é: as propriedades <code>top</code> e <code>left</code> com valores iguais a <code>50%</code> fazem com que o elemento comece a ser apresentado exatamente no meio do container e dependendo da altura e largura, cresça para baixo e para a direita. Se pegarmos os valores exatos da metade da largura do elemento e adcionarmos a uma margem negativa para a esquerda, temos esse elemento centralizado na horizontal. Se pegarmos o valor exato da altura e adicionarmos à margem negativa do topo, teremos esse elemento centralizado na vertical, logo, o elemento está posicionado exatamente no centro do container. 
-O resto das estilizações são puramente estíticas e não vou entrar em detalhes aqui.</p>
-
-<h2 id="criando-as-transies">Criando as transições</h2>
-
-<p>Bem, agora que temos nossos elementos devidamente estilizados, precisamos dar vida ao nosso componente. Precisamos que ao passar o mouse em cima do container, haja um desfoque na imagem, uma leve rotação nela e também que apareça o pseudobotão, que na verdade é um link. Vamos iniciar a implementação pelo efeito que a imagem vai ter quando o mouse passar em cima do container.</p>
-
-<p>O código é este:</p>
-<pre>
-	<code class="language-css">
-		.container:hover &gt; .container-img{
-		  transition: 1s ease-in-out; 
-		  transform: scale(1.2,1.2) rotate(5deg);
-		  -webkit-filter: blur(10px);
-		  filter: blur(10px);
-		}
-	</code>
-</pre>
-
-<p>Agora vamos entender melhor. O efeito que queremos denota basicamente um <code>if (mouse.hover(container)){show.(button)}</code>. Podíamos fazer isso com JavaScript, mas dá pra fazer com CSS, <a href="http://blog.netoguimaraes.com.br/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html">então vamos fazer com CSS</a>. Para implementarmos isso, precisamos entender o funcionamento do seletor <code>&gt;</code>. Sua função é obter os elementos filhos de um seletor pai. No nosso caso, <code>.container</code> é o pai e <code>.container-img</code> é o filho. A mágica aqui acontece o adicionarmos a pseudoclasse <code>:hover</code> ao seletor pai. Isso indica que o seletor filho só será agraciado com as propriedades do bloco de código quando o elemento pai estiver com o mouse em cima de si. Portanto, o código mostrado acima é nada mais nada menos do que uma abstração de um <code>if</code>. “Se o mouse estiver em cima do container pai, faça com que o filho tenha essas propriedades que eu vou dar”. E magicamente, sem nenhum código JavaScript, temos um “<code>if</code>” implementado e nosso componente quase pronto.</p>
-
-<p>Falando do efeito em si, nada mais é do que um zoom, uma rotação e um desfoque, respectivamente <code>scale(1.2,1.2) </code>, <code>rotate(5deg)</code> e <code>filter: blur(10px);</code>. É importante perceber que estes efeitos não vão se comportar da mesma forma nos diversos navegadores, por isso é importante a adição de todos os prefixos, se você quiser que funcione em todos os browsers da forma correta. Para saber mais sobre suporte entre os browsers, acesse sempre <a href="http://caniuse.com/#feat=css-filters">este site</a> e pesquise a determinada propriedade que você quer usar. Como o <code>filter</code> é suportado pela grande maioria dos browsers atualizados, não vou me importar tanto com a compatibilidade, mas no futuro pretendo escrever um texto sobre isso e sobre como esse tema afeta nossa produção.</p>
-
-<p>Para fazermos com que o botão apareça sob as mesmas circunstâncias do efeito da foto, adicionamos o seguinte código:</p>
-
-<pre>
-	<code class="language-css">
-	.container:hover &gt; .hidden-pseudobutton{
-	  opacity: 1;
-	}
-	</code>
-</pre>
-
-<p>Agora temos o efeito acontecendo, porém de forma instantânea. Para que o efeito ocorra de forma gradual e harmônica, temos que adicionar a propriedade <code>transition</code> em cada um dos elementos que vão fazer parte da animação, com seus determinados valores e aí teremos nosso código finalizado. Veja abaixo como ficou o código e o exemplo final:</p>
-
-<p data-height="265" data-theme-id="0" data-slug-hash="MeWvme" data-default-tab="css,result" data-user="netoguimaraes" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/netoguimaraes/pen/MeWvme/">MeWvme</a> by João Neto Guimarães (<a href="http://codepen.io/netoguimaraes">@netoguimaraes</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p>Aqui entendemos porque utilizamos o método da opacidade para fazer o elemento sumir e desaparecer. Para utilizarmos transições, precisamos tratar com propriedades animáveis. Das 3 que poderíamos usar, apenas a <code>visibility</code> e a <code>opacity</code> são animáveis, porém a opacity possui valores numerais, logo sua animação é mais fluida e pode ser mais manipulada. Para conseguirmos o efeito de fadeIn, apenas usando ela seria possível.</p>
-
-<h1 id="consideraes-finais">Considerações Finais</h1>
-<p>Esse exemplo que fiz pode ser útil em casos onde a imagem é o mais importante e o link relacionado a ela esteja em segundo plano. Usei algo parecido na construção do meu portifólio, por exemplo. Pode ser útil em galerias de imagens e thumbnails de vídeos.</p>
-
-<p>Se você chegou até aqui e aprendeu algo novo, indique esse texto para alguém que possivelmente também aprenderá algo novo. Não falo isso por querer ganhar mais visualizações e nem nada, até porque meu blog não é monetizado. Quero apenas que este conhecimento que passei possa chegar a mais lugares. Qualquer dúvida ou sugestão deixem nos comentários que eu respondo assim que possível. Não sei se esse modelo de postagem é interessante ou não, na verdade, mas fiz o primeiro para testar, ficaria feliz com seu feedback.</p>
+<p>Ao longo dos meus estudos, foi notável a grande quantidade de tutoriais com códigos prontos que achei pela internet. Eles sempre nos dão a solução para o problema, porém, nunca te explicam direito o porquê de tais soluções. Então decidi fazer uma série de tutoriais que além de terem o código, acompanham uma explicação um pouco mais detalhada sobre as soluções adotadas. Não sei se esse formato de tutorial é bem aceito, mas aqui fica minha proposta. Hoje falaremos sobre thumbnails com botões ocultos.</p>
 
 </div>
 			      </li>
@@ -421,41 +158,7 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 						<div class="post-resume"><div class="post-img-container">
 	<img class="post-img" src="http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg" />
 </div>
-<p>Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido pejorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem <a href="http://codepen.io/p-stacey-a/pen/ZWNryz">fúteis</a>. O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?
-<!--bora--></p>
-
-<h2 id="porque-esto-fazendo-tanta-coisa-apenas-com-css3">Porque estão fazendo tanta coisa apenas com CSS3?</h2>
-
-<p>Primeiro, levando em consideração o conceito de programação: <code> entrada de dados &#8594; processamento &#8594; e saída de dados</code>, podemos dizer que, ao contrário do que muitos dizem e desconstruindo gradiosos anos de conceituação, CSS3, se já não é, está virando uma linguagem de programação. Apesar de a maior parte dela ser uma linguagem visual de estilização, já temos nela recursos que implementam manipulação de dados para obtenção de determinados resultados. O exemplo mais claro disso é a função <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/calc"><code>calc()</code></a> do CSS. Podemos ver outros diversos exemplos de casos de lógica de programação aplicada dentro do CSS3, como o caso da pseudoclasse <code class="language-css"><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child">:nth-child()</a></code> ou das <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_variables">variáveis</a>, que ainda não estão com suporte aceitável, mas já são uma certeza para a próxima versão do CSS. Isso sem contar o poder que os preprocessadores possuem.</p>
-
-<p>E queira ou não admitir que o CSS3 está dando os primeiros passos como linguagem de programação, é inegável que as funcionalidades adicionadas à linguagem na sua versão 3 dão margem pra infinitas coisas, dando enfase à: <code>flexbox</code>, <code>animation</code>, <code>transition</code> e <code>transform</code>.</p>
-
-<p>E vejam que eu não estou entrando nem no mérito das mágicas que os preprocessadores conseguem fazer compilando pra CSS. Meu ponto aqui é apenas enfatizar que este mundo de coisas que dá pra fazer com a linguagem em si. E a pergunta para o subtítulo é obvia. Sabe porque estão fazendo tanta coisa apenas só com css? Porque dá pra fazer. Veja alguns exemplos:</p>
-
-<ul>
-  <li><a href="http://codepen.io/i0z/pen/mFLCw">Jogo feito apenas com CSS</a></li>
-  <li><a href="http://codepen.io/Twikito/pen/zGdqVO">Menu Lateral escondido</a></li>
-  <li><a href="http://codepen.io/Haru89ka/pen/jPbVWZ">Barra de navegação fixa</a></li>
-  <li><a href="http://codepen.io/search/pens?q=only+css&amp;limit=all&amp;type=type-pens">Diversos outros exemplos</a></li>
-</ul>
-
-<h2 id="d-pra-fazer-e-eu-no-sei-mas-isso-no-quer-dizer-que-eu-no-v-saber-pra-sempre">Dá pra fazer e eu não sei… Mas isso não quer dizer que eu não vá saber pra sempre.</h2>
-
-<p>Como se sabe de longa data, os estudo na área tecnológica são freneticamente incansáveis. Se você programa todo dia, todo dia vai descobrir uma coisa nova. Se você implementa layouts ou UI todo dia, sempre vai ter que ralar um pouquinho mais para fazer algum componente ter tal comportamento ou característica, por exemplo. E se você for iniciante, vai descobrir mais coisas ainda. Eu, por exemplo, descobri hoje como fazer paginação e configurar um resumo do post no <a href="https://jekyllrb.com/">Jekyll</a>, que suporta esse blog. E se você não sabe fazer tudo com CSS3, assim como eu, comece a estudar para que daqui um tempo saiba.</p>
-
-<p>Acredito que com o fato de o javascript estar tomando rumos fora do clássico de manipulação de propriedades e do DOM, somando com o avanço do CSS em relação ao seu design e funcionalidades, daqui um tempo pode ser capaz implementar projetos grandes utilizando javaScript apenas para implementação de um MVW no frontend, por exemplo, e deixando o CSS tomar conta do resto. Talvez eu esteja até falando besteira, mas querendo ou não, o argumento é válido: se você não sabe como utilizar o CSS de um outro ponto de vista que não seja o padrão de 10 anos atrás, definindo seu <code>padding</code> e <code>margin</code> e apenas isso, você pode estar criando um monstro.</p>
-
-<p>E eu percebi isso.</p>
-
-<h2 id="alimento-o-monstro-pra-que-ele-no-me-ataque-ou-me-alimento-para-atac-lo">Alimento o monstro pra que ele não me ataque ou me alimento para atacá-lo?</h2>
-
-<p>Eu saí de casa e comi para caralho. Comecei a estudar CSS3 mais a fundo. Comecei de leve, com <code>transitions</code> e <code>transforms</code>, depois entendi como funcionam as <code>animations</code> e ainda estou fazendo algumas experimentações para ver onde consigo chegar nisso. Depois pretendo fazer um post com o roadmap de estudo de CSS que eu estou montando, abordando algumas práticas importantes para se aprender.</p>
-
-<p>É óbvio que o JavaScript é necessário, eu não estou tirando mérito de quem o usa. Ainda há coisas no frontend que só conseguem ser reproduzidas com JS e acredito que isso ainda vai demorar um pouco para mudar. Mas acontece que se desafiar a fazer mais coisas com CSS3 vai incentivar a criatividade e a resolução de problemas de um desenvolvedor infinitamente. Eu ainda uso JavaScript para muita coisa que sei que daria pra fazer apenas com CSS, se usado da maneira correta, mas na minha cabeça, a modularidade das coisas ainda funcionam no esquema: CSS estiliza e JavaScript manipula uns dados, mexe no DOM e faz a mágica. O mais difícil eu já fiz, que foi entender que isso não é exatamente assim, o resto é só questão de tempo.</p>
-
-<p>Para você que está começando a se interessar mais por CSS agora, recomendo a estudar a fundo os códigos do <a href="http://codepen.io">CodePen</a>, porque lá os doutores se revelam e não tem pra ninguém, caro colega. Basta a nós, reles mortais, enfiar a cara no computador e estudar pra tentar fazer o mínimo. Acho que agora que de um panorama geral, sinto-me confortável para ir atrás e experimentações concretas desse modelo OnlyCSS de fazer as coisas. Caso saia alguma coisa legal, posto um guia aqui no blog de como cheguei em tal solução, como foi a implementação e o código em si.</p>
-
-<p>Caso não chegue a nada legal é porque não fui tão a fundo nisso quanto deveria. Até, meus caros.</p>
+<p>Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido pejorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem <a href="http://codepen.io/p-stacey-a/pen/ZWNryz">fúteis</a>. O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?</p>
 
 </div>
 			      </li>
@@ -472,44 +175,6 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 
 <p>Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: “5 dicas para ser o melhor bambambam”, “5 dicas para dominar tal tecnologia” ou qualquer coisa do tipo. Chamo isso de “Síndrome dos cinco passos”. Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.</p>
 
-<!--bora-->
-
-<p>Nos últimos dias, terminando de construir esse blog, pedi umas dicas de design a um professor e a um amigo. E percebi que muito do que aprendi foi vendo, ouvindo e lendo os outros. Acabei por tentar me imaginar em algum momento sendo algum conselheiro ou algo do tipo. E percebi que apesar de não ser especialista em nada, tenho algumas coisas pra falar também. Hoje decidi falar sobre desenvolvimento frontend e dar algumas dicas para quem está começando nessa área. Acho que são valiosas não por eu ter muito conhecimento, mas sim por eu estar utilizando destas dicas e estar sentindo o efeito delas agora, que estou entrando mais a fundo nesse universo que é o Frontend.</p>
-
-<p>Aqui vão as dicas:</p>
-
-<h2 id="no-pare-de-ler-sobre">Não pare de ler sobre</h2>
-<p>Seja sobre design, técnicas de css, dicas sobre esquemas de cores, performace ou sobre aquele framework que você quer aprender, o mais importante é não parar de ler. Não digo para você ler o dia todo, mas ao menos ler todo dia um pouco sobre um tema. Com o tempo, se puder começar a escrever sobre também pode ser interessante, pois quando se escreve, se sintetiza, e quando se sintetiza, o conhecimento fica muito melhor armazenado no seu cérebro.</p>
-
-<p>Uma dica que pode ser interessantes para alguns é criar um dailylog sobre as leituras que fez. Simplesmente registrar em algum lugar as leituras que você faz, aconselho usar um repositório no github, pois é fácil de utilizar e te força a usá-lo, o que pode ser bom se você não tem esse costume. Tem muito dev bom por aí que mantem um dailylog e que pode ser interessante acompanhar. Aconselho aqui o do <a href="https://github.com/LFeh/dailylog">Felipe Fialho</a>.</p>
-
-<h2 id="veja-sempre-o-codepenhttpcodepenio">Veja sempre o <a href="http://codepen.io/">Codepen</a></h2>
-
-<p>O codepen é basicamente um parquinho de diversões dos Frontends. É algo que não chega a ser o portifólio, mas dá pra sacar os talentos da galera lá. Existem coisas fantásticas feitas no codepen, que você pode ver o código, forkar, modificar e estudar. Criar o costume de abrir o codepen só pra sacar o que a galera tá fazendo ao redor do mundo é muito bom para sempre ter referências boas na manga. É melhor ainda se você além de ver o Pen rodando, fuça ele direitinho e tenta entender exatamente a lógica que o dev usou para chegar a tais resultados. E quando tiver ideias legais, não hesite em implementar elas e jogar lá. Muitas vezes não fazemos coisas legais por não ter onde aplicar, mas o codepen abriu a janela pra isso: implementar peças independente de se ter o jogo completo ou não.</p>
-
-<h2 id="conhea-outros-desenvolvedores-e-seus-trabalhos">Conheça outros desenvolvedores e seus trabalhos</h2>
-
-<p>Não falo aqui de conhecer todos os grandes desenvolvedores da área, saber seus nomes completos e endereço. Não tô falando também de conhecer todos os Engenheiros Frontend do Facebook. Grandes desenvolvedores não estão somente nas grandes empresas. E também não falo conhecer pessoalmente todos os devs bons do mundo e ser amigo deles. A internet encurtou distâncias, use isso a seu favor. O que quero dizer com este tópico é que você deve entender o valor dos desenvolvedores, acompanhar os que mais te agradam e entender o porque eles dizem as coisas que dizem, porque usam as coisas que usam ou porque fazem do jeito que fazem. Seguir alguns desenvolvedores que você se identifique vai te dar um aporte maior de aprendizado.</p>
-
-<p>Existem além de diversos blogs pessoais por aí, grupos de facebook, fóruns e diversos outros meios de criar uma rede de pessoas que <a href="https://soundcloud.com/murilogun/media5">te influenciam de alguma forma</a>. Vou citar aqui o grupo <a href="https://www.facebook.com/groups/osadpa/?fref=ts">A.P.D.A</a> e o fórum <a href="https://github.com/frontendbr/forum/issues">FrontendBr</a>, que considero dois antros de bons devs, apesar de sempre ter algum pé no saco que se acha dono do mundo por saber um pouco mais do que a maioria ou aqueles que querem seu braço quando você só pode dar a mão.</p>
-
-<h2 id="procure-criar-coisas-do-zero">Procure criar coisas do zero</h2>
-
-<p>Eu sei que às vezes a gente quer apenas terminar alguma coisa pra poder começar outra, mas não deixe isso fazer com que você coloque os pés no lugar das mãos. Cada coisa em seu lugar. Nem sempre é bom só pegar um tutorial por aí e fazer acontecer o que você queria que acontecesse e deixar por isso mesmo. Se você tiver tempo, gaste um pouco mais dele e faça do zero, você vai entender bem mais das propriedades, dos atributos e vai acabar criando seu próprio “framework” interno, dentro do seu cérebro. Você vai desenvolver um jeito seu de fazer as coisas. É claro que com base em diversas outras coisas que você viu, implementou ou usou.</p>
-
-<p>Um exemplo classico disso é a questão que sempre acaba aparecendo nos fóruns e grupos: “devo aprender bootstrap?”. Não apenas bootstrap, mas diversos outros frameworks de CSS ou JS que agilizam nosso trabalho. Mas o que às vezes acaba se esquecendo é que essas ferramentas são pra quem já domina de CSS ou JS e que querem agilizar o processo. Também é comum achar que deve-se usar sempre preprocessador ou esses tais frameworks. Uma coisa que aprendi: todo framework pode ser útil em algum momento, mas a tecnologia pura é que nunca vai deixar de ser. Por exemplo: há casos em que é melhor não se usar bootstrap, mas você não é idiota pra decidir não usar CSS em algum projeto.</p>
-
-<p>Enfim, faça as coisas do zero se quiser aprender de verdade, pois coisas “prontas” resolverão o problema e ao mesmo tempo colocarão uma máscara no aprendizado.</p>
-
-<h2 id="procure-entender-minimamente-os-conceitos-de-design">Procure entender minimamente os conceitos de design</h2>
-
-<p>Mesmo se você for apenas um cortador de PSDs, é importante entender de alguns conceitos de design. Mas é óbvio que nem todo dev vai ser um design de primeira mão, mas pra mim é imprescindível ter o mínimo de noção de design, até para pode trabalhar com o designer de forma mais apropriada.</p>
-
-<p>Esse foi um fator que eu vim me dar conta há pouco tempo e estou tentando entender diversos aspectos, como a teoria das cores, arquitetura de informação, flat design e etc. São conceitos que te ajudarão a entender melhor o que você está programando e além disso, vai te ajudar em projetos paralelos. Ao montar o design deste blog por exemplo eu tive certa dificuldade com alguns aspectos de design que não estou tão habituado assim. Mas alguns que já tive um contato maior, pude desenvolver sozinho, como a tipografia, por exemplo.</p>
-
-<hr />
-
-<p>Acho que as minhas dicas foram pertinentes para os iniciantes, apesar de algumas coisas parecerem óbvias para alguns, para outros não são. As coisas faladas aqui são coisas que eu estou pondo em prática ao longo do último ano, que foi quando comecei a estudar mais a fundo todo o universo de desenvolvimento frontend, principalmente nos últimos meses, quando comecei a trabalhar com isso profissionalmente. Apesar do bom tempo passado e dos conhecimentos adquiridos, sei que estou ainda começando nesse árduo caminho. Espero ter ajudado com alguma das dicas.</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/05/21/Dicas-de-um-Frontend-Junior.html">Post Completo</a>
@@ -527,35 +192,6 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 
 <p>Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:</p>
 
-<!--bora-->
-
-<h3 id="falta-de-tempo">1. Falta de tempo</h3>
-
-<p>É provavelmente o argumento mais usado quando esse assunto é botado na mesa. É óbvio que o último século e suas revoluções industriais nos deixaram com bem menos tempo, mas também nos fez acreditar que todo o tempo livre fora do trabalho e dos estudos deve ser gasto com “lazer”. Além disso, todas as mudanças sociais do século passado nos fizeram tratar lazer como ócio. Parece até que soa errado ter um hobby produtivo ou um hobby que envolva trabalho duro. Eu por exemplo quero um dia ter marcenaria como um hobby, mas sempre que falo isso pra alguém, não sou levado a sério. Quem já viu alguém ter um hobby que não seja ver seriado e falar bem do novo filme do Nolan, não é mesmo?</p>
-
-<h3 id="o-facebook--um-poo-de-links">2. O Facebook é um poço de links</h3>
-
-<p>Foi um argumento que me fez pensar sobre o fato de eu justificar meu feed de páginas no facebook nos últimos tempos ser usado como uma espécie de leitor RSS ou agregador de leituras — pocket e cia. A maioria dos blogs hoje em dia tem página no facebook e isso faz com que acompanhar seus conteúdos seja mais rápido e pratico, já que você acessa o facebook com frequência e ele junta os posts dos seus amigos, os posts das páginas que você curte os posts das pessoas que você segue. Mas aí é que começa o problema pra mim. O facebook tem muita coisa. E pra completar, ainda tem a timeline infinita, literalmente. 1h de rolagem na timeline do facebook e você terá uma pá de links legais. Mas pelo fato de ter muita informação, dos mais variados tipos e escopos, navegar pelo facebook gera muita ansiedade e faz as coisas parecerem que têm de ser rápidas. É exatamente por isso que ficamos com preguiça de ler algo além das manchetes e nos limitamos às 5 primeiras linhas de quase tudo. Acaba que adquirimos um monte de pequenas informações, boa parte um tanto inúteis e nos acomodamos com isso.</p>
-
-<p>É obvio que há pessoas que conseguem fazer do facebook um canal de conteúdos interessantes e juntam isso com uma boa administração de tempo e uma dose de paciência e autocontrole para não se limitar às 5 primeiras linhas de tudo que encontra pelo feed, mas esse não é nem o meu caso nem o da maioria.</p>
-
-<p>E eu perdi uns dias pensando sobre isso tudo.</p>
-
-<p>A web é muito grande para nos limitarmos a meia dúzia de sites.
-Antes de começar a escrever isso, joguei no Google as palavras chaves “software livre”, que é um assunto que eu me interesso bastante e acho que leio bastante sobre também. Aproximadamente 2.810.000 resultados em 0,30 segundos, segundo o google. Joguei “free software” logo depois. Aproximadamente 1.510.000.000 resultados em 0,43 segundos. Vamos supor que metade dessas páginas que o google me retornou sejam inúteis para mim.</p>
-
-<p>Ainda assim eu terei um vasto número de páginas, portais, sites e blogs falando sobre software livre e eu continuo acessando os mesmos que sempre acessei, que se eu listar, não chego a nada mais que algumas dezenas de o páginas.
-Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho níveis altos de interesse. E me assusta saber que não vi muita gente falando ou escrevendo sobre isso.</p>
-
-<p>Mas será que não tem muita gente mesmo falando sobre isso ou sou só eu que não conheço esses textos por não ter pesquisado de fato sobre isso para ver o que andam dizendo?</p>
-
-<p>Então eu fiz uma pesquisa no Google e achei um texto significativo.</p>
-
-<p>Eu não quis fazer o feed rss exatamente, mas o texto me fez pensar sobre o algoritmo de interesses que o facebook cria pra cada um de nós. Se você não conhece ou entende como funciona, leia um pouco aqui. Por fim, acabei descobrindo que curto 800 páginas, mas que na verdade, não recebo conteúdo de nem metade dessas. Sem falar no fato de que metade dessas páginas não me interessam de verdade.</p>
-
-<p>Rever tais conceitos só me fez entender que eu e a maioria das pessoas não sabemos usar a internet. Ou talvez tenhamos criado um jeito de usá-la que é muito cômodo e só tende a piorar e que fará das próximas gerações cada vez mais limitados. E se cada vez mais buscarmos menos coisas e por consequência disso e de coisas como o algoritmo do facebook, as coisas se encaminham para um futuro onde haverá também menos conteúdo sendo produzido.</p>
-
-<p>Espero que esse insight não seja uma profecia.</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/02/15/O-pequeno-universo-que-criamos-na-internet.html">Post Completo</a>
@@ -571,48 +207,6 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
 
 <p>Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente <a href="https://www.mozilla.org/pt-BR/about/manifesto/">AQUI</a>.</p>
 
-<!--bora-->
-
-<p>Para cada item do manifesto, escrevi um pouquinho sobre o que o item me fez pensar. O texto não tem objetivo de defender nenhum lado da moeda a não ser o meu. E essa liberdade não fui eu que me dei.</p>
-
-<h3 id="a-internet--parte-integral-da-vida-modernacomponente-chave-para-a-educao-comunicao-colaborao-negcios-entretenimento-e-para-a-sociedade-como-um-todo"><em>“1. A internet é parte integral da vida moderna — componente chave para a educação, comunicação, colaboração, negócios, entretenimento e para a sociedade como um todo.”</em></h3>
-<p>Não é mistério pra ninguém que a internet é parte essencial para o motor da humanidade girar. Não chego a dizer que sem ela não haveria nada, porque se pararmos pra pensar, há diversos outros meios de comunicação que manteriam o mundo de pé caso a internet falhasse em algum momento. O fato é: a internet deixa tudo mais rápido. Tudo num piscar de olhos, tudo num frame, tudo num clique. Acho tolice dizer que isso é ruim e que constrói uma geração de bitolados. A verdade é que o único malefício disso é que a nossa geração se acostumou com essa rapidez e não sabe lidar com a demora de qualquer coisa. Muitos chegam a criticar a chuva de informações inúteis e desnecessárias que chega até nós, mas, ao meu ver, essa enxurrada de inutilidade contribui bem para que seja desenvolvido algum senso crítico. Num mundo onde cada um faz o que deve, uma ferramenta poderosa como a internet jamais deveria ser utilizada apenas para divulgação de artigos acadêmicos, por exemplo, como era no início. Deixa os moleque brincar. Eu mesmo me arrependo de ter perdido centenas de horas no MSN falando asneiras com diversas pessoas que hoje em dia não sei nem que fim levaram, mas tenho plena consciência de que se não fosse aquelas horas de ócio, talvez eu não estivesse aqui falando sobre o Manifesto Mozilla. Falarei mais sobre isso nos itens 3 e 6.</p>
-
-<h3 id="a-internet--um-recurso-pblico-global-que-deve-permanecer-aberto-e-acessvel"><em>“2. A internet é um recurso público global que deve permanecer aberto e acessível.”</em></h3>
-<p>Porque a preocupação em fazer da internet um recurso global e livre de regimentos privados? Pelo mesmo motivo que não queremos que a praia se transforme num local privado. Sabe a farofada na praia? Ela tem um valor cultural, filosófico e até filantrópico. O fato de pessoas levarem suas comidas, bebidas e diversos outros utensílios para a praia não é apenas tema de sketches humorísticas. Os “farofeiros” fazem o que fazem por simplesmente terem consciência de que é mais interessante para eles levarem de casa tudo o que iriam consumir na praia ao invés de alugar guardassol, comprar comidas sob preços abusivos e etc. Mas e se a praia fosse um locar privado, onde não fosse permitida a entrada de alimentos nem de cadeiras de praia? Seríamos todos obrigados agir de acordo com as regras do dono da praia.</p>
-
-<p>Isso tiraria toda a liberdade de se estar na praia. É do mesmo jeito com a internet. Ela funciona simplesmente pelo fato de ser livre. É óbvio que há algumas restrições superiores, assim como também há na praia, de acordo com determinada legislações. Mas a internet não te impede de fazer o que você quiser, a não ser que seja algo ilegal. E é dessa liberdade que nasce coisas incríveis. E é claro que também nascem coisas terrivelmente imbecis, mas é dever de cada um utilizar o poder de escolha e fazer o melhor uso possível da internet.</p>
-
-<h3 id="a-internet-deve-enriquecer-a-vida-das-pessoas-como-seres">“3. A internet deve enriquecer a vida das pessoas como seres.”</h3>
-<p>Deve enriquecer, mas não devem haver pessoas, órgãos ou entidades ditando o que é que enriquece ou não. O poder de escolha que temos na web nos favorece a escolher o que é benefício e o que é malefício. “Enriquecer a vida das pessoas como seres” é algo muito amplo que pode ser saciado com uma simples timeline do twitter quando com uma pesquisa sobre “Software Livre” no Scielo.</p>
-
-<h3 id="a-segurana-e-privacidade-das-pessoas-na-internet-so-prioridades-e-no-devem-ser-tratadas-como-opes">“4. A segurança e privacidade das pessoas na Internet são prioridades, e não devem ser tratadas como opções.”</h3>
-<p>Basicamente, o direito de ir e vir e a segurança deste devem ser respeitados também na internet. Além de não ser interessante existirem entidades ditando para onde se deve ir, também não é interessante que hajam entidades que nos sigam e utilizem nossos caminhos para utilizar isso contra nós. Um discurso que roda por aí é o “tenha cuidado com o que você faz na web”, mas esse discurso falha no momento em que percebemos que somos livres. O erro não é nosso em compartilhar fotos do final de semana na praia, por exemplo. O erro mora no fato das configurações padrão de privacidade dessas fotos serem uma que não nos favorece, das ferramentas disponíveis para configuração de tais privacidades não serem tão intuitivas assim para o usuário comum e também mora no fato de que a conscientização dos usuários muitas vezes é feita de forma fraca. E é feita tal forma para beneficiar uma série de ferramentas que se utilizam do rastreamento de informações para uso comercial e etc.</p>
-
-<p>Ferramentas essas que na verdade, acabam sendo úteis em parte das vezes. Quando meus dados são utilizados pelo Google para prever minhas pesquisas ou para me mostrar propagandas que supostamente seriam do meu interesse, me soa cômodo e útil, porém, tenho consciência de que todos os termos que eu aceitei sem ao menos ler levaram meus dados a serem utilizados de forma invasiva para que funções cômodas como um autocompletar do Google fosse possível. É um preço que se pode escolher pagar ou não. Uma dúvida que tenho é: será que meus dados são mesmo tão válidos quanto os ativistas dizem ser? Talvez não sejam. Mas vale pensar sobre e escolher se você se incomoda ou não com o uso que fazem dos seus dados.</p>
-
-<h3 id="as-pessoas-precisam-ter-a-capacidade-de-moldar-a-internet-e-suas-experincias-com-ela">“05. As pessoas precisam ter a capacidade de moldar a Internet e suas experiências com ela.”</h3>
-<p>O discurso mais evidente que tenho dado em todas as oportunidades que tenho é o de “porque tem tanta gente consumindo conteúdo na internet e tão pouca gente produzindo?”. Na verdade, não entro no mérito de baixa ou alta qualidade dos conteúdos produzidos, mas sim no fato de que temos poucas visões de mundo dispostas pela web. Ferramentas como Medium nasceram com o objetivo importantíssimo de viabilizar a expressão de ideias de forma mais simples dentro da internet, mas mesmo assim, é uma ferramenta de nicho muito fechado. Um conceito que surgiu com grande consumismo de conteúdos na web contrastando com a pouca produção quantitativa foi o de “formadores de opinião”. Não entro aqui no mérito de quais opiniões acho interessantes ou não, mas sim no fator que levaram apenas um seleto grupo a “soltar o verbo” e fez uma maioria apenas ouvir.</p>
-
-<p>O problema que isso traz é que há um medo de se pensar de uma forma diferente das opiniões dispostas. É um desejo inato do ser humano procurar se identificar com algo já pré produzido, mas até onde isso nos influencia a mudar nossa opinião por não encontrarmos alguém que fale algo parecido com o que temos a dizer? A internet é livre e qualquer um pode falar o que pensa, há diversos meios e motivos para se fazer isso, mas há uma regra não escrita que diz que não é todo mundo que pode escrever, produzir vídeos ou qualquer coisa do tipo. Uma regra que na verdade não existe. A conscientização quanto a isso deveria ser mais difundida, quem sabe até parte do currículo escolar.</p>
-
-<h3 id="a-efetividade-da-internet-como-um-recurso-pblico-depende-de-interoperabilidade-protocolos-formato-de-dados-e-contedo-inovao-e-participao-descentralizada-mundialmente">“06. A efetividade da Internet como um recurso público depende de interoperabilidade (protocolos, formato de dados e conteúdo), inovação e participação descentralizada mundialmente.”</h3>
-
-<p>A internet tem que ser construída por muita gente. Por programadores, entidades e pessoas comuns, para assim garantirmos a descentralização, a funcionalidade livre e a abertura para inserção de novas tecnologias. E como gente comum pode participar da construção da internet? Falando o que pensa e compartilhando com o mundo. Programação de protocolos e a interoperabilidade entre tais protocolos e outras tecnologias são apenas a parte técnica da internet. A parte técnica nem faria sentido se não houvesse um motivo humano nessa construção.</p>
-
-<h3 id="softwares-livres-e-abertos-promovem-o-desenvolvimento-da-internet-como-um-bem-pblico-e-08-processos-transparentes-e-com-a-colaborao-da-comunidade-resultam-e-confiana-e-coletividade">“07. Softwares livres e abertos promovem o desenvolvimento da Internet como um bem público.” e “08. Processos transparentes e com a colaboração da comunidade resultam e confiança e coletividade.”</h3>
-<p>Software livres e abertos, iniciativas comunitárias e as possibilidades de colaboração fazem com que as “regras” da web sejam escritas por seres humanos e não por contratos, executivos e benefícios não humanísticos.</p>
-
-<h3 id="o-envolvimento-de-empresas-no-desenvolvimento-da-internet-pode-trazer-muitos-benefcios-mas--preciso-ter-um-equilbrio-e-preocupao-com-as-pessoas">“09. O envolvimento de empresas no desenvolvimento da Internet pode trazer muitos benefícios, mas é preciso ter um equilíbrio e preocupação com as pessoas.”</h3>
-<p>É óbvio que um ecossistema grandioso como a internet geraria interesses de negócios e criaria possibilidades tamanhas para desenvolvimento econômico. Se pararmos para pensar, uma paralisação da internet geraria mais problemas no setor econômico do que em qualquer outro. E isso não é por acaso. O crescimento da web transformou-a num produto. Hoje em dia, podemos dizer que boa parte da web é controlada por algumas empresas, mas isso não é necessariamente ruim.</p>
-
-<p>Como diz este tópico no Manifesto Mozilla, “pode trazer muitos benefícios, mas é preciso ter um equilíbrio e preocupação com as pessoas”. Um exemplo prático disso é a Google, que nos oferece uma série de ferramentas úteis e focadas na experiência do usuário. É uma empresa importantíssima para o desenvolvimento da web, é pioneira em diversas áreas, encabeça pesquisas grandiosas que viabilizam produtos de extrema qualidade e em sua maioria, são oferecidos de forma gratuita para o usuário final. E a empresa ganha dinheiro basicamente com publicidade.</p>
-
-<p>Então vamos lá, resumir um pouco as coisas: será que a Google deveria ser crucificada por coletar dados de seus usuários para lucrar em cima disso, mesmo fornecendo tantos serviços de alta qualidade de forma gratuita, mesmo tendo tantas iniciativas open source que favorecem a comunidade de desenvolvedores na internet e mesmo mantendo o youtube de pé por ser o maior site de vídeos da web (enquanto que, na verdade, o youtube apenas dá prejuízos à empresa)? Eu vejo nisso um equilíbrio. Cabe a cada um ver também e/ou não e usufruir dos benefícios ou não.</p>
-
-<h3 id="ampliar-o-benefcio-pblico-promovido-pela-internet--um-importante-objetivo-ao-qual-vale-dedicar-tempo-ateno-e-compromisso">“10. Ampliar o benefício público promovido pela Internet é um importante objetivo ao qual vale dedicar tempo, atenção e compromisso.”</h3>
-
-<p>Como colocar isso em prática? Falando sobre a liberdade da/na internet, seja lá com quem for, aonde for ou como for. Dissecar a internet juntamente com as ideologias por trás dela é dever de cada um dos usuários da grande rede. Entender como ela funciona e como seu funcionamento reflete sobre seu cotidiano também. O que fazer com os resultados de tais reflexões também é uma liberdade. Eu, por exemplo, escrevi esse texto. E você, o que vai fazer?</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html">Post Completo</a>
@@ -628,32 +222,6 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
 
 <p>Sabe aquela história das metas? Pois é.</p>
 
-<!--bora-->
-
-<p>Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.</p>
-
-<p>O que quero falar neste texto é sobre uma reflexão que fiz nos últimos tempos. Algo que me faz sentir que estou entrando num novo ciclo, independente de novos calendários ou festividades.</p>
-
-<p>A maior limitação que vejo nas pessoas é o medo. E na maioria das vezes é o medo de si mesmo. Numa das mil vezes que li esse texto, percebi que a introdução está errada.</p>
-
-<p>Para fazer qualquer coisa, há basicamente duas formas de se colocar numa situação em que aquilo efetivamente vai ser feito.</p>
-
-<p>A primeira opção, mais popular e devastadoramente errônea, é tentar se automotivar.</p>
-
-<p>A segunda, uma escolha um tanto impopular e completamente correta, é cultivar a disciplina.
-Não existem apenas essas duas. Existe uma terceira que, como ideia consciente, é menos popular ainda que a disciplina, mas ainda assim é mais utilizada de forma inconsciente. É a cultura do Apenas Faça. Sem disciplina, sem automotivação, sem medos. Apenas faça. E ela é a mais fácil do que as duas citadas no texto linkado acima, pois ela não requer a organização que a disciplina requer e nem o esforço psicológico da automotivação. O Apenas Faça é uma entidade que nos persegue há séculos.</p>
-
-<p>Quer um exemplo prático? Os atendentes do McDonalds, que se levantam e apenas fazem o trabalho deles.</p>
-
-<p>E dentro do Apenas Faça, há embutida uma dose de automotivação, mas esta não é difícil de criar, pois ela nasce de um motivo que provavelmente é muito difícil de ir contra. Os atendentes do McDonalds, por exemplo, Apenas Fazem porque provavelmente não estão capacitados para fazerem outra coisa — seja lá por quais motivos — , ou não tiveram oportunidade de mostrar suas capacidades de forma concreta. E se eles vão se capacitar um dia, é outra história. E eles nem precisam criar a automotivação, a motivação já surge sozinha dessa falta de opção.
-Pra complementar, o Apenas Faça tem uma carta na manga que faz ele ser o modo mais proveitoso de se fazer as coisas. O Apenas Faça retira todos os medos do caminho. E como disse no início do texto, o medo é uma das nossas maiores limitações. Apenas Fazendo não se tem medo de errar, porque não se está interessado necessariamente no sucesso ou no aprendizado que a falha trará. Quando apenas se faz uma coisa, você não cria expectativas sobre ela, logo não se frustra e nem se preocupa com as consequência de dar errado.</p>
-
-<p>É óbvio que não irá funcionar para todas as pessoas, alguns só funcionam sob pressão ou sob metas. Alguns precisam de algo pra se apegar e optam por se disciplinarem ou se automotivarem. Nos últimos tempos aprendi que isso não é de muito valor, pois a disciplina gera o medo e o medo é distração. A automotivação gera uma insegurança que só aparece junto com o erro, mas quem é que trabalha apenas para o sucesso? Se há alguém assim, este não sou eu.
-Não sei se há algum motivo para eu escrever, não parei pra pensar sobre isso. Também não sei faz algum sentido tudo isso que escrevi ou mesmo se meus outros textos são interessantes. Apenas fiz.</p>
-
-<p>Apenas faço.</p>
-
-<p>Apenas faça.</p>
 </div>
 			      </li>
 			      <a class="post-readmore" href="/2016/01/01/Sobre-fazer-as-coisas.html">Post Completo</a>

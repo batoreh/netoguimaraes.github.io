@@ -5,9 +5,78 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jun 2016 16:53:03 -0300</pubDate>
-    <lastBuildDate>Sun, 26 Jun 2016 16:53:03 -0300</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2016 12:56:07 -0300</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2016 12:56:07 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>A internet das coisas e seus desafios para a UX</title>
+        <description>&lt;div class=&quot;post-img-container&quot;&gt;
+	&lt;img class=&quot;post-img&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*AJn83gYW2PesqrfFQpkcnA.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;No universo da Tecnologia da Informação existe uma lei que começou como uma profecia de um presidente da Intel, Gordon Moore, e acabou virando uma regra levada bastante em consideração quando se fala de evolução tecnológica nas últimas décadas. Chama-se Lei de Moore e ela diz que a cada 18 meses, o mercado de hardware produziria CPUs com o dobro de velocidade e pela metade do preço. Talvez isso não seja matematicamente verdade, se formos colocar na ponta do lápis, mas o que interessa é que essa lei nos dá aporte para entendermos qual a proporção de crescimento que a tecnologia tem como base.&lt;/p&gt;
+
+&lt;!--bora--&gt;
+
+&lt;p&gt;O interessante de verdade não é exatamente a evolução do hardware em si, mas sim as revoluções tecnológicas que surgem através do aumento da capacidade de processamento, diminuição do tamanho dos componentes, portabilidade e acessibilidade destes. Como exemplo disso temos o surgimentos de placas de prototipação como o Arduino e seus colegas de turma, temos computadores portáteis como Raspberry Pi a preço de banana.&lt;/p&gt;
+
+&lt;p&gt;Na última década, o maior impacto que a evolução prevista por Moore causou foi a chegada do mercado mobile com força total. Hoje em dia todos nós temos Smartphones em mãos, e sob a perspectiva da UX, podemos ver uma disruptura no cenário de interação de usuário, que passou a ser mais intimista, mas rápido, fluido e intuitivo. Mas esses benefícios custaram caro, podemos perceber ainda hoje, um cenário de discussões bastante quentes sobre tópicos de usabilidade mobile, performance e como todos esses aspectos influenciam na visão que o usuário cria sobre o produto.
+Ou seja, sempre que um espaço novo aparece no campo tecnológico, também aparece muito espaço para estudo sobre questões de experiência do usuário. A divisão de água que os smartphones causaram foi a de trazer pra próximo a internet, deixá-la mais fluida. Mas a evolução tecnológica não parou por aí e o próximo passo já está sendo dado.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-internet-das-coisas&quot;&gt;A Internet das Coisas&lt;/h2&gt;
+
+&lt;p&gt;Você já deve ter ouvido falar desse termo, não? Se não, aqui vai uma pequena sinopse:
+Quando a tecnologia dos mobiles apareceu, trouxe junto consigo a ideia de que a internet não está presa aos computadores, mas ainda assim, se pararmos para pensar nas formas que nos conectamos, ainda é muito limitada, pois temos inúmeras coisas no nosso cotidiano que ainda trabalham de forma offline e que poderiam ser colocadas “on the line”.&lt;/p&gt;
+
+&lt;p&gt;A Internet das Coisas ou IoT (do inglês Internet of Things), surge como uma das revoluções abarcadas pela alta capacidade de hardware que temos hoje em dia a custos relativamente baixos — apesar de não ser a custo de mercado viável para a maioria da população, só o fato de não ser algo digno de ficção científica já faz disso algo mais próximo da realidade. Esse conceito nos trás a possibilidade de conectar os dispositivos do nosso cotidiano à internet, dando assim diversas novas funcionalidades para aparelhos que já são nossos conhecidos.&lt;/p&gt;
+
+&lt;p&gt;Esse novo modo de ver as coisas veio para tirar a ideia de que a internet e a tecnologia está fadada a avançar para construir gadgets como smartphones, smartwatches e companhia. Parece ser muito mais abrangente e interessante, para solucionar problemas, criar formas de conectar as coisas do nosso cotidiano à internet e abrir margem para novas soluções instigantes tanto do ponto de vista do design quanto do ponto de vista tecnológico e visionário.&lt;/p&gt;
+
+&lt;p&gt;Mas com esse novo ecossistema sendo criado, não apenas soluções inovadoras aparecerão, como também problemas cabeludos, já que é algo que não foi testado em diversos aspectos.&lt;/p&gt;
+
+&lt;p&gt;Podemos comparar isso com o advento dos computadores em escritórios na década passada. Apesar de arquivos digitais serem uma realidade hoje em dia, ainda podemos ver diversas instituições que ainda usam arquivos físicos, pastas físicas e possuem setor de protocolo. Demorou um tempo pra se tornar costume criar arquivos diretamente no computador, se adaptar à organização das pastas não-físicas, entender como funcionavam backups e porque eles eram tão importantes, entender qual a diferença entre extensões .pdf e .doc e mais mil outros problemas que surgiram por motivos de: era um ecossistema novo.&lt;/p&gt;
+
+&lt;p&gt;Podemos dizer que todo divisor de águas trás consigo um grande caminho de terra para se atravessar. E a Internet das coisas também.&lt;/p&gt;
+
+&lt;p&gt;Do ponto de vista do UX Design, as portas que a Internet das Coisas nos abre são imensas. Inicialmente, podemos levar em consideração que o conceito de design, no geral, remete à resolução de problemas. No panorama que essa revolução da Internet das Coisas abre, temos diantes de nós diversas novas ferramentas úteis para chegarmos a soluções cada vez mais funcionais.&lt;/p&gt;
+
+&lt;p&gt;Um problema que pode ser encontrado aqui é o seguinte: qualquer coisa que surgir como novidade na área de IoT será novidade pro usuário final. O papel do UX Designer não é só pensar numa experiência interessante para o usuário final, mas pensar também que a transição entre as tecnologias antigas e as novas tem que acontecer de forma intuitiva e “suave” para o usuário. Qualquer impacto brusco pode causar frustração ou aversão. Então nos deparamos com um dilema: pensar em soluções que sejam simples, que se comuniquem com o usuário que está acostumado com outros níveis de interação mas que ainda assim se utilizem de todo o aparato que a IoT nos oferece.&lt;/p&gt;
+
+&lt;h2 id=&quot;na-prtica&quot;&gt;Na prática&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=joeyLbIxvKo&quot;&gt;Aqui&lt;/a&gt; temos um vídeo de um exemplo prático de tecnologia implementada pela IoT. A ideia é simples: dar poderes à mais a um produto que é de uso comum nosso, o controle remoto. Um ponto que deve ser levado em consideração é a configuração do dispositivo, quando se pensa em UX. No caso, quanto mais out-of-the-box (pronto pra uso sem nenhuma configuração), melhor.&lt;/p&gt;
+
+&lt;p&gt;No caso desse controle remoto, podemos observar que apesar de ter que ser feito manualmente, o processo de configuração é simples e intuitivo, sendo feito com base em perguntas objetivas e diretas. Após a configuração, o uso dele é simples também: desbloqueio e escolha do aparelho que se quer controlar, já que é um controle universal. Do ponto de vista do usuário, a experiência pode ser traduzida em apenas uma pergunta: “Esse dispositivo deixa minha experiência de controle remotos mais simples ou é apenas um aparato que vai me atrapalhar mais do que ajudar?”&lt;/p&gt;
+
+&lt;p&gt;Talvez você pense que qualquer coisa que envolva o ecossistema das IoTs será infinitamente mais rápida, prática e intuitiva do que uma mesma solução puramente mecânica, mas não é bem assim. Nosso próximo exemplo trata bem disso.
+Começar um projeto pela interface pode ser extremamente perigoso&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/ux-user-experience-design-em-portugues/come%C3%A7ar-um-projeto-pela-interface-pode-ser-extremamente-perigoso-64ece1e6f696&quot;&gt;Este artigo&lt;/a&gt;  fala especificamente de um produto, a fechadura Lockitron, que se vende como uma fechadura inteligente para portas residenciais. Resumindo o artigo, a primeira versão da Lockitron funcionava em conjunto com um aplicativo para smartphone, ou seja: sempre que o usuário chegava em casa, tinha que pegar o smartphone, desbloquear, procurar o aplicativo dentre todos os que estavam instalados no smartphone, esperar ele carregar e só então poder abrir a fechadura. E no fim das contas, o processo de pegar a chave no bolso e abrir a porta acabava sendo muito mais fácil do que usar a fechadura inteligente. Era um esforço muito menor para um retorno igual.&lt;/p&gt;
+
+&lt;p&gt;Logo, foi preciso pensar em uma reformulação para que o produto fizesse sentido em existir, já que o objetivo dele era cumprir a função de abrir a porta de forma mais simples e descomplicada do que com uma chave. Então, após estudos, foi desenvolvida uma nova versão do produto, essa agora funcionando com sincronização via bluetooth: a porta era destravada sempre que o usuário se aproximava dela.&lt;/p&gt;
+
+&lt;p&gt;Assim, o processo se tornou mais intuitivo que o de abrir a porta com a chave, logo, a solução passou a ser eficaz.&lt;/p&gt;
+
+&lt;h2 id=&quot;ligando-os-pontos&quot;&gt;Ligando os pontos&lt;/h2&gt;
+
+&lt;p&gt;A Internet das Coisas dá voz a uma nova revolução que vai expandir os horizontes do UX Design, tirando a internet do escopo desktop-mobile e trazendo-a para um novo modo de trabalho, onde tudo vai estar conectado de forma a nos propiciar experiências mais simples, cômodas e intuitivas.&lt;/p&gt;
+
+&lt;p&gt;Esse novo panorama de criação de soluções abre margem para muitos erros também, já que não temos noção do que é ou não interessante a se fazer, visto que esse ecossistema ainda não foi testado o suficiente para serem gerados padrões de usabilidade e interação.
+Mas isso não quer dizer que não seja um risco bom a se correr, testar novos modos de interação para criar novas experiências de usuário. As ferramentas estão aí pra serem usadas, só se deve tomar cuidado para entender qual a melhor maneira de fazer isso, buscando sempre resolver o problema da melhor maneira e nunca dificultar sua resolução, pois esse é o papel do design no mundo.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jul 2016 00:00:00 -0300</pubDate>
+        <link>/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
+        <guid isPermaLink="true">/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
+        
+        <category>ux</category>
+        
+        <category>designe,</category>
+        
+        <category>IoT</category>
+        
+        
+      </item>
     
       <item>
         <title>LESS: uma boa escolha para iniciantes</title>
@@ -16,9 +85,9 @@
 &lt;/div&gt;
 &lt;p&gt;“Menos é mais”&lt;/p&gt;
 
-&lt;p&gt;Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.&lt;/p&gt;
-
-&lt;h2 id=&quot;o-que--um-preprocessador-de-css&quot;&gt;O que é um preprocessador de CSS?&lt;/h2&gt;
+&lt;p&gt;Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.
+&lt;!--bora--&gt;
+## O que é um preprocessador de CSS?&lt;/p&gt;
 
 &lt;p&gt;Um preprocessador funciona como uma extensão do CSS comum que temos hoje em sua versão 3. O preprocessador é uma espécie de “compilador” que gera código CSS de acordo com um código escrito por nós em uma linguagem que possui diversas funcionalidades a mais que o próprio CSS. No fim das contas, há gente que defenda o uso do CSS puro, mas em projetos grandes, o uso de preprocessadores torna-se uma mão na roda. Vejam mais nesse artigo sobre o &lt;a href=&quot;http://markdotto.com/2014/07/23/githubs-css/&quot;&gt;CSS do Github&lt;/a&gt; e sobre o CSS do &lt;a href=&quot;http://ianfeather.co.uk/css-at-lonely-planet/&quot;&gt;Lonely Planet&lt;/a&gt;.&lt;/p&gt;
 
@@ -615,52 +684,6 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
         <category>livre,</category>
         
         <category>mozilla</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sobre fazer as coisas</title>
-        <description>&lt;div class=&quot;post-img-container&quot;&gt;
-	&lt;img class=&quot;post-img&quot; src=&quot;https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Sabe aquela história das metas? Pois é.&lt;/p&gt;
-
-&lt;!--bora--&gt;
-
-&lt;p&gt;Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.&lt;/p&gt;
-
-&lt;p&gt;O que quero falar neste texto é sobre uma reflexão que fiz nos últimos tempos. Algo que me faz sentir que estou entrando num novo ciclo, independente de novos calendários ou festividades.&lt;/p&gt;
-
-&lt;p&gt;A maior limitação que vejo nas pessoas é o medo. E na maioria das vezes é o medo de si mesmo. Numa das mil vezes que li esse texto, percebi que a introdução está errada.&lt;/p&gt;
-
-&lt;p&gt;Para fazer qualquer coisa, há basicamente duas formas de se colocar numa situação em que aquilo efetivamente vai ser feito.&lt;/p&gt;
-
-&lt;p&gt;A primeira opção, mais popular e devastadoramente errônea, é tentar se automotivar.&lt;/p&gt;
-
-&lt;p&gt;A segunda, uma escolha um tanto impopular e completamente correta, é cultivar a disciplina.
-Não existem apenas essas duas. Existe uma terceira que, como ideia consciente, é menos popular ainda que a disciplina, mas ainda assim é mais utilizada de forma inconsciente. É a cultura do Apenas Faça. Sem disciplina, sem automotivação, sem medos. Apenas faça. E ela é a mais fácil do que as duas citadas no texto linkado acima, pois ela não requer a organização que a disciplina requer e nem o esforço psicológico da automotivação. O Apenas Faça é uma entidade que nos persegue há séculos.&lt;/p&gt;
-
-&lt;p&gt;Quer um exemplo prático? Os atendentes do McDonalds, que se levantam e apenas fazem o trabalho deles.&lt;/p&gt;
-
-&lt;p&gt;E dentro do Apenas Faça, há embutida uma dose de automotivação, mas esta não é difícil de criar, pois ela nasce de um motivo que provavelmente é muito difícil de ir contra. Os atendentes do McDonalds, por exemplo, Apenas Fazem porque provavelmente não estão capacitados para fazerem outra coisa — seja lá por quais motivos — , ou não tiveram oportunidade de mostrar suas capacidades de forma concreta. E se eles vão se capacitar um dia, é outra história. E eles nem precisam criar a automotivação, a motivação já surge sozinha dessa falta de opção.
-Pra complementar, o Apenas Faça tem uma carta na manga que faz ele ser o modo mais proveitoso de se fazer as coisas. O Apenas Faça retira todos os medos do caminho. E como disse no início do texto, o medo é uma das nossas maiores limitações. Apenas Fazendo não se tem medo de errar, porque não se está interessado necessariamente no sucesso ou no aprendizado que a falha trará. Quando apenas se faz uma coisa, você não cria expectativas sobre ela, logo não se frustra e nem se preocupa com as consequência de dar errado.&lt;/p&gt;
-
-&lt;p&gt;É óbvio que não irá funcionar para todas as pessoas, alguns só funcionam sob pressão ou sob metas. Alguns precisam de algo pra se apegar e optam por se disciplinarem ou se automotivarem. Nos últimos tempos aprendi que isso não é de muito valor, pois a disciplina gera o medo e o medo é distração. A automotivação gera uma insegurança que só aparece junto com o erro, mas quem é que trabalha apenas para o sucesso? Se há alguém assim, este não sou eu.
-Não sei se há algum motivo para eu escrever, não parei pra pensar sobre isso. Também não sei faz algum sentido tudo isso que escrevi ou mesmo se meus outros textos são interessantes. Apenas fiz.&lt;/p&gt;
-
-&lt;p&gt;Apenas faço.&lt;/p&gt;
-
-&lt;p&gt;Apenas faça.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0300</pubDate>
-        <link>/2016/01/01/Sobre-fazer-as-coisas.html</link>
-        <guid isPermaLink="true">/2016/01/01/Sobre-fazer-as-coisas.html</guid>
-        
-        <category>self</category>
-        
-        <category>growing</category>
         
         
       </item>
