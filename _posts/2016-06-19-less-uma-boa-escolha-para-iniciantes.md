@@ -6,7 +6,7 @@ comments: true
 excerpt_separator: <!--bora-->
 ---
 <div class="post-img-container">
-	<img class="post-img" src="http://webdesignledger.com/wp-content/uploads/2015/08/less_css.png"/>
+	<img class="post-img" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg"/>
 </div>
 "Menos é mais" 
 
