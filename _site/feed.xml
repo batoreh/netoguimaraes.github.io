@@ -5,9 +5,64 @@
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Jul 2016 14:04:22 -0300</pubDate>
-    <lastBuildDate>Thu, 21 Jul 2016 14:04:22 -0300</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 20:19:40 -0300</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 20:19:40 -0300</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Design para devs #1 - Introdução</title>
+        <description>&lt;div class=&quot;post-img-container&quot;&gt;
+	&lt;img class=&quot;post-img&quot; src=&quot;http://www.preissdesign.com.br/wp-content/uploads/2016/06/graphic-design-tools-Feature_1290x688_MS.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Essa série de posts tem como propósito facilitar o entendimento de alguns conceitos de design para os desenvolvedores frontend. Neste primeiro, daremos apenas um introdução generalista e simplista.&lt;/p&gt;
+
+&lt;!--bora--&gt;
+
+&lt;p&gt;Não sou o melhor designer do mundo e estou longe de ser bom, mas nos últimos tempos tenho dedicado boa parte do meu tempo livre a entender como melhorar visualmente minhas criações. Em geral, trabalho apenas com implementação, mas sempre me interessei em entender como são pensadas as interfaces e porque são do jeito que são. Acabei por perceber que existe muita exatidão por trás da criatividade.&lt;/p&gt;
+
+&lt;p&gt;É comum de todo desenvolvedor frontend começar a querer desenvolver seus próprios projetos, seja pra treinar suas habilidades ou pra colocar pra frente ideias reais. Mas sempre surge o dilema: criar do zero interfaces não requer apenas codificação, é preciso também ser um bom designer. No mínimo, não usar Comic Sans. Eu segui esse caminho (frontend-&amp;gt;design) e aprendi algumas coisas. Inicialmente, percebi que uma coisa muito clara: é muito mais fácil virar frontender sendo designer do que fazer o caminho inverso. A área de design requer muito mais apuração de senso crítico para um resultado minimamente interessante. Minha experiência tem sido interessante e rendido bons frutos. Aqui vão algumas dicas introdutórias sobre o que aprendi.&lt;/p&gt;
+
+&lt;h2 id=&quot;entenda-o-que--design&quot;&gt;Entenda o que é Design.&lt;/h2&gt;
+
+&lt;p&gt;“Design é beleza”. Não, não é. E isso no começo é difícil de entender. Implementar um interface bonita é importante sim, mas se a beleza não for útil, ela pode ser descartada. O papel do design não é tornar as coisas simplemente bonitas, mas torná-las funcionais. A beleza é a consequência e não a causa. Desenvolva sempre suas ideias com base em seu conteúdo, adaptar o conteúdo para ele “caber” no design é um caminho que quase sempre gera resultados ruins.&lt;/p&gt;
+
+&lt;h2 id=&quot;conceitos-bsicos-cores-e-tipografia&quot;&gt;Conceitos básicos: cores e tipografia.&lt;/h2&gt;
+
+&lt;p&gt;Esses são conceitos básicos que se tem que estudar antes de qualquer coisa: as cores e a tipografia constituem quase que 100% de um design na web.&lt;/p&gt;
+
+&lt;p&gt;Entender sobre &lt;a href=&quot;http://www.teoriadascores.com.br/&quot;&gt;Teoria das Cores&lt;/a&gt;, &lt;a href=&quot;http://www.teoriadascores.com.br/discos-cromaticos.php&quot;&gt;discos cromáticos&lt;/a&gt; e suas utilidades para a web é de suma importância para desenvolvimento de uma percepção visual mais lúcida. Criação de paletas de cores e entendimento de seus significados é essencial também. &lt;a href=&quot;https://www.smashingmagazine.com/2016/04/web-developer-guide-color/&quot;&gt;Este guia&lt;/a&gt; é uma mão na roda pra quem não tem ideia de nada.&lt;/p&gt;
+
+&lt;p&gt;Como André Rafael, do Origamid, diz: tipografia é 95% da web, entendê-la e fazer bom uso de seus conceitos significa ter domínio sobre boa parte do seu conteúdo. Conhecer as famílias tipográficas, seus usos mais comuns e recomendados, saber quando usar bolds, italics e underlines e também entender sobre seus tamanhos e kernings. &lt;a href=&quot;http://design.codeschool.com/levels/1&quot;&gt;Este curso&lt;/a&gt; possui o primeiro módulo free e é muito esclarecedor para iniciantes.&lt;/p&gt;
+
+&lt;h2 id=&quot;pense-no-design-de-tudo&quot;&gt;Pense no design de tudo&lt;/h2&gt;
+
+&lt;p&gt;Criar interfaces, componentes ou mesmo temas pra wordpress não requerem apenas habilidades específicas de webdesign, mas sim habilidades genéricas de design gráfico, experiência de usuário e às vezes até de design de produto, portanto, pensar no design de tudo é um exercício muito bom para aprimorar as skills.&lt;/p&gt;
+
+&lt;p&gt;E quando eu digo tudo, não é apenas tudo referente ao seu projeto em si, mas sobre a vida e as coisas que te cercam. Comece a pensar na forma em que você organiza sua comida no prato quando almoça, na forma que veste suas calças ao sair de manhã, na forma como digita suas frases num texto e obviamente, como essas frases ficarão dispostas no seu blog. Pensar no design de tudo é um exercício simples de ser feito e que abre os horizontes de formas inimagináveis, pois se você conseguir entender qual a melhor forma de de dobrar sua calça ou de organizar sua comida no prato, organizar os posts do seu layout de blog se tornará mais simples.&lt;/p&gt;
+
+&lt;h2 id=&quot;tenha-boas-referncias-na-manga---inclusive-dos-frameworks&quot;&gt;Tenha boas referências na manga - inclusive dos frameworks&lt;/h2&gt;
+
+&lt;p&gt;Usar um framework não é pecado, mas saber quando não usar um é uma dádiva dos deuses. Frameworks de CSS geralmente funcionam assim: eles te dão helpers, grids e em alguns casos, mixins e extends para facilitar sua vida. Também te dão componentes prontos, onde você só precisa adicionar as classes nas suas tags e pronto: a mágica acontece. O que não se entende no começo é que os frameworks acabam por gerar um &lt;a href=&quot;https://en.wikipedia.org/wiki/Style_guide&quot;&gt;styleguide&lt;/a&gt; padrão para o desenvolvedor. E nem sempre é bom. Frameworks como o &lt;a href=&quot;https://milligram.github.io/&quot;&gt;Miligram&lt;/a&gt; ou o &lt;a href=&quot;http://semantic-ui.com/&quot;&gt;Semantic UI&lt;/a&gt;, são exemplos de ferramentas que se preocupam mais com as funcionalidades e semântica do que com oferecer estilos definitivos prontos.&lt;/p&gt;
+
+&lt;p&gt;Frameworks como Bootstrap ou Foundatoin são interessantes para desenvolvimento ágil, mas sua personalização é essencial. Recomendo usá-los como referência e não como ferramenta principal. Como sempre digo, o mais indicado é criar um framework para cada projeto, com styleguide próprio e se possível, com uso do &lt;a href=&quot;http://tableless.com.br/o-que-e-design-atomic/&quot;&gt;atomic design&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;No geral, além dos frameworks, o &lt;a href=&quot;http://codepen.io/&quot;&gt;CodePen&lt;/a&gt; e o &lt;a href=&quot;http://www.awwwards.com/&quot;&gt;Awwwards&lt;/a&gt; são boas referências para se ter na manga no quesito de webdesign. Outras referências que pode ser interessante ter é de outra área que seja correlata ao design, por exemplo: fotografia ou moda. Mas aí vai do seu gosto.&lt;/p&gt;
+
+&lt;p&gt;Este texto tem como objetivo introduzir desenvolvedores à alguns conceitos de design, nos próximos textos da série, explorarei aspectos mais práticos e mais específicos. Até lá!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Jul 2016 00:00:00 -0300</pubDate>
+        <link>/2016/07/26/design-para-devs-1-introducao.html</link>
+        <guid isPermaLink="true">/2016/07/26/design-para-devs-1-introducao.html</guid>
+        
+        <category>workflow,</category>
+        
+        <category>css,</category>
+        
+        <category>less</category>
+        
+        
+      </item>
     
       <item>
         <title>A internet das coisas e seus desafios para a UX</title>
@@ -616,74 +671,6 @@ Me assusta saber que eu estou perdendo tanto conteúdo sobre temas que tenho ní
         <category>21,</category>
         
         <category>web</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Falando o que penso sobre o mozilla manifesto</title>
-        <description>&lt;div class=&quot;post-img-container&quot;&gt;
-	&lt;img class=&quot;post-img&quot; src=&quot;https://cdn-images-1.medium.com/max/800/1*YRIeAhgqdRURa-dv5RM2XQ.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente &lt;a href=&quot;https://www.mozilla.org/pt-BR/about/manifesto/&quot;&gt;AQUI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!--bora--&gt;
-
-&lt;p&gt;Para cada item do manifesto, escrevi um pouquinho sobre o que o item me fez pensar. O texto não tem objetivo de defender nenhum lado da moeda a não ser o meu. E essa liberdade não fui eu que me dei.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-internet--parte-integral-da-vida-modernacomponente-chave-para-a-educao-comunicao-colaborao-negcios-entretenimento-e-para-a-sociedade-como-um-todo&quot;&gt;&lt;em&gt;“1. A internet é parte integral da vida moderna — componente chave para a educação, comunicação, colaboração, negócios, entretenimento e para a sociedade como um todo.”&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Não é mistério pra ninguém que a internet é parte essencial para o motor da humanidade girar. Não chego a dizer que sem ela não haveria nada, porque se pararmos pra pensar, há diversos outros meios de comunicação que manteriam o mundo de pé caso a internet falhasse em algum momento. O fato é: a internet deixa tudo mais rápido. Tudo num piscar de olhos, tudo num frame, tudo num clique. Acho tolice dizer que isso é ruim e que constrói uma geração de bitolados. A verdade é que o único malefício disso é que a nossa geração se acostumou com essa rapidez e não sabe lidar com a demora de qualquer coisa. Muitos chegam a criticar a chuva de informações inúteis e desnecessárias que chega até nós, mas, ao meu ver, essa enxurrada de inutilidade contribui bem para que seja desenvolvido algum senso crítico. Num mundo onde cada um faz o que deve, uma ferramenta poderosa como a internet jamais deveria ser utilizada apenas para divulgação de artigos acadêmicos, por exemplo, como era no início. Deixa os moleque brincar. Eu mesmo me arrependo de ter perdido centenas de horas no MSN falando asneiras com diversas pessoas que hoje em dia não sei nem que fim levaram, mas tenho plena consciência de que se não fosse aquelas horas de ócio, talvez eu não estivesse aqui falando sobre o Manifesto Mozilla. Falarei mais sobre isso nos itens 3 e 6.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-internet--um-recurso-pblico-global-que-deve-permanecer-aberto-e-acessvel&quot;&gt;&lt;em&gt;“2. A internet é um recurso público global que deve permanecer aberto e acessível.”&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Porque a preocupação em fazer da internet um recurso global e livre de regimentos privados? Pelo mesmo motivo que não queremos que a praia se transforme num local privado. Sabe a farofada na praia? Ela tem um valor cultural, filosófico e até filantrópico. O fato de pessoas levarem suas comidas, bebidas e diversos outros utensílios para a praia não é apenas tema de sketches humorísticas. Os “farofeiros” fazem o que fazem por simplesmente terem consciência de que é mais interessante para eles levarem de casa tudo o que iriam consumir na praia ao invés de alugar guardassol, comprar comidas sob preços abusivos e etc. Mas e se a praia fosse um locar privado, onde não fosse permitida a entrada de alimentos nem de cadeiras de praia? Seríamos todos obrigados agir de acordo com as regras do dono da praia.&lt;/p&gt;
-
-&lt;p&gt;Isso tiraria toda a liberdade de se estar na praia. É do mesmo jeito com a internet. Ela funciona simplesmente pelo fato de ser livre. É óbvio que há algumas restrições superiores, assim como também há na praia, de acordo com determinada legislações. Mas a internet não te impede de fazer o que você quiser, a não ser que seja algo ilegal. E é dessa liberdade que nasce coisas incríveis. E é claro que também nascem coisas terrivelmente imbecis, mas é dever de cada um utilizar o poder de escolha e fazer o melhor uso possível da internet.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-internet-deve-enriquecer-a-vida-das-pessoas-como-seres&quot;&gt;“3. A internet deve enriquecer a vida das pessoas como seres.”&lt;/h3&gt;
-&lt;p&gt;Deve enriquecer, mas não devem haver pessoas, órgãos ou entidades ditando o que é que enriquece ou não. O poder de escolha que temos na web nos favorece a escolher o que é benefício e o que é malefício. “Enriquecer a vida das pessoas como seres” é algo muito amplo que pode ser saciado com uma simples timeline do twitter quando com uma pesquisa sobre “Software Livre” no Scielo.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-segurana-e-privacidade-das-pessoas-na-internet-so-prioridades-e-no-devem-ser-tratadas-como-opes&quot;&gt;“4. A segurança e privacidade das pessoas na Internet são prioridades, e não devem ser tratadas como opções.”&lt;/h3&gt;
-&lt;p&gt;Basicamente, o direito de ir e vir e a segurança deste devem ser respeitados também na internet. Além de não ser interessante existirem entidades ditando para onde se deve ir, também não é interessante que hajam entidades que nos sigam e utilizem nossos caminhos para utilizar isso contra nós. Um discurso que roda por aí é o “tenha cuidado com o que você faz na web”, mas esse discurso falha no momento em que percebemos que somos livres. O erro não é nosso em compartilhar fotos do final de semana na praia, por exemplo. O erro mora no fato das configurações padrão de privacidade dessas fotos serem uma que não nos favorece, das ferramentas disponíveis para configuração de tais privacidades não serem tão intuitivas assim para o usuário comum e também mora no fato de que a conscientização dos usuários muitas vezes é feita de forma fraca. E é feita tal forma para beneficiar uma série de ferramentas que se utilizam do rastreamento de informações para uso comercial e etc.&lt;/p&gt;
-
-&lt;p&gt;Ferramentas essas que na verdade, acabam sendo úteis em parte das vezes. Quando meus dados são utilizados pelo Google para prever minhas pesquisas ou para me mostrar propagandas que supostamente seriam do meu interesse, me soa cômodo e útil, porém, tenho consciência de que todos os termos que eu aceitei sem ao menos ler levaram meus dados a serem utilizados de forma invasiva para que funções cômodas como um autocompletar do Google fosse possível. É um preço que se pode escolher pagar ou não. Uma dúvida que tenho é: será que meus dados são mesmo tão válidos quanto os ativistas dizem ser? Talvez não sejam. Mas vale pensar sobre e escolher se você se incomoda ou não com o uso que fazem dos seus dados.&lt;/p&gt;
-
-&lt;h3 id=&quot;as-pessoas-precisam-ter-a-capacidade-de-moldar-a-internet-e-suas-experincias-com-ela&quot;&gt;“05. As pessoas precisam ter a capacidade de moldar a Internet e suas experiências com ela.”&lt;/h3&gt;
-&lt;p&gt;O discurso mais evidente que tenho dado em todas as oportunidades que tenho é o de “porque tem tanta gente consumindo conteúdo na internet e tão pouca gente produzindo?”. Na verdade, não entro no mérito de baixa ou alta qualidade dos conteúdos produzidos, mas sim no fato de que temos poucas visões de mundo dispostas pela web. Ferramentas como Medium nasceram com o objetivo importantíssimo de viabilizar a expressão de ideias de forma mais simples dentro da internet, mas mesmo assim, é uma ferramenta de nicho muito fechado. Um conceito que surgiu com grande consumismo de conteúdos na web contrastando com a pouca produção quantitativa foi o de “formadores de opinião”. Não entro aqui no mérito de quais opiniões acho interessantes ou não, mas sim no fator que levaram apenas um seleto grupo a “soltar o verbo” e fez uma maioria apenas ouvir.&lt;/p&gt;
-
-&lt;p&gt;O problema que isso traz é que há um medo de se pensar de uma forma diferente das opiniões dispostas. É um desejo inato do ser humano procurar se identificar com algo já pré produzido, mas até onde isso nos influencia a mudar nossa opinião por não encontrarmos alguém que fale algo parecido com o que temos a dizer? A internet é livre e qualquer um pode falar o que pensa, há diversos meios e motivos para se fazer isso, mas há uma regra não escrita que diz que não é todo mundo que pode escrever, produzir vídeos ou qualquer coisa do tipo. Uma regra que na verdade não existe. A conscientização quanto a isso deveria ser mais difundida, quem sabe até parte do currículo escolar.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-efetividade-da-internet-como-um-recurso-pblico-depende-de-interoperabilidade-protocolos-formato-de-dados-e-contedo-inovao-e-participao-descentralizada-mundialmente&quot;&gt;“06. A efetividade da Internet como um recurso público depende de interoperabilidade (protocolos, formato de dados e conteúdo), inovação e participação descentralizada mundialmente.”&lt;/h3&gt;
-
-&lt;p&gt;A internet tem que ser construída por muita gente. Por programadores, entidades e pessoas comuns, para assim garantirmos a descentralização, a funcionalidade livre e a abertura para inserção de novas tecnologias. E como gente comum pode participar da construção da internet? Falando o que pensa e compartilhando com o mundo. Programação de protocolos e a interoperabilidade entre tais protocolos e outras tecnologias são apenas a parte técnica da internet. A parte técnica nem faria sentido se não houvesse um motivo humano nessa construção.&lt;/p&gt;
-
-&lt;h3 id=&quot;softwares-livres-e-abertos-promovem-o-desenvolvimento-da-internet-como-um-bem-pblico-e-08-processos-transparentes-e-com-a-colaborao-da-comunidade-resultam-e-confiana-e-coletividade&quot;&gt;“07. Softwares livres e abertos promovem o desenvolvimento da Internet como um bem público.” e “08. Processos transparentes e com a colaboração da comunidade resultam e confiança e coletividade.”&lt;/h3&gt;
-&lt;p&gt;Software livres e abertos, iniciativas comunitárias e as possibilidades de colaboração fazem com que as “regras” da web sejam escritas por seres humanos e não por contratos, executivos e benefícios não humanísticos.&lt;/p&gt;
-
-&lt;h3 id=&quot;o-envolvimento-de-empresas-no-desenvolvimento-da-internet-pode-trazer-muitos-benefcios-mas--preciso-ter-um-equilbrio-e-preocupao-com-as-pessoas&quot;&gt;“09. O envolvimento de empresas no desenvolvimento da Internet pode trazer muitos benefícios, mas é preciso ter um equilíbrio e preocupação com as pessoas.”&lt;/h3&gt;
-&lt;p&gt;É óbvio que um ecossistema grandioso como a internet geraria interesses de negócios e criaria possibilidades tamanhas para desenvolvimento econômico. Se pararmos para pensar, uma paralisação da internet geraria mais problemas no setor econômico do que em qualquer outro. E isso não é por acaso. O crescimento da web transformou-a num produto. Hoje em dia, podemos dizer que boa parte da web é controlada por algumas empresas, mas isso não é necessariamente ruim.&lt;/p&gt;
-
-&lt;p&gt;Como diz este tópico no Manifesto Mozilla, “pode trazer muitos benefícios, mas é preciso ter um equilíbrio e preocupação com as pessoas”. Um exemplo prático disso é a Google, que nos oferece uma série de ferramentas úteis e focadas na experiência do usuário. É uma empresa importantíssima para o desenvolvimento da web, é pioneira em diversas áreas, encabeça pesquisas grandiosas que viabilizam produtos de extrema qualidade e em sua maioria, são oferecidos de forma gratuita para o usuário final. E a empresa ganha dinheiro basicamente com publicidade.&lt;/p&gt;
-
-&lt;p&gt;Então vamos lá, resumir um pouco as coisas: será que a Google deveria ser crucificada por coletar dados de seus usuários para lucrar em cima disso, mesmo fornecendo tantos serviços de alta qualidade de forma gratuita, mesmo tendo tantas iniciativas open source que favorecem a comunidade de desenvolvedores na internet e mesmo mantendo o youtube de pé por ser o maior site de vídeos da web (enquanto que, na verdade, o youtube apenas dá prejuízos à empresa)? Eu vejo nisso um equilíbrio. Cabe a cada um ver também e/ou não e usufruir dos benefícios ou não.&lt;/p&gt;
-
-&lt;h3 id=&quot;ampliar-o-benefcio-pblico-promovido-pela-internet--um-importante-objetivo-ao-qual-vale-dedicar-tempo-ateno-e-compromisso&quot;&gt;“10. Ampliar o benefício público promovido pela Internet é um importante objetivo ao qual vale dedicar tempo, atenção e compromisso.”&lt;/h3&gt;
-
-&lt;p&gt;Como colocar isso em prática? Falando sobre a liberdade da/na internet, seja lá com quem for, aonde for ou como for. Dissecar a internet juntamente com as ideologias por trás dela é dever de cada um dos usuários da grande rede. Entender como ela funciona e como seu funcionamento reflete sobre seu cotidiano também. O que fazer com os resultados de tais reflexões também é uma liberdade. Eu, por exemplo, escrevi esse texto. E você, o que vai fazer?&lt;/p&gt;
-</description>
-        <pubDate>Sun, 14 Feb 2016 00:00:00 -0300</pubDate>
-        <link>/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html</link>
-        <guid isPermaLink="true">/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html</guid>
-        
-        <category>software</category>
-        
-        <category>livre,</category>
-        
-        <category>web</category>
-        
-        <category>livre,</category>
-        
-        <category>mozilla</category>
         
         
       </item>
