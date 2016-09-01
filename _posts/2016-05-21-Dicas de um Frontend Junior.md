@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Dicas de um frontend junior
-tags: dicas, frontend
+tags: frontend
 comments: true
 excerpt_separator: <!--bora-->
 ---
+Algumas dicas de um frontenders junior para outros frontenders juniors.
+<!--bora-->
+
+Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: "5 dicas para ser o melhor bambambam", "5 dicas para dominar tal tecnologia" ou qualquer coisa do tipo. Chamo isso de "Síndrome dos cinco passos". Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.
 
 <div class="post-img-container">
 	<img class="post-img" src="http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg">
 </div>
-
-Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: "5 dicas para ser o melhor bambambam", "5 dicas para dominar tal tecnologia" ou qualquer coisa do tipo. Chamo isso de "Síndrome dos cinco passos". Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.
-
-<!--bora-->
 
 Nos últimos dias, terminando de construir esse blog, pedi umas dicas de design a um professor e a um amigo. E percebi que muito do que aprendi foi vendo, ouvindo e lendo os outros. Acabei por tentar me imaginar em algum momento sendo algum conselheiro ou algo do tipo. E percebi que apesar de não ser especialista em nada, tenho algumas coisas pra falar também. Hoje decidi falar sobre desenvolvimento frontend e dar algumas dicas para quem está começando nessa área. Acho que são valiosas não por eu ter muito conhecimento, mas sim por eu estar utilizando destas dicas e estar sentindo o efeito delas agora, que estou entrando mais a fundo nesse universo que é o Frontend.
 

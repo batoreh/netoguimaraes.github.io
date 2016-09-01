@@ -1,16 +1,30 @@
 ---
 layout: default
+title: zypper in void
 ---
-			<ul class="post-list">
-				{% for post in site.posts %}
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">{{ post.title  }}</a></h2>
-						<span class="post-meta">{{ post.date | date: "%b %-d, %Y"  }}</span>
-						<div class="post-resume">{{post.excerpt}}</div>
-			      </li>
-			      <a class="post-readmore" href="{{ post.url | prepend: site.baseurl  }}">Post Completo</a>
-			      </div>
-			  {% endfor %}
-				</div>
-			</ul>
+	{% for post in site.posts %}
+		{% if (post.tags[0] == 'frontend') %}
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      {{post.date | date: '%B %d , %Y'}}
+		    </p>
+				<h1 class="title"><a href="{{post.url}}">{{post.title}}</a></h1>
+			</div>
+		{% endif %}
+		{% if (post.tags[0] == 'uxdesign') %}
+			<div data-ux-tag class="post-container">
+				<p class="date">
+		      {{post.date | date: '%B %d , %Y'}}
+		    </p>
+				<h1 class="title"><a href="{{post.url}}">{{post.title}}</a></h1>
+			</div>
+		{% endif %}
+		{% if (post.tags[0] == 'misc') %}
+			<div data-misc-tag class="post-container">
+				<p class="date">
+		      {{post.date | date: '%B %d , %Y'}}
+		    </p>
+				<h1 class="title"><a href="{{post.url}}">{{post.title}}</a></h1>
+			</div>
+		{% endif %}
+  {% endfor %}

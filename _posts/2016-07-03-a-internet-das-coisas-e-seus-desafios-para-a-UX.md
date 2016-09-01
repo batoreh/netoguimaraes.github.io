@@ -1,17 +1,20 @@
 ---
 layout: post
 title: A internet das coisas e seus desafios para a UX
-tags: ux designe, IoT
+tags: uxdesign
 comments: true
 excerpt_separator: <!--bora-->
 ---
+UX não é só pra interfaces e interfaces não são apenas web.
+
+<!--bora-->
 <div class="post-img-container">
 	<img class="post-img" src="https://cdn-images-1.medium.com/max/2000/1*AJn83gYW2PesqrfFQpkcnA.jpeg"/>
 </div>
 
 No universo da Tecnologia da Informação existe uma lei que começou como uma profecia de um presidente da Intel, Gordon Moore, e acabou virando uma regra levada bastante em consideração quando se fala de evolução tecnológica nas últimas décadas. Chama-se Lei de Moore e ela diz que a cada 18 meses, o mercado de hardware produziria CPUs com o dobro de velocidade e pela metade do preço. Talvez isso não seja matematicamente verdade, se formos colocar na ponta do lápis, mas o que interessa é que essa lei nos dá aporte para entendermos qual a proporção de crescimento que a tecnologia tem como base.
 
-<!--bora-->
+
 
 O interessante de verdade não é exatamente a evolução do hardware em si, mas sim as revoluções tecnológicas que surgem através do aumento da capacidade de processamento, diminuição do tamanho dos componentes, portabilidade e acessibilidade destes. Como exemplo disso temos o surgimentos de placas de prototipação como o Arduino e seus colegas de turma, temos computadores portáteis como Raspberry Pi a preço de banana.
 
@@ -45,7 +48,7 @@ No caso desse controle remoto, podemos observar que apesar de ter que ser feito 
 
 Talvez você pense que qualquer coisa que envolva o ecossistema das IoTs será infinitamente mais rápida, prática e intuitiva do que uma mesma solução puramente mecânica, mas não é bem assim. Nosso próximo exemplo trata bem disso.
 Começar um projeto pela interface pode ser extremamente perigoso
-	
+
 [Este artigo](https://medium.com/ux-user-experience-design-em-portugues/come%C3%A7ar-um-projeto-pela-interface-pode-ser-extremamente-perigoso-64ece1e6f696)  fala especificamente de um produto, a fechadura Lockitron, que se vende como uma fechadura inteligente para portas residenciais. Resumindo o artigo, a primeira versão da Lockitron funcionava em conjunto com um aplicativo para smartphone, ou seja: sempre que o usuário chegava em casa, tinha que pegar o smartphone, desbloquear, procurar o aplicativo dentre todos os que estavam instalados no smartphone, esperar ele carregar e só então poder abrir a fechadura. E no fim das contas, o processo de pegar a chave no bolso e abrir a porta acabava sendo muito mais fácil do que usar a fechadura inteligente. Era um esforço muito menor para um retorno igual.
 
 Logo, foi preciso pensar em uma reformulação para que o produto fizesse sentido em existir, já que o objetivo dele era cumprir a função de abrir a porta de forma mais simples e descomplicada do que com uma chave. Então, após estudos, foi desenvolvida uma nova versão do produto, essa agora funcionando com sincronização via bluetooth: a porta era destravada sempre que o usuário se aproximava dela.

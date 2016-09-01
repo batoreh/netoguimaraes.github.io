@@ -1,18 +1,20 @@
 ---
 layout: post
 title: Sobre fazer as coisas
-tags: self growing
+tags: misc
 comments: true
 excerpt_separator: <!--bora-->
 ---
 
-<div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg"/>
-</div>
+
 
 Sabe aquela história das metas? Pois é.
 
 <!--bora-->
+
+<div class="post-img-container">
+	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg"/>
+</div>
 
 Não. Esse não vai ser um texto criticando as metas do ano novo. Hoje é apenas o décimo dia do ano e eu vou tentar não ser chato. Fiz sim algumas metas. Não sentei com papel e caneta em mãos e listei todos os meus desejos para este ano, mas fiz algumas notas mentais de alguns possíveis projetos que quero botar em prática esse ano. E isso não é nenhum problema. Não me sinto rendido à esperança do ano que se renova e nem ao menos mais motivado por meu calendário estar marcando o início de um novo “ciclo”.
 

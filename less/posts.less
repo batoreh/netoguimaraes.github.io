@@ -1,0 +1,84 @@
+@import "variables.less";
+
+.content-container{
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: white;
+  width: 70%;
+  margin: 10px auto;
+}
+.post-container{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin-top: 5px;
+  & > .date{
+    font-family: @font2;
+    color: #777;
+    font-size: 0.8em;
+  }
+  & > .title{
+    position: relative;
+    display: block;
+    line-height: 1em;
+    color: #55;
+    font-family: @font2;
+    margin-left: 10px;
+  }
+  & > .description{
+    margin-top: 10px;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 10px;
+    height: 100%;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: @color-base;
+  }
+  &[data-frontend-tag]{
+    &::before{
+      background-color: @frontendColor;
+    }
+  }
+  &[data-ux-tag]{
+    &::before{
+      background-color: @uxColor;
+    }
+  }
+  &[data-misc-tag]{
+    &::before{
+      background-color: @miscColor;
+    }
+  }
+
+}
+.post-title{
+  margin: 40px 0px;
+  font-family: @font2;
+}
+.post-text{
+  position: relative;
+  display: block;
+  text-align: justify;
+  & >
+  p {
+    margin: 20px 0px;
+  }
+}
+.post-img-container{
+  .post-img{
+    max-width: 100%;
+    height: auto;
+  }
+}

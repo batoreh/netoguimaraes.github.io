@@ -1,0 +1,14 @@
+---
+layout: default
+title: frontend posts
+comments: true
+---
+
+{% for post in site.tags.frontend %}
+  <div data-frontend-tag class="post-container">
+    <p class="date">
+      {{post.date | date: '%B %d , %Y'}}
+    </p>
+    <h1  class="title"><a href="{{post.url}}">{{post.title}}</a></h1>
+  </div>
+{% endfor %}

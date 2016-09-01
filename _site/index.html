@@ -1,251 +1,197 @@
 <html>
 	<head>
-	<link rel="stylesheet" href="/css/master.css" type="text/css" charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/assets/font-awesome/css/font-awesome.min.css">
-	<meta charset="utf-8">
-	<title>apt-get void</title>
-	<meta name="viewport" content="width=device-width initial-scale=1.0">
-	<script type="text/javascript" src="/js/init.js"></script>
+	<link rel="stylesheet" href="/css/master.css"/>
+	<meta charset="utf-8"/>
+	<title>zypper in void</title>
+	<meta name="viewport" content="initial-scale= 1, width=device-width">
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Antic+Slab|Baloo+Paaji" rel="stylesheet">
+	<meta name="og:title" content="zypper in void">
+	<meta name="title" content="zypper in void">
+	<meta name="og:description" content="Entusiasta FrontEnd e UX Design. Escrevo sobre a web e seus tentáculos.">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="stylesheet" type="text/css" href="/css/prism.css">
-	<script type="text/javascript" src="/js/prism.js"></script>
-	<meta name="theme-color" content="#ffffff">
-	<meta name="description" content="Entusiasta do FrontEnd e UX Design. Escrevo sobre a web e seus tentáculos.">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-78907206-1', 'auto');
-	  ga('send', 'pageview');
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-     </script>
+	ga('create', 'UA-78907206-1', 'auto');
+	ga('send', 'pageview');
+
+	 </script>
 </head>
 
 	<body>
-		<header class="header-container">
-  <div class="title-container">
-    <h1 class="blog-title"><a href="/index.html">apt-get <span class="purple">void </a></span></h1> 
-      <p> por <a href="http://github.com/netoguimaraes" target="_blank">Neto Guimarães</a></p>
+		<header class="box-container header-container">
+  <div class="header">
+    <h1 class="title"><a href="/index.html">zypper in void</a></h1>
+    <nav class="social-media">
+      <a class="link" href="#"><i class="fa fa-facebook-f"></i></a>
+      <a class="link" href="#"><i class="fa fa-envelope-o"></i></a>
+      <a class="link" href="#"><i class="fa fa-instagram"></i></a>
+      <a class="link" href="#"><i class="fa fa-medium"></i></a>
+      <a class="link" href="#"><i class="fa fa-github"></i></a>
+    </nav>
   </div>
-  <div id="mob-nav" class="mobile-navbar-toggle">
-  	<div id="up-line" class="line"></div>
-  	<div id="mid-line" class="line"></div>
-  	<div id="down-line"class="line"></div>
-  </div>
+
+  <nav class="tags-container">
+    <a data-frontend-tag class="tag-item" href="/frontend/">Frontend</a>
+    <a data-ux-tag class="tag-item" href="/uxdesign/">UX Design</a>
+    <a data-misc-tag class="tag-item" href="/misc/">Misc</a>
+    <!-- <a class="tag-item" href="/bookmarks/">Bookmarks</a>
+    <a class="tag-item" href="/portifolio">Portifolio</a>
+    <a class="tag-item" href="/aboutme">Sobre Mim</a> -->
+  </nav>
 </header>
-		<div id="navbar" class="sidebar-container">
-	<div class="header-author-container">
-    <img class="header-author-img" src="/assets/author.jpg" alt="an author's pic"/>
-  </div>
-	<div class="sidebar-social-media-container">
-		<a href="http://fb.com/joaokrustin"><i class="fa fa-facebook-official fa-3x"></i></a>
-		<a href="http://github.com/netoguimaraes"><i class="fa fa-github fa-3x"></i></a>
-		<a href="http://blog.netoguimaraes.com.br"><i class="fa fa-home fa-3x"></i></a>
-	</div>
-	<p>Só peço que me deixem falar besteira.</p>
-	<nav class="sidebar-navbar">
-		<ul class="sidebar-list navbar-links-container">
-			<li class="navbar-links-item"><a href="http://blog.netoguimaraes.com.br/portifolio/">Portifolio</a></li>
-		</ul>
-	</nav>
-	<footer class="sidebar-footer">
-		<small>feito com <a href="https://jekyllrb.com/">jekyll</a>, <a href="https://pages.github.com/">gh-pages</a> e &hearts;</small>
-	</footer>
-</div>
 
 		<div class="content-container">
-						<ul class="post-list">
 				
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/07/26/design-para-devs-1-introducao.html">Design para devs #1 - Introdução</a></h2>
-						<span class="post-meta">Jul 26, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="http://www.preissdesign.com.br/wp-content/uploads/2016/06/graphic-design-tools-Feature_1290x688_MS.jpg" />
-</div>
+		
+		
+			<div data-ux-tag class="post-container">
+				<p class="date">
+		      September 01 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/09/01/UX-para-frontenders-i.html">UX Developer - Introdução</a></h1>
+			</div>
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      July 26 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/07/26/design-para-devs-1-introducao.html">Design para devs #1 - Introdução</a></h1>
+			</div>
+		
+		
+		
+  
+		
+		
+			<div data-ux-tag class="post-container">
+				<p class="date">
+		      July 03 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html">A internet das coisas e seus desafios para a UX</a></h1>
+			</div>
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      June 19 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/06/19/less-uma-boa-escolha-para-iniciantes.html">LESS: uma boa escolha para iniciantes</a></h1>
+			</div>
+		
+		
+		
+  
+		
+		
+		
+			<div data-misc-tag class="post-container">
+				<p class="date">
+		      June 13 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/06/13/vamos-falar-sobre-o-vim.html">Vamos falar sobre o VIM</a></h1>
+			</div>
+		
+  
+		
+		
+			<div data-ux-tag class="post-container">
+				<p class="date">
+		      June 09 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html">II Encontro da comunidade UX Design - Natal-RN</a></h1>
+			</div>
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      June 06 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/06/06/Dicas-de-um-Frontend-Junior-2.html">Dicas de um frontend junior 2</a></h1>
+			</div>
+		
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      May 29 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html">.css-comentado 01 - Thumbnail com botão oculto</a></h1>
+			</div>
+		
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      May 26 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html">Eu não sei fazer tudo com CSS</a></h1>
+			</div>
+		
+		
+		
+  
+		
+			<div data-frontend-tag class="post-container">
+				<p class="date">
+		      May 21 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/05/21/Dicas-de-um-Frontend-Junior.html">Dicas de um frontend junior</a></h1>
+			</div>
+		
+		
+		
+  
+		
+		
+		
+			<div data-misc-tag class="post-container">
+				<p class="date">
+		      February 15 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/02/15/O-pequeno-universo-que-criamos-na-internet.html">O pequeno universo que criamos na internet</a></h1>
+			</div>
+		
+  
+		
+		
+		
+			<div data-misc-tag class="post-container">
+				<p class="date">
+		      February 14 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html">Falando o que penso sobre o mozilla manifesto</a></h1>
+			</div>
+		
+  
+		
+		
+		
+			<div data-misc-tag class="post-container">
+				<p class="date">
+		      January 01 , 2016
+		    </p>
+				<h1 class="title"><a href="/2016/01/01/Sobre-fazer-as-coisas.html">Sobre fazer as coisas</a></h1>
+			</div>
+		
+  
 
-<p>Essa série de posts tem como propósito facilitar o entendimento de alguns conceitos de design para os desenvolvedores frontend. Neste primeiro, daremos apenas um introdução generalista e simplista.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/07/26/design-para-devs-1-introducao.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html">A internet das coisas e seus desafios para a UX</a></h2>
-						<span class="post-meta">Jul 3, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/2000/1*AJn83gYW2PesqrfFQpkcnA.jpeg" />
-</div>
-
-<p>No universo da Tecnologia da Informação existe uma lei que começou como uma profecia de um presidente da Intel, Gordon Moore, e acabou virando uma regra levada bastante em consideração quando se fala de evolução tecnológica nas últimas décadas. Chama-se Lei de Moore e ela diz que a cada 18 meses, o mercado de hardware produziria CPUs com o dobro de velocidade e pela metade do preço. Talvez isso não seja matematicamente verdade, se formos colocar na ponta do lápis, mas o que interessa é que essa lei nos dá aporte para entendermos qual a proporção de crescimento que a tecnologia tem como base.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/06/19/less-uma-boa-escolha-para-iniciantes.html">LESS: uma boa escolha para iniciantes</a></h2>
-						<span class="post-meta">Jun 19, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" />
-</div>
-<p>“Menos é mais”</p>
-
-<p>Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/06/19/less-uma-boa-escolha-para-iniciantes.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/06/13/vamos-falar-sobre-o-vim.html">Vamos falar sobre o VIM</a></h2>
-						<span class="post-meta">Jun 13, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="/assets/post-imgs/vim.png" />
-</div>
-
-<p>Uma das maiores pautas de discussão que encontramos nos fóruns e grupos do facebook sobre workflow em geral é quanto ao editor de texto que cada um usa. Existe uma infinidade deles e eu já usei diversos. Mas acho que encontrei o mais completo e funcional. Vamos falar um pouco sobre ele? Bora.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/06/13/vamos-falar-sobre-o-vim.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html">II Encontro da comunidade UX Design - Natal-RN</a></h2>
-						<span class="post-meta">Jun 9, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="/assets/ux.png" />
-</div>
-<p>UX Design é um termo que muito tem se ouvido por todos os lados na área de desenvolvimento web. Tem crescido muito o número de ferramentas, o número de pessoas interessadas no assunto e a quantidade de bons conteúdos na web. Aqui em Natal-RN não foi diferente, há dois meses foi criada a comunidade de UX Design Natal. A iniciativa partiu de profissionais da área que sentiam necessidade de discussão e união de pessoas com tais interesses para que pudessem surgir ideias, projetos e principalmente: para que o conhecimento fosse difundido (leia mais sobre o surgimento do grupo <a href="https://medium.com/ux-design-natal/difundindo-o-ux-design-em-natal-rn-eacb64f231af#.xjizkebrx">aqui</a>). Ontem houve o segundo encontro do grupo e vou falar um pouco sobre como foi.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/06/06/Dicas-de-um-Frontend-Junior-2.html">Dicas de um frontend junior 2</a></h2>
-						<span class="post-meta">Jun 6, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg" />
-</div>
-
-<p>Há uns dias escrevi um post em que eu, desenvolvedor júnior, dava umas dicas sobre a área de frontend que aprendi na prática nos últimos meses trabalhando em uma startup que envolve tecnologia e educação. Acredito que aprendi bastante coisa com esse período de prática, porque apesar de ser um ambiente interessante e estimulante, eu trabalho basicamente sozinho e quando você trabalha sozinho e tem que se virar pra sanar suas dúvidas, pra criar um workflow decente e ainda fazer um pouco de Design, UX e tudo mais, no mínimo você vai aprender algumas coisas.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/06/06/Dicas-de-um-Frontend-Junior-2.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html">.css-comentado 01 - Thumbnail com botão oculto</a></h2>
-						<span class="post-meta">May 29, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="/assets/comment.png" />
-</div>
-<p>Ao longo dos meus estudos, foi notável a grande quantidade de tutoriais com códigos prontos que achei pela internet. Eles sempre nos dão a solução para o problema, porém, nunca te explicam direito o porquê de tais soluções. Então decidi fazer uma série de tutoriais que além de terem o código, acompanham uma explicação um pouco mais detalhada sobre as soluções adotadas. Não sei se esse formato de tutorial é bem aceito, mas aqui fica minha proposta. Hoje falaremos sobre thumbnails com botões ocultos.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html">Eu não sei fazer tudo com CSS</a></h2>
-						<span class="post-meta">May 26, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg" />
-</div>
-<p>Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido pejorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem <a href="http://codepen.io/p-stacey-a/pen/ZWNryz">fúteis</a>. O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/05/21/Dicas-de-um-Frontend-Junior.html">Dicas de um frontend junior</a></h2>
-						<span class="post-meta">May 21, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="http://2chie424y5ug2kfkkypuhcvwq2.wpengine.netdna-cdn.com/files/2014/05/wip1.jpg" />
-</div>
-
-<p>Sempre vejo por aí, perambulando pela internet, aqueles posts revolucionários com títulos chamativos, algo como: “5 dicas para ser o melhor bambambam”, “5 dicas para dominar tal tecnologia” ou qualquer coisa do tipo. Chamo isso de “Síndrome dos cinco passos”. Em 5 passos você vai mudar sua vida, é sempre assim. Esses textos, que em sua maioria são apenas textos comuns que tentam se engrandecer com um título chamativo se tornaram febre nos últimos tempos de web e na verdade não trazem nada de tão maravilhoso assim.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/05/21/Dicas-de-um-Frontend-Junior.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/02/15/O-pequeno-universo-que-criamos-na-internet.html">O pequeno universo que criamos na internet</a></h2>
-						<span class="post-meta">Feb 15, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*IXVMU1mo_Oz8c_HcXD15Wg.gif" />
-</div>
-
-<p>Já parou pra pensar sobre quantos sites você visita frequentemente?</p>
-
-<p>Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/02/15/O-pequeno-universo-que-criamos-na-internet.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html">Falando o que penso sobre o mozilla manifesto</a></h2>
-						<span class="post-meta">Feb 14, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*YRIeAhgqdRURa-dv5RM2XQ.jpeg" />
-</div>
-
-<p>Sabe o firefox? Aquele navegador da raposa de fogo? Há uma entidade por trás dele que se preocupa com a internet e sobre todas as ideologias que esta carrega. Esta entidade se chama Mozilla e ela vem acompanhando o crescimento da internet desde muito tempo. A Mozilla sem dúvidas tem muito a dizer sobre todos esses anos de web. Mas não é só ela que tem algo a dizer, eu também tenho. E você também tem. Todos temos. E todos também temos o direito de falar. Neste texto eu vou divagar um pouco sobre os tópicos que a Mozilla cita em seu manifesto, que pode ser acessado diretamente <a href="https://www.mozilla.org/pt-BR/about/manifesto/">AQUI</a>.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/02/14/Falando-o-que-penso-sobre-o-mozilla-manifesto.html">Post Completo</a>
-			      </div>
-			  
-				<div class="post-block">	
-			      <li class="post-block-content">
-					  <h2><a class="post-link" href="/2016/01/01/Sobre-fazer-as-coisas.html">Sobre fazer as coisas</a></h2>
-						<span class="post-meta">Jan 1, 2016</span>
-						<div class="post-resume"><div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*K_cdN7wTvIFFaeRnsVGKyA.jpeg" />
-</div>
-
-<p>Sabe aquela história das metas? Pois é.</p>
-
-</div>
-			      </li>
-			      <a class="post-readmore" href="/2016/01/01/Sobre-fazer-as-coisas.html">Post Completo</a>
-			      </div>
-			  
-				</div>
-			</ul>
-	
 		</div>
-		<footer class="footer">	
-	<span class="footer-theme-description">Jekyll Theme: <a href="https://github.com/netoguimaraes/purple-void"> Purple Void</a> by <a href="https://github.com/netoguimaraes">Neto Guimarães.</a> Copyleft: All Rights Reversed.</span>
-</footer>
 	</body>
 </html>

@@ -2,12 +2,8 @@
 	{% include head.html %}
 	<body>
 		{% include header.html %}
-		{% include sidebar.html %}
 		<div class="content-container">
-        <div class="post-container"> 
 			<h1 class="post-title">{{page.title}}</h1>
-			<br>
-			<small>{{page.date | date: "%B %e, %Y" }}</small>
 			<div class="post-text">
 			{{content}}
 			</div>

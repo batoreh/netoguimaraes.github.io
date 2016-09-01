@@ -1,21 +1,24 @@
 ---
 layout: post
 title: O pequeno universo que criamos na internet
-tags: seculo 21, web
+tags: misc
 comments: true
 excerpt_separator: <!--bora-->
 ---
+
+
+
+
+Já parou pra pensar sobre quantos sites você visita frequentemente?
+
+<!--bora-->
+
+Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:
 
 <div class="post-img-container">
 	<img class="post-img" src="https://cdn-images-1.medium.com/max/800/1*IXVMU1mo_Oz8c_HcXD15Wg.gif">
 </div>
 
-
-Já parou pra pensar sobre quantos sites você visita frequentemente?
-
-Esses dias eu parei pra pensar sobre isso e se tirar redes sociais e sites em que tenho algum vínculo de trabalho ou que tenho que ficar acessando sempre por necessidades maiores — sistema da faculdade, gmail etc — , não sobram muitos sites.Isso sempre me passou despercebido e eu até consegui listar os motivos pelos quais eu me acomodei a uma meia dúzia de sites:
-
-<!--bora-->
 
 ### 1. Falta de tempo
 
