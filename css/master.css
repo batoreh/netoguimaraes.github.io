@@ -96,7 +96,6 @@ a:visited {
 }
 .link {
   position: relative;
-  display: block;
   color: inherit;
   transition: 0.3s ease-in-out;
 }
