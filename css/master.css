@@ -92,12 +92,13 @@ a:active,
 a:focus,
 a:visited {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .link {
   position: relative;
   color: inherit;
   transition: 0.3s ease-in-out;
+  
 }
 .link:hover {
   color: #53138c;
@@ -173,6 +174,9 @@ a:visited {
   position: relative;
   display: block;
   text-align: justify;
+}
+.post-text a{
+  text-decoration: underline;
 }
 .post-text > p {
   margin: 20px 0px;
