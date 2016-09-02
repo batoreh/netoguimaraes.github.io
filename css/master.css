@@ -98,7 +98,7 @@ a:visited {
   position: relative;
   color: inherit;
   transition: 0.3s ease-in-out;
-  
+  text-decoration: none;
 }
 .link:hover {
   color: #53138c;
