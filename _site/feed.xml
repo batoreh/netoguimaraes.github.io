@@ -3,11 +3,11 @@
   <channel>
     <title></title>
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Sep 2016 17:10:00 -0300</pubDate>
-    <lastBuildDate>Thu, 01 Sep 2016 17:10:00 -0300</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 02 Nov 2017 00:44:00 -0300</pubDate>
+    <lastBuildDate>Thu, 02 Nov 2017 00:44:00 -0300</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>UX Developer - Introdução</title>
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Decidi escrever uma série de posts para ajudar outros devs a não enlouquecerem. Este é o primeiro e vai te dar algumas ideias generalistas sobre alguns pontos interessantes a se pensar antes de começar a entender de verdade sobre UX design e aplicá-lo nos seus projetos.&lt;/p&gt;
 
-&lt;h2 id=&quot;design-para-a-resoluo-de-problemas&quot;&gt;Design para a resolução de problemas&lt;/h2&gt;
+&lt;h2 id=&quot;design-para-a-resolução-de-problemas&quot;&gt;Design para a resolução de problemas&lt;/h2&gt;
 &lt;p&gt;Em geral, a mente de desenvolvedores é condicionada a dividir o desenvolvimento frontend em duas partes: funcional e estética. E em ambientes de produção, geralmente se divide as tarefas: o designer se preocupa com a parte estética e o desenvolvedor frontend se preocupa em transformar a parte estética criada pelo designer em algo funcional, semântico e performático.&lt;/p&gt;
 
 &lt;p&gt;O que se esquece muitas vezes é que tanto a parte estética quanto a funcional estão englobadas por um aspecto: o usuário. E o UX design vem à tona justamente para aglutinar tudo e fazer com que o produto cumpra suas funções.&lt;/p&gt;
@@ -35,7 +35,7 @@
 
 &lt;p&gt;Nós, como desenvolvedores, temos que entender esse conceito e tentar pensar como solucionadores de problemas (UXers). E nem sempre os problemas são resolvidos com código, mas também com algumas decisões sobre layout, questões de performance, escolha de tecnologias de cada projeto e até mesmo com a forma que você escreve seu código.&lt;/p&gt;
 
-&lt;h2 id=&quot;componentes-reutilizveis&quot;&gt;Componentes reutilizáveis&lt;/h2&gt;
+&lt;h2 id=&quot;componentes-reutilizáveis&quot;&gt;Componentes reutilizáveis&lt;/h2&gt;
 &lt;p&gt;E por falar na forma como você escreve seu código, vamos falar de uma boa prática e envolver UX nela? Vamos.&lt;/p&gt;
 
 &lt;p&gt;O conceito por muitas vezes exageradamente repetido de reaproveitamento de código é de extrema importância para o desenvolvimento de projetos, sejam grandes ou pequenos.
@@ -51,7 +51,7 @@ Comunicabilidade e affordance são conceitos essenciais para que a experiência 
  Juntamente às estratégias de conteúdo, a linguagem da interface é o conjunto de elementos que passarão as mensagens específicas ao usuário.
 Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que eles consigam chegar nesses requisitos? Resposta: Reutilizando estilos, comportamentos e padrões. Caso você trabalhe em conjunto com um designer, é bom conversar com ele sobre style guides e entender como trabalhar com esses guias influencia o trabalho de cada uma das partes e como também o produto disso vai impactar a experiência do usuário.&lt;/p&gt;
 
-&lt;h2 id=&quot;entendendo-o-seu-usurio-real&quot;&gt;Entendendo o seu usuário real&lt;/h2&gt;
+&lt;h2 id=&quot;entendendo-o-seu-usuário-real&quot;&gt;Entendendo o seu usuário real&lt;/h2&gt;
 &lt;p&gt;Aliás, compreender como o produto de seu trabalho atinge o seu usuário real é uma parte importantíssima do seu papel. Muitas vezes nosso ambiente de trabalho e até nosso próprio mindset nos condiciona a focar nas sprints e nas entregas e esquecer que o que estamos produzindo vai ser usado por pessoas, serumaninhos com sentimentos e diferentes pensamentos e formas de agir.&lt;/p&gt;
 
 &lt;p&gt;Entender isso é importante porque nos faz melhorar não só a forma como desenvolvemos nosso trabalho na prática, mas também em como pensamos ele de forma teórica.&lt;/p&gt;
@@ -68,8 +68,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este artigo teve como objetivo introduzir algumas relações diretas entre UX Design e algumas ferramentas e boas práticas do universo do desenvolvimento Frontend. Esse é o primeiro post de uma sequência que tratará das interseções e trocas de amor entre Frontend e UX, visto a escassez de conteúdos que tratem diretamente destes assuntos, de forma a facilitar as coisas para os dois lados envolvidos.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2016 00:00:00 -0300</pubDate>
-        <link>/2016/09/01/UX-para-frontenders-i.html</link>
-        <guid isPermaLink="true">/2016/09/01/UX-para-frontenders-i.html</guid>
+        <link>http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</guid>
         
         <category>uxdesign</category>
         
@@ -90,11 +90,11 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 
 &lt;p&gt;É comum de todo desenvolvedor frontend começar a querer desenvolver seus próprios projetos, seja pra treinar suas habilidades ou pra colocar pra frente ideias reais. Mas sempre surge o dilema: criar do zero interfaces não requer apenas codificação, é preciso também ser um bom designer. No mínimo, não usar Comic Sans. Eu segui esse caminho (frontend-&amp;gt;design) e aprendi algumas coisas. Inicialmente, percebi que uma coisa muito clara: é muito mais fácil virar frontender sendo designer do que fazer o caminho inverso. A área de design requer muito mais apuração de senso crítico para um resultado minimamente interessante. Minha experiência tem sido interessante e rendido bons frutos. Aqui vão algumas dicas introdutórias sobre o que aprendi.&lt;/p&gt;
 
-&lt;h2 id=&quot;entenda-o-que--design&quot;&gt;Entenda o que é Design.&lt;/h2&gt;
+&lt;h2 id=&quot;entenda-o-que-é-design&quot;&gt;Entenda o que é Design.&lt;/h2&gt;
 
 &lt;p&gt;“Design é beleza”. Não, não é. E isso no começo é difícil de entender. Implementar um interface bonita é importante sim, mas se a beleza não for útil, ela pode ser descartada. O papel do design não é tornar as coisas simplemente bonitas, mas torná-las funcionais. A beleza é a consequência e não a causa. Desenvolva sempre suas ideias com base em seu conteúdo, adaptar o conteúdo para ele “caber” no design é um caminho que quase sempre gera resultados ruins.&lt;/p&gt;
 
-&lt;h2 id=&quot;conceitos-bsicos-cores-e-tipografia&quot;&gt;Conceitos básicos: cores e tipografia.&lt;/h2&gt;
+&lt;h2 id=&quot;conceitos-básicos-cores-e-tipografia&quot;&gt;Conceitos básicos: cores e tipografia.&lt;/h2&gt;
 
 &lt;p&gt;Esses são conceitos básicos que se tem que estudar antes de qualquer coisa: as cores e a tipografia constituem quase que 100% de um design na web.&lt;/p&gt;
 
@@ -108,7 +108,7 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 
 &lt;p&gt;E quando eu digo tudo, não é apenas tudo referente ao seu projeto em si, mas sobre a vida e as coisas que te cercam. Comece a pensar na forma em que você organiza sua comida no prato quando almoça, na forma que veste suas calças ao sair de manhã, na forma como digita suas frases num texto e obviamente, como essas frases ficarão dispostas no seu blog. Pensar no design de tudo é um exercício simples de ser feito e que abre os horizontes de formas inimagináveis, pois se você conseguir entender qual a melhor forma de de dobrar sua calça ou de organizar sua comida no prato, organizar os posts do seu layout de blog se tornará mais simples.&lt;/p&gt;
 
-&lt;h2 id=&quot;tenha-boas-referncias-na-manga---inclusive-dos-frameworks&quot;&gt;Tenha boas referências na manga - inclusive dos frameworks&lt;/h2&gt;
+&lt;h2 id=&quot;tenha-boas-referências-na-manga---inclusive-dos-frameworks&quot;&gt;Tenha boas referências na manga - inclusive dos frameworks&lt;/h2&gt;
 
 &lt;p&gt;Usar um framework não é pecado, mas saber quando não usar um é uma dádiva dos deuses. Frameworks de CSS geralmente funcionam assim: eles te dão helpers, grids e em alguns casos, mixins e extends para facilitar sua vida. Também te dão componentes prontos, onde você só precisa adicionar as classes nas suas tags e pronto: a mágica acontece. O que não se entende no começo é que os frameworks acabam por gerar um &lt;a href=&quot;https://en.wikipedia.org/wiki/Style_guide&quot;&gt;styleguide&lt;/a&gt; padrão para o desenvolvedor. E nem sempre é bom. Frameworks como o &lt;a href=&quot;https://milligram.github.io/&quot;&gt;Miligram&lt;/a&gt; ou o &lt;a href=&quot;http://semantic-ui.com/&quot;&gt;Semantic UI&lt;/a&gt;, são exemplos de ferramentas que se preocupam mais com as funcionalidades e semântica do que com oferecer estilos definitivos prontos.&lt;/p&gt;
 
@@ -119,8 +119,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este texto tem como objetivo introduzir desenvolvedores à alguns conceitos de design, nos próximos textos da série, explorarei aspectos mais práticos e mais específicos. Até lá!&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2016 00:00:00 -0300</pubDate>
-        <link>/2016/07/26/design-para-devs-1-introducao.html</link>
-        <guid isPermaLink="true">/2016/07/26/design-para-devs-1-introducao.html</guid>
+        <link>http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</guid>
         
         <category>frontend</category>
         
@@ -162,7 +162,7 @@ Quando a tecnologia dos mobiles apareceu, trouxe junto consigo a ideia de que a 
 
 &lt;p&gt;Um problema que pode ser encontrado aqui é o seguinte: qualquer coisa que surgir como novidade na área de IoT será novidade pro usuário final. O papel do UX Designer não é só pensar numa experiência interessante para o usuário final, mas pensar também que a transição entre as tecnologias antigas e as novas tem que acontecer de forma intuitiva e “suave” para o usuário. Qualquer impacto brusco pode causar frustração ou aversão. Então nos deparamos com um dilema: pensar em soluções que sejam simples, que se comuniquem com o usuário que está acostumado com outros níveis de interação mas que ainda assim se utilizem de todo o aparato que a IoT nos oferece.&lt;/p&gt;
 
-&lt;h2 id=&quot;na-prtica&quot;&gt;Na prática&lt;/h2&gt;
+&lt;h2 id=&quot;na-prática&quot;&gt;Na prática&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=joeyLbIxvKo&quot;&gt;Aqui&lt;/a&gt; temos um vídeo de um exemplo prático de tecnologia implementada pela IoT. A ideia é simples: dar poderes à mais a um produto que é de uso comum nosso, o controle remoto. Um ponto que deve ser levado em consideração é a configuração do dispositivo, quando se pensa em UX. No caso, quanto mais out-of-the-box (pronto pra uso sem nenhuma configuração), melhor.&lt;/p&gt;
 
@@ -185,8 +185,8 @@ Começar um projeto pela interface pode ser extremamente perigoso&lt;/p&gt;
 Mas isso não quer dizer que não seja um risco bom a se correr, testar novos modos de interação para criar novas experiências de usuário. As ferramentas estão aí pra serem usadas, só se deve tomar cuidado para entender qual a melhor maneira de fazer isso, buscando sempre resolver o problema da melhor maneira e nunca dificultar sua resolução, pois esse é o papel do design no mundo.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Jul 2016 00:00:00 -0300</pubDate>
-        <link>/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
-        <guid isPermaLink="true">/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
+        <link>http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
         
         <category>uxdesign</category>
         
@@ -205,7 +205,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Essa é uma frase bastante usada em diversas áreas, prega a ideia de que a economia de recursos é algo beneficente para o produto final. É usado na área do design, por exemplo, para cortar recursos visuais usados desnecessariamente que no fim das contas apenas prejudicam a experiência do usuário. Acredito que com o preprocessadores não é diferente e é por isso que eu uso e defendo o LESS.&lt;/p&gt;
 
-&lt;h2 id=&quot;o-que--um-preprocessador-de-css&quot;&gt;O que é um preprocessador de CSS?&lt;/h2&gt;
+&lt;h2 id=&quot;o-que-é-um-preprocessador-de-css&quot;&gt;O que é um preprocessador de CSS?&lt;/h2&gt;
 
 &lt;p&gt;Um preprocessador funciona como uma extensão do CSS comum que temos hoje em sua versão 3. O preprocessador é uma espécie de “compilador” que gera código CSS de acordo com um código escrito por nós em uma linguagem que possui diversas funcionalidades a mais que o próprio CSS. No fim das contas, há gente que defenda o uso do CSS puro, mas em projetos grandes, o uso de preprocessadores torna-se uma mão na roda. Vejam mais nesse artigo sobre o &lt;a href=&quot;http://markdotto.com/2014/07/23/githubs-css/&quot;&gt;CSS do Github&lt;/a&gt; e sobre o CSS do &lt;a href=&quot;http://ianfeather.co.uk/css-at-lonely-planet/&quot;&gt;Lonely Planet&lt;/a&gt;.&lt;/p&gt;
 
@@ -246,8 +246,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Qualquer dúvida nos comentários. Se gostou do post, ajude a divulgar o blog, faço ele apenas por amor, sem monetização nenhuma, então quanto mais longe chegar, mais “bem pago” eu serei ♥.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
-        <guid isPermaLink="true">/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
+        <link>http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
         
         <category>frontend</category>
         
@@ -277,7 +277,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Até que eu conheci o VIM.&lt;/p&gt;
 
-&lt;h2 id=&quot;uma-histria-de-amor-melhor-que-crepsculo&quot;&gt;Uma história de amor melhor que crepúsculo&lt;/h2&gt;
+&lt;h2 id=&quot;uma-história-de-amor-melhor-que-crepúsculo&quot;&gt;Uma história de amor melhor que crepúsculo&lt;/h2&gt;
 
 &lt;p&gt;Me pareceu um tanto surreal a ideia de um editor de texto onde eu não usaria o mouse. Achei que seria terrível no começo, e talvez até tenha sido, mas a leveza, rapidez e os plugins me fizeram arriscar um pouco de tempo para me tornar produtivo nele.&lt;/p&gt;
 
@@ -285,7 +285,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Enfim, não vim aqui pra defender o VIM e seu uso, seus benefícios e produtividade. Vim dar umas dicas rápidas para iniciantes. Se quiser saber mais sobre o editor, dê uma lida no &lt;a href=&quot;https://brizeno.wordpress.com/2014/07/24/por-que-voce-tambem-gostaria-de-utilizar-vim/&quot;&gt;texto do Marcos Brizeno&lt;/a&gt; e no do &lt;a href=&quot;https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/&quot;&gt;Willian Oliveira&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;algumas-dicas-pra-comear&quot;&gt;Algumas dicas pra começar&lt;/h2&gt;
+&lt;h2 id=&quot;algumas-dicas-pra-começar&quot;&gt;Algumas dicas pra começar&lt;/h2&gt;
 
 &lt;p&gt;Eu perdi um dia quase todo pesquisando sobre configurações do vim, sobre plugins e sobre como deixá-lo mais user-friendly. E não me arrependo, descobri ferramentas bem interessantes que me ajudaram bastante. E como eu sou muito gente fina, vou passar as dicas pra vocês.&lt;/p&gt;
 
@@ -316,8 +316,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O VIM é um universo gigante e tentei dar um panorama geral para iniciantes se introduzirem nesse ecossistema de forma rápida e simples para depois se aprofundar. Qualquer dúvida, nos comentários.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/13/vamos-falar-sobre-o-vim.html</link>
-        <guid isPermaLink="true">/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
+        <link>http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
         
         <category>misc</category>
         
@@ -339,7 +339,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Ao longo da fala dos designers, pudemos perceber alguns pontos interessantes que irei listar aqui.&lt;/p&gt;
 
-&lt;h2 id=&quot;designers-desenham-solues&quot;&gt;Designers desenham soluções&lt;/h2&gt;
+&lt;h2 id=&quot;designers-desenham-soluções&quot;&gt;Designers desenham soluções&lt;/h2&gt;
 
 &lt;p&gt;Muita gente confunde o trabalho dos designers com algo meramente artístico. Se você pensa assim, está muito enganado. Mais do que nunca, vivemos num momento em que tudo tem que ter um porquê e uma motivação muito forte, se não for assim, acaba perdendo o sentido no meio de tanta informação que temos a nossa disposição. Vendo as metodologias apresentadas pelos rapazes do Estúdio Proa, ficou muito visível que o que eles fazem é um estudo específico pra cada caso, onde se busca a melhor solução viável com o fim de suprir a necessidade do cliente e do usuário. Esse é um aspecto bastante presente em metodologias de UX: nada é por acaso, tudo tem um motivo. Se não tem um motivo, é algo que pode facilmente ser descartado.&lt;/p&gt;
 
@@ -347,7 +347,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Apesar de teoricamente serem os maiores conhecedores dos seus negócios, às vezes os clientes não sabem lidar com todo o significado que uma identidade visual, um site ou um cartão de visitas pode ter. É papel do designer entender quais as necessidades do cliente e ajudá-lo a entender quais as possibilidades. Apesar de conhecer seu negócio, nem sempre eles têm ideia do poder da experiência do usuário e como melhorar ela. Um bom design visual está diretamente ligado à experiência de usuário, portanto, ao entender as necessidades de um projeto visual, acaba-se também entendendo sua profundidade dentro do contexto dos usuários.&lt;/p&gt;
 
-&lt;h2 id=&quot;saiba-porque-voc-est-usando-o-que-voc-est-usando&quot;&gt;Saiba porque você está usando o que você está usando&lt;/h2&gt;
+&lt;h2 id=&quot;saiba-porque-você-está-usando-o-que-você-está-usando&quot;&gt;Saiba porque você está usando o que você está usando&lt;/h2&gt;
 
 &lt;p&gt;Todo mercado que tem mais de uma opção para escolha possui uma variedade de características em cada uma dessas opções. Portanto, na produção criativa não é diferente. Se você produz algo, é importante entender o que você quer atingir com aquilo e entender quais as melhores maneiras de fazer isso. Pensar nisso na perspectiva do usuário é onde a UX entra. Pensar não nos motivos para você que está produzindo e sim nos motivos para quem estará consumindo quando finalizado. Pudemos ver isso nos cases mostrados, onde haviam algumas características bem peculiares que tiveram que ser entendidas a fundo para que soluções pudessem ser achadas e só então as ferramentas para a implementação serem selecionadas.&lt;/p&gt;
 
@@ -358,8 +358,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O evento foi bastante produtivo e descontraído e reuniu um número considerável de pessoas. Acho que estamos criando um ecossistema interessante com tais iniciativas. Se você tem interesse na área, entre no nosso &lt;a href=&quot;https://www.facebook.com/groups/105147809888834/?fref=ts&quot;&gt;grupo no facebook&lt;/a&gt;, apesar dos encontros presenciais serem aqui em Natal, os links e discussões são universais. Sinta-se à vontade pra compartilhar textos e experiências, qualquer coisa que some é bem vinda.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
-        <guid isPermaLink="true">/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
+        <link>http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
         
         <category>uxdesign</category>
         
@@ -379,11 +379,11 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 
 &lt;p&gt;Então aqui vai mais algumas dicas que tenho para os amigos iniciantes na área.&lt;/p&gt;
 
-&lt;h2 id=&quot;no-tenha-medo-de-desenvolver-as-coisas&quot;&gt;Não tenha medo de desenvolver as coisas&lt;/h2&gt;
+&lt;h2 id=&quot;não-tenha-medo-de-desenvolver-as-coisas&quot;&gt;Não tenha medo de desenvolver as coisas&lt;/h2&gt;
 
 &lt;p&gt;Meu esquema de trabalho é sempre o seguinte: o designer faz uma proposta de layout e eu vou implementando e conversando com ele sobre algumas melhorias para o ecossistema web. No começo apareceram algumas coisas que eu não tinha a mínima ideia de como ia fazer, mas eu sempre disse que dava pra implementar todas as propostas dadas por ele. E porque eu disse isso? Porque quando alguém pergunta se a gente sabe fazer algo e nos dá um prazo pra responder, a melhor alternativa é responder que sim e se não sabe, aprender a fazer da melhor forma possível. E foi o que eu sempre fiz. E isso foi um ótima estratégia, porque eu aprendi diversas coisas que eu não aprenderia se tivesse dito apenas pra ele exportar os assets todos e fizesse um site cheio de imagens. O que nos leva pra nossa próxima dica.&lt;/p&gt;
 
-&lt;h2 id=&quot;use-o-mnimo-de-assets-possveis&quot;&gt;Use o mínimo de assets possíveis&lt;/h2&gt;
+&lt;h2 id=&quot;use-o-mínimo-de-assets-possíveis&quot;&gt;Use o mínimo de assets possíveis&lt;/h2&gt;
 
 &lt;p&gt;Assets são, em suma, arquivos que utilizamos para complementar nossas páginas webs, como imagens, arquivos de fontes e folhas de estilo. É óbvio que você não vai se limitar a usar 2 ou 3 imagens no site se o site for um galeria de imagens. Aqui falo de um conceito de design utilizado no frontend tanto para melhorar a performace do projeto quanto para melhorar as habilidades de estilização com CSS. O conceito de design que quero introduzir é o de “não use mais do que o necessário”. Se eu for procurar, vou achar o nome do autor que fala sobre isso, mas agora não é o foco. Apenas guarde na cabeça “não use mais do que o necessário”.&lt;/p&gt;
 
@@ -410,8 +410,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Essas foram mais algumas dicas de um desenvolvedor frontend júnior. Críticas e sugestões nos comentários. Até a próxima.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
-        <guid isPermaLink="true">/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
+        <link>http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
         
         <category>frontend</category>
         
@@ -518,7 +518,7 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O que acontece é: as propriedades &lt;code&gt;top&lt;/code&gt; e &lt;code&gt;left&lt;/code&gt; com valores iguais a &lt;code&gt;50%&lt;/code&gt; fazem com que o elemento comece a ser apresentado exatamente no meio do container e dependendo da altura e largura, cresça para baixo e para a direita. Se pegarmos os valores exatos da metade da largura do elemento e adcionarmos a uma margem negativa para a esquerda, temos esse elemento centralizado na horizontal. Se pegarmos o valor exato da altura e adicionarmos à margem negativa do topo, teremos esse elemento centralizado na vertical, logo, o elemento está posicionado exatamente no centro do container.
 O resto das estilizações são puramente estíticas e não vou entrar em detalhes aqui.&lt;/p&gt;
 
-&lt;h2 id=&quot;criando-as-transies&quot;&gt;Criando as transições&lt;/h2&gt;
+&lt;h2 id=&quot;criando-as-transições&quot;&gt;Criando as transições&lt;/h2&gt;
 
 &lt;p&gt;Bem, agora que temos nossos elementos devidamente estilizados, precisamos dar vida ao nosso componente. Precisamos que ao passar o mouse em cima do container, haja um desfoque na imagem, uma leve rotação nela e também que apareça o pseudobotão, que na verdade é um link. Vamos iniciar a implementação pelo efeito que a imagem vai ter quando o mouse passar em cima do container.&lt;/p&gt;
 
@@ -555,14 +555,14 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 
 &lt;p&gt;Aqui entendemos porque utilizamos o método da opacidade para fazer o elemento sumir e desaparecer. Para utilizarmos transições, precisamos tratar com propriedades animáveis. Das 3 que poderíamos usar, apenas a &lt;code&gt;visibility&lt;/code&gt; e a &lt;code&gt;opacity&lt;/code&gt; são animáveis, porém a opacity possui valores numerais, logo sua animação é mais fluida e pode ser mais manipulada. Para conseguirmos o efeito de fadeIn, apenas usando ela seria possível.&lt;/p&gt;
 
-&lt;h1 id=&quot;consideraes-finais&quot;&gt;Considerações Finais&lt;/h1&gt;
+&lt;h1 id=&quot;considerações-finais&quot;&gt;Considerações Finais&lt;/h1&gt;
 &lt;p&gt;Esse exemplo que fiz pode ser útil em casos onde a imagem é o mais importante e o link relacionado a ela esteja em segundo plano. Usei algo parecido na construção do meu portifólio, por exemplo. Pode ser útil em galerias de imagens e thumbnails de vídeos.&lt;/p&gt;
 
 &lt;p&gt;Se você chegou até aqui e aprendeu algo novo, indique esse texto para alguém que possivelmente também aprenderá algo novo. Não falo isso por querer ganhar mais visualizações e nem nada, até porque meu blog não é monetizado. Quero apenas que este conhecimento que passei possa chegar a mais lugares. Qualquer dúvida ou sugestão deixem nos comentários que eu respondo assim que possível. Não sei se esse modelo de postagem é interessante ou não, na verdade, mas fiz o primeiro para testar, ficaria feliz com seu feedback.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 May 2016 00:00:00 -0300</pubDate>
-        <link>/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
-        <guid isPermaLink="true">/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
+        <link>http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
         
         <category>frontend</category>
         
@@ -578,7 +578,7 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
 	&lt;img class=&quot;post-img&quot; src=&quot;http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg&quot; /&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;porque-esto-fazendo-tanta-coisa-apenas-com-css3&quot;&gt;Porque estão fazendo tanta coisa apenas com CSS3?&lt;/h2&gt;
+&lt;h2 id=&quot;porque-estão-fazendo-tanta-coisa-apenas-com-css3&quot;&gt;Porque estão fazendo tanta coisa apenas com CSS3?&lt;/h2&gt;
 
 &lt;p&gt;Primeiro, levando em consideração o conceito de programação: &lt;code&gt; entrada de dados &amp;#8594; processamento &amp;#8594; e saída de dados&lt;/code&gt;, podemos dizer que, ao contrário do que muitos dizem e desconstruindo gradiosos anos de conceituação, CSS3, se já não é, está virando uma linguagem de programação. Apesar de a maior parte dela ser uma linguagem visual de estilização, já temos nela recursos que implementam manipulação de dados para obtenção de determinados resultados. O exemplo mais claro disso é a função &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/calc&quot;&gt;&lt;code&gt;calc()&lt;/code&gt;&lt;/a&gt; do CSS. Podemos ver outros diversos exemplos de casos de lógica de programação aplicada dentro do CSS3, como o caso da pseudoclasse &lt;code class=&quot;language-css&quot;&gt;&lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child&quot;&gt;:nth-child()&lt;/a&gt;&lt;/code&gt; ou das &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_variables&quot;&gt;variáveis&lt;/a&gt;, que ainda não estão com suporte aceitável, mas já são uma certeza para a próxima versão do CSS. Isso sem contar o poder que os preprocessadores possuem.&lt;/p&gt;
 
@@ -593,7 +593,7 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
   &lt;li&gt;&lt;a href=&quot;http://codepen.io/search/pens?q=only+css&amp;amp;limit=all&amp;amp;type=type-pens&quot;&gt;Diversos outros exemplos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;d-pra-fazer-e-eu-no-sei-mas-isso-no-quer-dizer-que-eu-no-v-saber-pra-sempre&quot;&gt;Dá pra fazer e eu não sei… Mas isso não quer dizer que eu não vá saber pra sempre.&lt;/h2&gt;
+&lt;h2 id=&quot;dá-pra-fazer-e-eu-não-sei-mas-isso-não-quer-dizer-que-eu-não-vá-saber-pra-sempre&quot;&gt;Dá pra fazer e eu não sei… Mas isso não quer dizer que eu não vá saber pra sempre.&lt;/h2&gt;
 
 &lt;p&gt;Como se sabe de longa data, os estudo na área tecnológica são freneticamente incansáveis. Se você programa todo dia, todo dia vai descobrir uma coisa nova. Se você implementa layouts ou UI todo dia, sempre vai ter que ralar um pouquinho mais para fazer algum componente ter tal comportamento ou característica, por exemplo. E se você for iniciante, vai descobrir mais coisas ainda. Eu, por exemplo, descobri hoje como fazer paginação e configurar um resumo do post no &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, que suporta esse blog. E se você não sabe fazer tudo com CSS3, assim como eu, comece a estudar para que daqui um tempo saiba.&lt;/p&gt;
 
@@ -601,7 +601,7 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
 
 &lt;p&gt;E eu percebi isso.&lt;/p&gt;
 
-&lt;h2 id=&quot;alimento-o-monstro-pra-que-ele-no-me-ataque-ou-me-alimento-para-atac-lo&quot;&gt;Alimento o monstro pra que ele não me ataque ou me alimento para atacá-lo?&lt;/h2&gt;
+&lt;h2 id=&quot;alimento-o-monstro-pra-que-ele-não-me-ataque-ou-me-alimento-para-atacá-lo&quot;&gt;Alimento o monstro pra que ele não me ataque ou me alimento para atacá-lo?&lt;/h2&gt;
 
 &lt;p&gt;Eu saí de casa e comi para caralho. Comecei a estudar CSS3 mais a fundo. Comecei de leve, com &lt;code&gt;transitions&lt;/code&gt; e &lt;code&gt;transforms&lt;/code&gt;, depois entendi como funcionam as &lt;code&gt;animations&lt;/code&gt; e ainda estou fazendo algumas experimentações para ver onde consigo chegar nisso. Depois pretendo fazer um post com o roadmap de estudo de CSS que eu estou montando, abordando algumas práticas importantes para se aprender.&lt;/p&gt;
 
@@ -612,8 +612,8 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
 &lt;p&gt;Caso não chegue a nada legal é porque não fui tão a fundo nisso quanto deveria. Até, meus caros.&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 May 2016 00:00:00 -0300</pubDate>
-        <link>/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</link>
-        <guid isPermaLink="true">/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</guid>
+        <link>http://localhost:4000/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</guid>
         
         <category>frontend</category>
         
@@ -635,16 +635,16 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
 
 &lt;p&gt;Aqui vão as dicas:&lt;/p&gt;
 
-&lt;h2 id=&quot;no-pare-de-ler-sobre&quot;&gt;Não pare de ler sobre&lt;/h2&gt;
+&lt;h2 id=&quot;não-pare-de-ler-sobre&quot;&gt;Não pare de ler sobre&lt;/h2&gt;
 &lt;p&gt;Seja sobre design, técnicas de css, dicas sobre esquemas de cores, performace ou sobre aquele framework que você quer aprender, o mais importante é não parar de ler. Não digo para você ler o dia todo, mas ao menos ler todo dia um pouco sobre um tema. Com o tempo, se puder começar a escrever sobre também pode ser interessante, pois quando se escreve, se sintetiza, e quando se sintetiza, o conhecimento fica muito melhor armazenado no seu cérebro.&lt;/p&gt;
 
 &lt;p&gt;Uma dica que pode ser interessantes para alguns é criar um dailylog sobre as leituras que fez. Simplesmente registrar em algum lugar as leituras que você faz, aconselho usar um repositório no github, pois é fácil de utilizar e te força a usá-lo, o que pode ser bom se você não tem esse costume. Tem muito dev bom por aí que mantem um dailylog e que pode ser interessante acompanhar. Aconselho aqui o do &lt;a href=&quot;https://github.com/LFeh/dailylog&quot;&gt;Felipe Fialho&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;veja-sempre-o-codepenhttpcodepenio&quot;&gt;Veja sempre o &lt;a href=&quot;http://codepen.io/&quot;&gt;Codepen&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;veja-sempre-o-codepen&quot;&gt;Veja sempre o &lt;a href=&quot;http://codepen.io/&quot;&gt;Codepen&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;O codepen é basicamente um parquinho de diversões dos Frontends. É algo que não chega a ser o portifólio, mas dá pra sacar os talentos da galera lá. Existem coisas fantásticas feitas no codepen, que você pode ver o código, forkar, modificar e estudar. Criar o costume de abrir o codepen só pra sacar o que a galera tá fazendo ao redor do mundo é muito bom para sempre ter referências boas na manga. É melhor ainda se você além de ver o Pen rodando, fuça ele direitinho e tenta entender exatamente a lógica que o dev usou para chegar a tais resultados. E quando tiver ideias legais, não hesite em implementar elas e jogar lá. Muitas vezes não fazemos coisas legais por não ter onde aplicar, mas o codepen abriu a janela pra isso: implementar peças independente de se ter o jogo completo ou não.&lt;/p&gt;
 
-&lt;h2 id=&quot;conhea-outros-desenvolvedores-e-seus-trabalhos&quot;&gt;Conheça outros desenvolvedores e seus trabalhos&lt;/h2&gt;
+&lt;h2 id=&quot;conheça-outros-desenvolvedores-e-seus-trabalhos&quot;&gt;Conheça outros desenvolvedores e seus trabalhos&lt;/h2&gt;
 
 &lt;p&gt;Não falo aqui de conhecer todos os grandes desenvolvedores da área, saber seus nomes completos e endereço. Não tô falando também de conhecer todos os Engenheiros Frontend do Facebook. Grandes desenvolvedores não estão somente nas grandes empresas. E também não falo conhecer pessoalmente todos os devs bons do mundo e ser amigo deles. A internet encurtou distâncias, use isso a seu favor. O que quero dizer com este tópico é que você deve entender o valor dos desenvolvedores, acompanhar os que mais te agradam e entender o porque eles dizem as coisas que dizem, porque usam as coisas que usam ou porque fazem do jeito que fazem. Seguir alguns desenvolvedores que você se identifique vai te dar um aporte maior de aprendizado.&lt;/p&gt;
 
@@ -669,8 +669,8 @@ Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvi
 &lt;p&gt;Acho que as minhas dicas foram pertinentes para os iniciantes, apesar de algumas coisas parecerem óbvias para alguns, para outros não são. As coisas faladas aqui são coisas que eu estou pondo em prática ao longo do último ano, que foi quando comecei a estudar mais a fundo todo o universo de desenvolvimento frontend, principalmente nos últimos meses, quando comecei a trabalhar com isso profissionalmente. Apesar do bom tempo passado e dos conhecimentos adquiridos, sei que estou ainda começando nesse árduo caminho. Espero ter ajudado com alguma das dicas.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 May 2016 00:00:00 -0300</pubDate>
-        <link>/2016/05/21/Dicas-de-um-Frontend-Junior.html</link>
-        <guid isPermaLink="true">/2016/05/21/Dicas-de-um-Frontend-Junior.html</guid>
+        <link>http://localhost:4000/2016/05/21/Dicas-de-um-Frontend-Junior.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/21/Dicas-de-um-Frontend-Junior.html</guid>
         
         <category>frontend</category>
         

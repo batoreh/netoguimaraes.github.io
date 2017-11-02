@@ -5,10 +5,14 @@
   "main": "Gruntfile.js",
   "author": "netoguimaraes",
   "license": "MIT",
+  "scripts": {
+    "grunt": "grunt watch"
+  },
   "devDependencies": {
     "angular": "^1.5.8",
     "font-awesome": "^4.6.3",
     "grunt": "^0.4.2",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
