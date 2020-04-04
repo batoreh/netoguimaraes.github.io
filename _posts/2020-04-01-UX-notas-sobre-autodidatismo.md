@@ -5,20 +5,14 @@ tags: aprendizado, autodidatismo
 comments: true
 excerpt_separator: <!--bora-->
 ---
-<div class="post-img-container">
-	<img class="post-img" src="https://cdn-images-1.medium.com/max/2000/1*b96gCpk44BOWtaHsra5f6w.png"/>
-</div>
-
-# notas sobre autodidatismo
-
 [texto no medium](https://medium.com/@netoguimaraes/notas-sobre-autodidatismo-84c1357e38c0)
 
-<hr></hr>
+<hr>
 
 neste texto, introduzirei o real conceito de autodidatismo e darei um passo a passo de como aplicá-lo no seu cotidiano, seja para qual finalidade for, usando exemplos pessoais com o objetivo de dar o tom realista a algo que soa tão abstrato.
 
 
-<hr></hr>
+<hr>
 
 ## desmistificando o conceito
 para muita gente, o conceito de autodidatismo tem relação direta com a capacidade de se aprender algo sozinho. mas será que isso faz sentido?
