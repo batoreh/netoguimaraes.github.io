@@ -25,17 +25,17 @@ logo, o conceito que temos de autodidatismo soa errado ao ver com esses olhos. a
 
 e o fator que leva os autodidatas a criarem suas próprias metodologias é muito simples: aprender da forma tradicional é muito chato. sentar 6 horas por dia numa sala com mais 30 pessoas e ouvir professores falando é muito maçante. ter que ler livros e mais livros escolhidos por outras pessoas na esperança de que aquilo vai te trazer o conhecimento que você quer talvez não seja a melhor maneira de alcançar seus objetivos, mas ao longo de toda a nossa vida, fomos ensinados que esses são os melhores meios e que ir por um caminho diferente desse é coisa de louco. mas não é bem assim.
 
-primeiramente, pense numa criança que não sabe falar.
+__primeiramente, pense numa criança que não sabe falar.__
 
-como ela aprender a falar sozinha?
+__como ela aprender a falar sozinha?__
 
 ela não aprende sozinha. ela tem referenciais ao redor dela que estão o tempo todo falando, gesticulando, interagindo com ela e aos poucos ela vai retendo os sons e percebendo que pode também reproduzí-los, mesmo que não sejam sons inteligíveis inicialmente, mas que ainda assim são uma forma de interação. aos poucos esses sons vão tomando forma e, naturalmente, começam a surgir as primeiras palavras. ao longo desse processo, os pais geralmente vão entendendo e criando um método próprio para estimular e fazer essa criança desenvolver melhor essas habilidades. e é nesse exemplo que temos que pensar sempre que pensamos em aprender algo fora dos métodos tradicionais.
 
-o processo deve ser construído de forma prazeirosa e divertida, nunca dolorosa.
+> o processo deve ser construído de forma prazeirosa e divertida, nunca dolorosa.
 
 nenhum pai coloca de castigo uma criança que não aprendeu a falar aos 2 anos de idade. no máximo ele vai procurar ajuda profissional pra entender se há algum problema cognitivo ou mental, mas tudo dentro da ideia de que o processo será único para cada criança.
 
-vamos entender outro exemplo para captar melhor a essência da ideia.
+__vamos entender outro exemplo para captar melhor a essência da ideia.__
 
 é fato que se você viajar para a China e passar 6 meses lá, você aprenderá mais Mandarim do que se passar os mesmos 6 meses estudando em algum curso dessa mesma língua. e isso se dá pelos MOTIVOS que você tem para aprender. num geral, precisar comprar comida num mercado chinês é mais motivador do que ouvir um professor repetindo os números de 1 a 10 ou ensinando as cores, não?
 
@@ -43,15 +43,16 @@ vamos entender outro exemplo para captar melhor a essência da ideia.
 
 depois de entender que talvez as metodologia que estamos acostumados talvez não sejam as melhores, um questionamento que provavelmente virá à sua cabeça é: e agora, o que eu faço com essa informação? devo acabar com o sistema de ensino e me rebelar contra tudo e todos que forem contra formas alternativas de aprendizado?
 
-acho que não.
+__acho que não.__
 
-é muito simples e lógico: já que a metodologia tradicional não é o que mais te agrada, monte a sua própria.
+__é muito simples e lógico: já que a metodologia tradicional não é o que mais te agrada, monte a sua própria.__
 
-mas como assim montar uma metodologia? apenas profissionais capacitados são capazes disso…
+### mas como assim montar uma metodologia? apenas profissionais capacitados são capazes disso…
 
-você é a pessoa que mais sabe do que você precisa
 
 neste ponto muitas pessoas travam com a ideia de ser responsável por montar uma estratégia, com a justificativa de que não são capacitadas pra isso, que não vão conseguir ou que se fizerem uma estratégia, esta vai ficar ruim e pouco otimizada. o único argumento que eu tenho pra te convencer uma pessoa com essa linha de raciocínio é: cada um sabe o que gosta e o que não gosta. sabe o que faz bem e o que faz mal para si.
+
+__você é a pessoa que mais sabe do que você precisa__
 
 você é a pessoa mais indicada para dizer para si mesmo COMO você deve aprender e qual o jeito que mais vai te trazer resultados. e talvez a primeira estratégia que você monte seja realmente ruim, mas você também será a pessoa mais indicada para melhorar ela.
 

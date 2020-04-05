@@ -8,11 +8,37 @@ body {
 img {
   max-width: 100%;
   margin: 20px auto;
+  box-shadow: 4px 4px 0px rgba(146, 255, 111, 0.8), -4px -4px 0px rgba(255, 111, 111, 0.8);
+}
+
+i, .separator p {
+  text-shadow: 2px 0px 0px rgba(146, 255, 111, 0.8), -2px 0px 0px rgba(255, 111, 111, 0.8);
+}
+
+a {
+  text-shadow: 2px 0px 0px rgba(146, 255, 111, 0.8), -2px 0px 0px rgba(255, 111, 111, 0.8);
+  text-decoration: none;
+}
+
+small span {
+  text-shadow: 2px 0px 0px rgba(146, 255, 111, 0.8), -2px 0px 0px rgba(255, 111, 111, 0.8);
+}
+
+blockquote  {
+  text-shadow: 2px 0px 0px rgba(146, 255, 111, 0.8), -2px 0px 0px rgba(255, 111, 111, 0.8);
+  color: #777;
+  font-style: italic;
+  font-size: 1.5em;
+  border-left: 5px solid #ccc;
+  padding: 5px 0px 5px 30px;
+  vertical-align: middle;
+  margin: 0 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Vidaloka';
   text-align: center;
+  text-shadow: 2px 0px 0px rgba(146, 255, 111, 0.8), -2px 0px 0px rgba(255, 111, 111, 0.8);
 }
 
 pre {
@@ -23,13 +49,13 @@ pre {
   display: block;
   width: 100%;
   height: 35px;
-  background: black;
+  background: transparent;
   color: #ccc;
 }
 .avatar-container::after {
-  content: '';
+  /* content: ''; */
   position: absolute;
-  border-left: 100vw solid black;
+  border-left: 100vw solid transparent;
   border-bottom: 200px solid transparent;
   border-top: 0px solid transparent;
   width: 100%;
@@ -51,16 +77,15 @@ pre {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  top: 50px;
+  top: 20px;
   z-index: 2;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
 }
 
 .info-container {
   display: block;
   margin: 10px auto;
   width: 100%;
-  margin-top: 170px;
+  margin-top: 140px;
   text-align: center;
   color: #333;
   font-family: 'Vidaloka';
@@ -72,7 +97,7 @@ pre {
 }
 
 .separator {
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
 }
 .separator p {
@@ -95,10 +120,10 @@ pre {
 .links-list {
   display: flex;
   list-style: none;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .link-item {
   margin: 5px 10px;
@@ -114,6 +139,16 @@ pre {
   max-width: 700px;
   font-size: 1.2em;
   margin: 20px auto;
+  text-align: justify;
+}
+
+@media(max-width: 720px) {
+  .content-container {
+    padding: 20px;
+  }
+  .content-container.post {
+    width: 90vw !important;
+  };
 }
 .article-container {
   margin: 50px 0;

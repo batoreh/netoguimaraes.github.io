@@ -1,22 +1,16 @@
 ---
 layout: default
-title: netoguimaraes' blog
+title: netoencoded
 ---
-
-<p align="center">
-  <p align="center">a programmer trying to humanize things and make the world a better place.</p>
-</p>
-
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate >= '2020' %}
+  {% if currentdate < '2020' %}
     <div class="article-container">
       <small><span class="date">{{post.date | date: '%B %d , %Y'}}</span></small>
       <h2 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h2>
     </div>
   {% endif %}
 {% endfor %}
-
 <p align="center">
-  <a href="older.html">older posts</a>
+  <a href="index.html">new posts</a>
 </p>
