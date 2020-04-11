@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Apr 2020 13:30:13 -0300</pubDate>
-    <lastBuildDate>Sat, 11 Apr 2020 13:30:13 -0300</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Apr 2020 13:31:47 -0300</pubDate>
+    <lastBuildDate>Sat, 11 Apr 2020 13:31:47 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -71,8 +71,8 @@
 &lt;p&gt;o movimento ainda é pequeno em termos de Brasil, mas há sempre pano pra manga. todo esse contexto envolve uma análise crítica e individual, o movimento serve apenas para reunir pessoas e fazer elas trocarem experiências, mas ele se faz a partir do indivíduo por si só. o questionamento que quero levanta é: você é consciente do uso que você faz da internet?&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2020/04/10/UX-a-origem-do-noSurf.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/10/UX-a-origem-do-noSurf.html</guid>
+        <link>/2020/04/10/UX-a-origem-do-noSurf.html</link>
+        <guid isPermaLink="true">/2020/04/10/UX-a-origem-do-noSurf.html</guid>
         
         <category>aprendizado,</category>
         
@@ -235,8 +235,8 @@ a partir daí, é hora de botar a mão na massa e começar a estudar. um ponto i
 &lt;p&gt;e se no meio desse processo todo você se sentir incapaz ou achar que não vai chegar no seu objetivo, lembre-se que você já foi um bebê e aprendeu a andar sem ninguém te ensinar. lembre-se que seu processo de aprendizagem de fala, de entendimento de mundo, o desenvolvimento do seu senso de humor ou do jeito que você se relaciona com as pessoas que gosta, tudo isso você fez de maneira autodidata. você só não tinha consciência disso.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2020/04/01/UX-notas-sobre-autodidatismo.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/01/UX-notas-sobre-autodidatismo.html</guid>
+        <link>/2020/04/01/UX-notas-sobre-autodidatismo.html</link>
+        <guid isPermaLink="true">/2020/04/01/UX-notas-sobre-autodidatismo.html</guid>
         
         <category>aprendizado,</category>
         
@@ -304,8 +304,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este artigo teve como objetivo introduzir algumas relações diretas entre UX Design e algumas ferramentas e boas práticas do universo do desenvolvimento Frontend. Esse é o primeiro post de uma sequência que tratará das interseções e trocas de amor entre Frontend e UX, visto a escassez de conteúdos que tratem diretamente destes assuntos, de forma a facilitar as coisas para os dois lados envolvidos.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</guid>
+        <link>/2016/09/01/UX-para-frontenders-i.html</link>
+        <guid isPermaLink="true">/2016/09/01/UX-para-frontenders-i.html</guid>
         
         <category>uxdesign</category>
         
@@ -355,8 +355,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este texto tem como objetivo introduzir desenvolvedores à alguns conceitos de design, nos próximos textos da série, explorarei aspectos mais práticos e mais específicos. Até lá!&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</guid>
+        <link>/2016/07/26/design-para-devs-1-introducao.html</link>
+        <guid isPermaLink="true">/2016/07/26/design-para-devs-1-introducao.html</guid>
         
         <category>frontend</category>
         
@@ -421,8 +421,8 @@ Começar um projeto pela interface pode ser extremamente perigoso&lt;/p&gt;
 Mas isso não quer dizer que não seja um risco bom a se correr, testar novos modos de interação para criar novas experiências de usuário. As ferramentas estão aí pra serem usadas, só se deve tomar cuidado para entender qual a melhor maneira de fazer isso, buscando sempre resolver o problema da melhor maneira e nunca dificultar sua resolução, pois esse é o papel do design no mundo.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Jul 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
+        <link>/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
+        <guid isPermaLink="true">/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
         
         <category>uxdesign</category>
         
@@ -482,8 +482,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Qualquer dúvida nos comentários. Se gostou do post, ajude a divulgar o blog, faço ele apenas por amor, sem monetização nenhuma, então quanto mais longe chegar, mais “bem pago” eu serei ♥.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jun 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
+        <link>/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
+        <guid isPermaLink="true">/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
         
         <category>frontend</category>
         
@@ -552,8 +552,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O VIM é um universo gigante e tentei dar um panorama geral para iniciantes se introduzirem nesse ecossistema de forma rápida e simples para depois se aprofundar. Qualquer dúvida, nos comentários.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jun 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
+        <link>/2016/06/13/vamos-falar-sobre-o-vim.html</link>
+        <guid isPermaLink="true">/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
         
         <category>misc</category>
         
@@ -594,8 +594,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O evento foi bastante produtivo e descontraído e reuniu um número considerável de pessoas. Acho que estamos criando um ecossistema interessante com tais iniciativas. Se você tem interesse na área, entre no nosso &lt;a href=&quot;https://www.facebook.com/groups/105147809888834/?fref=ts&quot;&gt;grupo no facebook&lt;/a&gt;, apesar dos encontros presenciais serem aqui em Natal, os links e discussões são universais. Sinta-se à vontade pra compartilhar textos e experiências, qualquer coisa que some é bem vinda.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jun 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
+        <link>/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
+        <guid isPermaLink="true">/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
         
         <category>uxdesign</category>
         
@@ -646,8 +646,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Essas foram mais algumas dicas de um desenvolvedor frontend júnior. Críticas e sugestões nos comentários. Até a próxima.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
+        <link>/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
+        <guid isPermaLink="true">/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
         
         <category>frontend</category>
         
@@ -797,8 +797,8 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 &lt;p&gt;Se você chegou até aqui e aprendeu algo novo, indique esse texto para alguém que possivelmente também aprenderá algo novo. Não falo isso por querer ganhar mais visualizações e nem nada, até porque meu blog não é monetizado. Quero apenas que este conhecimento que passei possa chegar a mais lugares. Qualquer dúvida ou sugestão deixem nos comentários que eu respondo assim que possível. Não sei se esse modelo de postagem é interessante ou não, na verdade, mas fiz o primeiro para testar, ficaria feliz com seu feedback.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 May 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
+        <link>/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
+        <guid isPermaLink="true">/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
         
         <category>frontend</category>
         
