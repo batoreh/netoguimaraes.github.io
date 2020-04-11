@@ -3,11 +3,83 @@
   <channel>
     <title></title>
     <description>Um blog sobre tecnologia e todas as angústias e alegrias que a cercam.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Apr 2020 00:46:28 -0300</pubDate>
-    <lastBuildDate>Sat, 11 Apr 2020 00:46:28 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Apr 2020 13:30:13 -0300</pubDate>
+    <lastBuildDate>Sat, 11 Apr 2020 13:30:13 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>a origem do noSurf</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://medium.com/@netoguimaraes/notas-sobre-autodidatismo-84c1357e38c0&quot;&gt;texto no medium&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;neste texto introduzirei o movimento NoSurf, suas origens e motivações. algo de grande importância para o momento em que vivemos mas ainda pouco falado.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;mais-umdia&quot;&gt;mais um dia&lt;/h2&gt;
+
+&lt;p&gt;imagine a seguinte cena: são 10 da manhã. você acordou às 8h30, mas ainda não fez nada. está se atualizando sobre o que está acontecendo ao redor do mundo, vendo os vídeos dos seus canais favoritos do youtube, rolando o feed do instagram e vendo os tweets que você perdeu enquanto dormia.&lt;/p&gt;
+
+&lt;p&gt;ops, são 11h horas, tem que fazer o almoço. você coloca aquele podcast engraçado e segue pra cozinha.&lt;/p&gt;
+
+&lt;p&gt;ao terminar de preparar o almoço, você volta pro youtube e coloca algo leve para assistir enquanto come. lava a louça enquanto escuta mais um podcast. sai de casa para fazer suas obrigações, ainda ouvindo o podcast. enquanto está no ônibus, escreve uns tweets sobre as amenidades do dia. enquanto está na aula, verifica suas notificações periodicamente, vai que alguém falou alguma coisa importante. ao chegar em casa depois de um dia cansativo, coloca o celular pra carregar e fica rolando a timeline do twitter até dar sono. e o ciclo se repete.&lt;/p&gt;
+
+&lt;p&gt;fim da cena.&lt;/p&gt;
+
+&lt;p&gt;essa é a vida comum de qualquer pessoa da minha geração, com uma margem de erro de alguns anos pra cima ou pra baixo. e não há nada de necessariamente errado com ela, se ela for realmente pensada e planejada para ser assim: um grande consumo de informações sem tempo para respiro nem para um processamento decente da mesma. o grande problema é que este comportamento não é necessariamente consciente. boa parte desse tempo estamos executando o que os NoSurfers entendem como Mindless Browsing (Navegação inconsciente, em tradução livre). Mas o que diabos é esse movimento NoSurf?&lt;/p&gt;
+
+&lt;p&gt;em linhas gerais, é um movimento que prega a eliminação desta Navegação Inconsciente. não o fim de forma ditatorial, como se fossem uma casta superior - apesar de existirem os chatos que se acham donos do mundo por terem excluídos todas as suas redes sociais. o movimento tem o objetivo de reunir e incentivar as pessoas a fim de melhorar certos aspectos que a navegação inconsciente acaba atingindo: autoestima, ansiedade, depressão, autoconhecimento e etc.&lt;/p&gt;
+
+&lt;p&gt;mas como isso surgiu? porque alguém ficaria com uma pulga atrás da orelha com um tópico tão cotidiano como o acesso à informação na internet?&lt;/p&gt;
+
+&lt;h2 id=&quot;as-redessociais&quot;&gt;As redes sociais&lt;/h2&gt;
+&lt;p&gt;o ser humano é social, isso é um fato.&lt;/p&gt;
+
+&lt;p&gt;por isso que uma de nossas punições mais comuns é tirar a liberdade (prisão). desde sempre gostamos de interagir uns com os outros. seja ao redor de uma fogueira enquanto assamos a carne do animal que acabamos de caçar ou através de um like na foto do seu broder na academia. sempre foi assim, seres humanos discutindo, se elogiando e se influenciando. as redes sociais são só uma representação do que sempre fizemos.&lt;/p&gt;
+
+&lt;p&gt;mas sem sombra de dúvidas, elas são uma das principais causadoras do Mindless Browsing. e digo mais: foi a indústria das redes sociais que criou o conceito de navegação inconsciente. e aqui explico para o leitor: todas as redes são empresas. &lt;/p&gt;
+
+&lt;p&gt;empresas são instituições que tem como principal objetivo arrecadar dinheiro, seja pra pagar seus funcionários, manter-se funcionando ou fazer seus donos lucrarem. essa é a premissa básica do capitalismo, onde todos precisam de dinheiro pra viver e quanto mais dinheiro melhor. o grande plot desta história é que as empresas por trás das redes ganham dinheiro através de cliques e pelo tempo que as pessoas passam em suas páginas ou aplicativos, basicamente. ou seja, quanto mais tempo o usuário passa no app, mais receita é gerada. logo, o pensamento mais básico dessas empresas é o de criar mecanismos para fazer com que cada vez mais os usuários passem mais tempo por ali. e obviamente, não se pode forçar ninguém a ficar num app, portanto essas travas devem ser psicológicas.&lt;/p&gt;
+
+&lt;p&gt;então, ao longo dos anos, foram sendo desenvolvidas estratégias psicológicas para que cada vez mais as pessoas sentissem vontade de permanecer nos respectivos apps e sites. estratégias de incentivo para criadores de conteúdos também aparecem aí no meio. afinal, quanto mais gente criando conteúdo diverso, mais público é atingido e mais gente quer ver o que tá acontecendo.&lt;/p&gt;
+
+&lt;h2 id=&quot;criou-se-ummonstro&quot;&gt;criou-se um monstro&lt;/h2&gt;
+
+&lt;p&gt;a bola de neve foi girando e com os anos, temos um cenário infalível: vídeos de gatinhos, discussões sobre os temas mais atuais, gente se fudendo de maneira engraçada, gente bonita e rica falando sobre suas vidas, notícias sobre a guerra na síria e estudos científicos sobre obesidade nos estados unidos. tudo isso nos estimulando o dia inteiro, varando madrugadas. e o mais sádico: sem fim. sempre dá pra rolar mais um pouquinho pra baixo. as timelines foram sendo desenvolvidas de maneira a você nunca chegar no final. e se chegar, ter algum outro mecanismo para buscar conteúdos novos.&lt;/p&gt;
+
+&lt;p&gt;tantos estímulos acabam causando a sensação de falsa produtividade, onde você sente que está consumindo tudo aquilo, que está fazendo varias coisas ao mesmo tempo, mas na verdade essas informações acabam passando despercebidas, em sua maioria. é só aquele estímulo: leve, gostoso e efêmero. porém bons o suficiente para conseguirem enganar nossos cérebros, de maneira a fazer com que ele acostume-se com o fluxo de informações e aceite que aquele é o ritmo natural.&lt;/p&gt;
+
+&lt;p&gt;ao ser exposta a esta nova naturalidade, nosso cérebro começa a se acostumar com a ideia de que ele não precisa necessariamente processar tudo que vê. tudo passa a consistir em uma dose de sentimentos bons, que fragmentam as nossas ansiedades, nos fazem escapar um pouquinho da realidade e nos sentirmos mais calmos. &lt;/p&gt;
+
+&lt;p&gt;é aí que começa a navegação inconsciente.&lt;/p&gt;
+
+&lt;p&gt;quando passamos a não pensar mais se queremos realmente estar no instagram. quando estar com o celular na mão vendo qualquer coisa é o estado natural, mesmo que no fundo os desejos fossem outros. é quando esse processo todo passa a existir pelo simples fato de ser confortável. é nesse momento também que passa a ser difícil ler um texto como esse, com mais de 2 ou 3 parágrafos, uma ideia sendo dissecada de forma tão brutal.&lt;/p&gt;
+
+&lt;p&gt;e o noSurf cresce em cima da indignação gerada por todo esse contexto. evitar o Mindless Browsing é um movimento contrário ao que conhecemos como o maior bem do século: a quantidade de informação que temos a nosso favor. sim, é fato que esta geração é privilegiada por ter nascido num contexto onde podemos saber tudo sobre qualquer coisa a qualquer momento. mas o que exatamente estamos construindo com isso?&lt;/p&gt;
+
+&lt;p&gt;pra falar a verdade, essa quantidade de informação tem gerado muitos reflexos negativos. caso tenha interesse, pesquise sobre “internet e ansiedade”, “social networks and anxiety” e termos similares.&lt;/p&gt;
+
+&lt;h2 id=&quot;saindo-dacaverna&quot;&gt;saindo da caverna&lt;/h2&gt;
+
+&lt;p&gt;toda essa narrativa se assemelha com o mito da caverna de platão, onde os prisioneiros não possuem conhecimento do que há de verdade do lado de fora da caverna e se contentam com sombras. mas agora, tendo sido expostos os fatos, o que fazer?&lt;/p&gt;
+
+&lt;p&gt;passar a refletir mais sobre o que realmente estamos fazendo na internet é uma saída. se realmente estamos consumindo tudo que achamos que estamos. se essas coisas nos fazem bem, no auxiliam a alcançar objetivos. há até os perderam seus objetivos em meio a tanto caos e informação.&lt;/p&gt;
+
+&lt;p&gt;o movimento ainda é pequeno em termos de Brasil, mas há sempre pano pra manga. todo esse contexto envolve uma análise crítica e individual, o movimento serve apenas para reunir pessoas e fazer elas trocarem experiências, mas ele se faz a partir do indivíduo por si só. o questionamento que quero levanta é: você é consciente do uso que você faz da internet?&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/2020/04/10/UX-a-origem-do-noSurf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/10/UX-a-origem-do-noSurf.html</guid>
+        
+        <category>aprendizado,</category>
+        
+        <category>autodidatismo</category>
+        
+        
+      </item>
     
       <item>
         <title>notas sobre autodidatismo</title>
@@ -163,8 +235,8 @@ a partir daí, é hora de botar a mão na massa e começar a estudar. um ponto i
 &lt;p&gt;e se no meio desse processo todo você se sentir incapaz ou achar que não vai chegar no seu objetivo, lembre-se que você já foi um bebê e aprendeu a andar sem ninguém te ensinar. lembre-se que seu processo de aprendizagem de fala, de entendimento de mundo, o desenvolvimento do seu senso de humor ou do jeito que você se relaciona com as pessoas que gosta, tudo isso você fez de maneira autodidata. você só não tinha consciência disso.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2020 00:00:00 -0300</pubDate>
-        <link>/2020/04/01/UX-notas-sobre-autodidatismo.html</link>
-        <guid isPermaLink="true">/2020/04/01/UX-notas-sobre-autodidatismo.html</guid>
+        <link>http://localhost:4000/2020/04/01/UX-notas-sobre-autodidatismo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/01/UX-notas-sobre-autodidatismo.html</guid>
         
         <category>aprendizado,</category>
         
@@ -232,8 +304,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este artigo teve como objetivo introduzir algumas relações diretas entre UX Design e algumas ferramentas e boas práticas do universo do desenvolvimento Frontend. Esse é o primeiro post de uma sequência que tratará das interseções e trocas de amor entre Frontend e UX, visto a escassez de conteúdos que tratem diretamente destes assuntos, de forma a facilitar as coisas para os dois lados envolvidos.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2016 00:00:00 -0300</pubDate>
-        <link>/2016/09/01/UX-para-frontenders-i.html</link>
-        <guid isPermaLink="true">/2016/09/01/UX-para-frontenders-i.html</guid>
+        <link>http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/01/UX-para-frontenders-i.html</guid>
         
         <category>uxdesign</category>
         
@@ -283,8 +355,8 @@ Agora se pergunte: qual a melhor forma de homogeneizar os componentes para que e
 &lt;p&gt;Este texto tem como objetivo introduzir desenvolvedores à alguns conceitos de design, nos próximos textos da série, explorarei aspectos mais práticos e mais específicos. Até lá!&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2016 00:00:00 -0300</pubDate>
-        <link>/2016/07/26/design-para-devs-1-introducao.html</link>
-        <guid isPermaLink="true">/2016/07/26/design-para-devs-1-introducao.html</guid>
+        <link>http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/26/design-para-devs-1-introducao.html</guid>
         
         <category>frontend</category>
         
@@ -349,8 +421,8 @@ Começar um projeto pela interface pode ser extremamente perigoso&lt;/p&gt;
 Mas isso não quer dizer que não seja um risco bom a se correr, testar novos modos de interação para criar novas experiências de usuário. As ferramentas estão aí pra serem usadas, só se deve tomar cuidado para entender qual a melhor maneira de fazer isso, buscando sempre resolver o problema da melhor maneira e nunca dificultar sua resolução, pois esse é o papel do design no mundo.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Jul 2016 00:00:00 -0300</pubDate>
-        <link>/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
-        <guid isPermaLink="true">/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
+        <link>http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/03/a-internet-das-coisas-e-seus-desafios-para-a-UX.html</guid>
         
         <category>uxdesign</category>
         
@@ -410,8 +482,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Qualquer dúvida nos comentários. Se gostou do post, ajude a divulgar o blog, faço ele apenas por amor, sem monetização nenhuma, então quanto mais longe chegar, mais “bem pago” eu serei ♥.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
-        <guid isPermaLink="true">/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
+        <link>http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/19/less-uma-boa-escolha-para-iniciantes.html</guid>
         
         <category>frontend</category>
         
@@ -480,8 +552,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O VIM é um universo gigante e tentei dar um panorama geral para iniciantes se introduzirem nesse ecossistema de forma rápida e simples para depois se aprofundar. Qualquer dúvida, nos comentários.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/13/vamos-falar-sobre-o-vim.html</link>
-        <guid isPermaLink="true">/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
+        <link>http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/13/vamos-falar-sobre-o-vim.html</guid>
         
         <category>misc</category>
         
@@ -522,8 +594,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;O evento foi bastante produtivo e descontraído e reuniu um número considerável de pessoas. Acho que estamos criando um ecossistema interessante com tais iniciativas. Se você tem interesse na área, entre no nosso &lt;a href=&quot;https://www.facebook.com/groups/105147809888834/?fref=ts&quot;&gt;grupo no facebook&lt;/a&gt;, apesar dos encontros presenciais serem aqui em Natal, os links e discussões são universais. Sinta-se à vontade pra compartilhar textos e experiências, qualquer coisa que some é bem vinda.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
-        <guid isPermaLink="true">/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
+        <link>http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/09/Encontro-II-Comunidade-UX-Design-Natal.html</guid>
         
         <category>uxdesign</category>
         
@@ -574,8 +646,8 @@ Mas isso não quer dizer que não seja um risco bom a se correr, testar novos mo
 &lt;p&gt;Essas foram mais algumas dicas de um desenvolvedor frontend júnior. Críticas e sugestões nos comentários. Até a próxima.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 -0300</pubDate>
-        <link>/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
-        <guid isPermaLink="true">/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
+        <link>http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/06/06/Dicas-de-um-Frontend-Junior-2.html</guid>
         
         <category>frontend</category>
         
@@ -725,59 +797,8 @@ O resto das estilizações são puramente estíticas e não vou entrar em detalh
 &lt;p&gt;Se você chegou até aqui e aprendeu algo novo, indique esse texto para alguém que possivelmente também aprenderá algo novo. Não falo isso por querer ganhar mais visualizações e nem nada, até porque meu blog não é monetizado. Quero apenas que este conhecimento que passei possa chegar a mais lugares. Qualquer dúvida ou sugestão deixem nos comentários que eu respondo assim que possível. Não sei se esse modelo de postagem é interessante ou não, na verdade, mas fiz o primeiro para testar, ficaria feliz com seu feedback.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 May 2016 00:00:00 -0300</pubDate>
-        <link>/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
-        <guid isPermaLink="true">/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
-        
-        <category>frontend</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eu não sei fazer tudo com CSS</title>
-        <description>&lt;p&gt;Um post sobre a evolução do CSS3.
-&lt;!--bora--&gt;
-Se você costuma ler bastante e acompanhar os assuntos do universo de desenvolvimento frontend, já percebeu que faz um tempo que está rolando uma moda de fazer tudo que for possível com CSS. E não digo moda no sentido pejorativo. Moda porque tem aumentado a frequência de aparições de posts, pens e exemplos de código com isso. Em alguns casos são até coisas úteis, como um menu escondido com uma transição legal ou qualquer coisa do tipo, mas outras vezes são coisas bem &lt;a href=&quot;http://codepen.io/p-stacey-a/pen/ZWNryz&quot;&gt;fúteis&lt;/a&gt;. O  menu do meu blog eu fiz usando além de css3, um pouquinho de JavaScript, mas já vi gente fazendo só com CSS. Enfim, vamos explorar um pouco mais esse assunto?&lt;/p&gt;
-&lt;div class=&quot;post-img-container&quot;&gt;
-	&lt;img class=&quot;post-img&quot; src=&quot;http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;porque-estão-fazendo-tanta-coisa-apenas-com-css3&quot;&gt;Porque estão fazendo tanta coisa apenas com CSS3?&lt;/h2&gt;
-
-&lt;p&gt;Primeiro, levando em consideração o conceito de programação: &lt;code&gt; entrada de dados &amp;#8594; processamento &amp;#8594; e saída de dados&lt;/code&gt;, podemos dizer que, ao contrário do que muitos dizem e desconstruindo gradiosos anos de conceituação, CSS3, se já não é, está virando uma linguagem de programação. Apesar de a maior parte dela ser uma linguagem visual de estilização, já temos nela recursos que implementam manipulação de dados para obtenção de determinados resultados. O exemplo mais claro disso é a função &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/calc&quot;&gt;&lt;code&gt;calc()&lt;/code&gt;&lt;/a&gt; do CSS. Podemos ver outros diversos exemplos de casos de lógica de programação aplicada dentro do CSS3, como o caso da pseudoclasse &lt;code class=&quot;language-css&quot;&gt;&lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child&quot;&gt;:nth-child()&lt;/a&gt;&lt;/code&gt; ou das &lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_variables&quot;&gt;variáveis&lt;/a&gt;, que ainda não estão com suporte aceitável, mas já são uma certeza para a próxima versão do CSS. Isso sem contar o poder que os preprocessadores possuem.&lt;/p&gt;
-
-&lt;p&gt;E queira ou não admitir que o CSS3 está dando os primeiros passos como linguagem de programação, é inegável que as funcionalidades adicionadas à linguagem na sua versão 3 dão margem pra infinitas coisas, dando enfase à: &lt;code&gt;flexbox&lt;/code&gt;, &lt;code&gt;animation&lt;/code&gt;, &lt;code&gt;transition&lt;/code&gt; e &lt;code&gt;transform&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;E vejam que eu não estou entrando nem no mérito das mágicas que os preprocessadores conseguem fazer compilando pra CSS. Meu ponto aqui é apenas enfatizar que este mundo de coisas que dá pra fazer com a linguagem em si. E a pergunta para o subtítulo é obvia. Sabe porque estão fazendo tanta coisa apenas só com css? Porque dá pra fazer. Veja alguns exemplos:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codepen.io/i0z/pen/mFLCw&quot;&gt;Jogo feito apenas com CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codepen.io/Twikito/pen/zGdqVO&quot;&gt;Menu Lateral escondido&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codepen.io/Haru89ka/pen/jPbVWZ&quot;&gt;Barra de navegação fixa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codepen.io/search/pens?q=only+css&amp;amp;limit=all&amp;amp;type=type-pens&quot;&gt;Diversos outros exemplos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dá-pra-fazer-e-eu-não-sei-mas-isso-não-quer-dizer-que-eu-não-vá-saber-pra-sempre&quot;&gt;Dá pra fazer e eu não sei… Mas isso não quer dizer que eu não vá saber pra sempre.&lt;/h2&gt;
-
-&lt;p&gt;Como se sabe de longa data, os estudo na área tecnológica são freneticamente incansáveis. Se você programa todo dia, todo dia vai descobrir uma coisa nova. Se você implementa layouts ou UI todo dia, sempre vai ter que ralar um pouquinho mais para fazer algum componente ter tal comportamento ou característica, por exemplo. E se você for iniciante, vai descobrir mais coisas ainda. Eu, por exemplo, descobri hoje como fazer paginação e configurar um resumo do post no &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, que suporta esse blog. E se você não sabe fazer tudo com CSS3, assim como eu, comece a estudar para que daqui um tempo saiba.&lt;/p&gt;
-
-&lt;p&gt;Acredito que com o fato de o javascript estar tomando rumos fora do clássico de manipulação de propriedades e do DOM, somando com o avanço do CSS em relação ao seu design e funcionalidades, daqui um tempo pode ser capaz implementar projetos grandes utilizando javaScript apenas para implementação de um MVW no frontend, por exemplo, e deixando o CSS tomar conta do resto. Talvez eu esteja até falando besteira, mas querendo ou não, o argumento é válido: se você não sabe como utilizar o CSS de um outro ponto de vista que não seja o padrão de 10 anos atrás, definindo seu &lt;code&gt;padding&lt;/code&gt; e &lt;code&gt;margin&lt;/code&gt; e apenas isso, você pode estar criando um monstro.&lt;/p&gt;
-
-&lt;p&gt;E eu percebi isso.&lt;/p&gt;
-
-&lt;h2 id=&quot;alimento-o-monstro-pra-que-ele-não-me-ataque-ou-me-alimento-para-atacá-lo&quot;&gt;Alimento o monstro pra que ele não me ataque ou me alimento para atacá-lo?&lt;/h2&gt;
-
-&lt;p&gt;Eu saí de casa e comi para caralho. Comecei a estudar CSS3 mais a fundo. Comecei de leve, com &lt;code&gt;transitions&lt;/code&gt; e &lt;code&gt;transforms&lt;/code&gt;, depois entendi como funcionam as &lt;code&gt;animations&lt;/code&gt; e ainda estou fazendo algumas experimentações para ver onde consigo chegar nisso. Depois pretendo fazer um post com o roadmap de estudo de CSS que eu estou montando, abordando algumas práticas importantes para se aprender.&lt;/p&gt;
-
-&lt;p&gt;É óbvio que o JavaScript é necessário, eu não estou tirando mérito de quem o usa. Ainda há coisas no frontend que só conseguem ser reproduzidas com JS e acredito que isso ainda vai demorar um pouco para mudar. Mas acontece que se desafiar a fazer mais coisas com CSS3 vai incentivar a criatividade e a resolução de problemas de um desenvolvedor infinitamente. Eu ainda uso JavaScript para muita coisa que sei que daria pra fazer apenas com CSS, se usado da maneira correta, mas na minha cabeça, a modularidade das coisas ainda funcionam no esquema: CSS estiliza e JavaScript manipula uns dados, mexe no DOM e faz a mágica. O mais difícil eu já fiz, que foi entender que isso não é exatamente assim, o resto é só questão de tempo.&lt;/p&gt;
-
-&lt;p&gt;Para você que está começando a se interessar mais por CSS agora, recomendo a estudar a fundo os códigos do &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;, porque lá os doutores se revelam e não tem pra ninguém, caro colega. Basta a nós, reles mortais, enfiar a cara no computador e estudar pra tentar fazer o mínimo. Acho que agora que de um panorama geral, sinto-me confortável para ir atrás e experimentações concretas desse modelo OnlyCSS de fazer as coisas. Caso saia alguma coisa legal, posto um guia aqui no blog de como cheguei em tal solução, como foi a implementação e o código em si.&lt;/p&gt;
-
-&lt;p&gt;Caso não chegue a nada legal é porque não fui tão a fundo nisso quanto deveria. Até, meus caros.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 May 2016 00:00:00 -0300</pubDate>
-        <link>/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</link>
-        <guid isPermaLink="true">/2016/05/26/Eu-nao-sei-fazer-tudo-com-css.html</guid>
+        <link>http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/29/css-comentado-thumbnail-com-botao-oculto.html</guid>
         
         <category>frontend</category>
         
