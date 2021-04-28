@@ -157,7 +157,7 @@ pre {
 
 .blog-post-container {
   width: 70vw !important;
-  max-width: 1400px;
+  max-width: 850px;
   margin: 20px auto;
   text-align: justify;
 }
@@ -189,4 +189,24 @@ pre {
 
 .post {
   margin-top: 20px;
+}
+
+.posts-list {
+  padding: 20px 0;
+}
+
+.posts-list .blog-post-container {
+  display: flex;
+  justify-content: center;
+}
+
+.posts-list .blog-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.posts-list small p {
+  margin-bottom: 0;
 }

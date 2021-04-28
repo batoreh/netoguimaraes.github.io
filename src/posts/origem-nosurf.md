@@ -1,7 +1,7 @@
 ---
 title: "a origem do noSurf"
 slug: "origem-nosurf"
-date: "2019-05-04"
+date: "2020-04-11"
 ---
 [texto no medium](https://medium.com/@netoguimaraes/notas-sobre-autodidatismo-84c1357e38c0)
 

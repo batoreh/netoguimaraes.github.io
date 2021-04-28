@@ -7,27 +7,31 @@
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
           "options": {
-            "cacheDir": "/home/neto/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
+            "cacheDir": "/home/awcr3d/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
           }
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -48,27 +52,31 @@
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
           "options": {
-            "cacheDir": "/home/neto/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
+            "cacheDir": "/home/awcr3d/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
           }
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -89,27 +97,31 @@
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
           "options": {
-            "cacheDir": "/home/neto/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
+            "cacheDir": "/home/awcr3d/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
           }
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -130,27 +142,31 @@
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
           "options": {
-            "cacheDir": "/home/neto/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
+            "cacheDir": "/home/awcr3d/proj/netoguimaraes.github.io/.cache/caches/gatsby-plugin-image"
           }
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/neto/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/awcr3d/proj/netoguimaraes.github.io/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,

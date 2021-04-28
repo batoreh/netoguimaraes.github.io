@@ -2,6 +2,8 @@ import * as React from "react"
 import Header from "../components/Header"
 import "../styles/skeleton.css"
 import "../styles/custom.css"
+import { graphql } from "gatsby"
+import Post, { PostTemplate } from "../templates/Post"
 
 // styles
 const pageStyles = {
@@ -53,11 +55,18 @@ const links = [
 ]
 
 // markup
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  const { allMarkdownRemark: { edges } } = data
+  const posts = edges.map(e => e.node.frontmatter)
+
   return (
     <main style={pageStyles}>
       <Header />
-      <ul style={listStyles}>
+      <div className="posts-list">
+        {posts.map(post => <PostTemplate {...post} />)}
+      </div>
+
+      {/* <ul style={listStyles}>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles }}>
             <span>
@@ -70,9 +79,25 @@ const IndexPage = () => {
             </span>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </main>
   )
 }
+
+export const pageQuery = graphql`
+  {
+    allMarkdownRemark(limit: 5, sort: {order: DESC, fields: frontmatter___date}) {
+      edges {
+        node {
+          frontmatter {
+            slug
+            title
+            date(fromNow: false)
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
